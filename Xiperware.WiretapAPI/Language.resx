@@ -1,0 +1,1759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Country_Name_NoCountry" xml:space="preserve">
+    <value>No Country</value>
+    <comment>Note: no demonym</comment>
+  </data>
+  <data name="Country_Name_England" xml:space="preserve">
+    <value>England</value>
+    <comment>"{} now owns ..."</comment>
+  </data>
+  <data name="Country_Demonym_England" xml:space="preserve">
+    <value>British</value>
+    <comment>[MultiValue] Demonym for country, eg "... has been captured {}.", "... has been captured by the {}."</comment>
+  </data>
+  <data name="Country_Name_USA" xml:space="preserve">
+    <value>USA</value>
+    <comment>"{} now owns ..."</comment>
+  </data>
+  <data name="Country_Demonym_USA" xml:space="preserve">
+    <value>US</value>
+    <comment>[MultiValue] Demonym for country, eg "... has been captured {}.", "... has been captured by the {}."</comment>
+  </data>
+  <data name="Country_Name_France" xml:space="preserve">
+    <value>France</value>
+    <comment>"{} now owns ..."</comment>
+  </data>
+  <data name="Country_Demonym_France" xml:space="preserve">
+    <value>French</value>
+    <comment>[MultiValue] Demonym for country, eg "... has been captured {}.", "... has been captured by the {}."</comment>
+  </data>
+  <data name="Country_Name_Germany" xml:space="preserve">
+    <value>Germany</value>
+    <comment>"{} now owns ..."</comment>
+  </data>
+  <data name="Country_Demonym_Germany" xml:space="preserve">
+    <value>German,Germans</value>
+    <comment>[MultiValue] Demonym for country, eg "... has been captured {}.", "... has been captured by the {}."</comment>
+  </data>
+  <data name="Country_Name_Italy" xml:space="preserve">
+    <value>Italy</value>
+    <comment>"{} now owns ..."</comment>
+  </data>
+  <data name="Country_Demonym_Italy" xml:space="preserve">
+    <value>Italian,Italians</value>
+    <comment>[MultiValue] Demonym for country, eg "... has been captured {}.", "... has been captured by the {}."</comment>
+  </data>
+  <data name="Country_Name_Japan" xml:space="preserve">
+    <value>Japan</value>
+    <comment>"{} now owns ..."</comment>
+  </data>
+  <data name="Country_Demonym_Japan" xml:space="preserve">
+    <value>Japanese</value>
+    <comment>[MultiValue] Demonym for country, eg "... has been captured {}.", "... has been captured by the {}."</comment>
+  </data>
+  <data name="Country_Name_Commonwealth" xml:space="preserve">
+    <value>Commonwealth</value>
+    <comment>"{} now owns ..."</comment>
+  </data>
+  <data name="Country_Demonym_Commonwealth" xml:space="preserve">
+    <value>Commonwealth</value>
+    <comment>[MultiValue] Demonym for country, eg "... has been captured {}.", "... has been captured by the {}."</comment>
+  </data>
+  <data name="Country_Name_Neutral" xml:space="preserve">
+    <value>Neutral</value>
+    <comment>Note: no demonym</comment>
+  </data>
+  <data name="Country_Name_Russia" xml:space="preserve">
+    <value>Russia</value>
+    <comment>"{} now owns ..."</comment>
+  </data>
+  <data name="Country_Demonym_Russia" xml:space="preserve">
+    <value>Russian,Russians</value>
+    <comment>[MultiValue] Demonym for country, eg "... has been captured {}.", "... has been captured by the {}."</comment>
+  </data>
+  <data name="Error_Error" xml:space="preserve">
+    <value>Error</value>
+    <comment>Error message dialog title</comment>
+  </data>
+  <data name="Error_AnErrorOccuredParsing" xml:space="preserve">
+    <value>An error occurred parsing {0}</value>
+    <comment>{0} = Xml filename, Error message when parsing an xml file fails, "An error occured parsing captures.xml"</comment>
+  </data>
+  <data name="Event_Title_FacilityCaptured" xml:space="preserve">
+    <value>{0} captured</value>
+    <comment>{0} = Facility name, "Peer-Achel Depot captured"</comment>
+  </data>
+  <data name="Event_Title_FacilityRecaptured" xml:space="preserve">
+    <value>{0} recaptured</value>
+    <comment>{0} = Facility name, "Peer-Achel Depot recaptured"</comment>
+  </data>
+  <data name="Event_Misc_InChokePoint" xml:space="preserve">
+    <value>in {0}</value>
+    <comment>{0} = ChokePoint name, Appended to facility name, "British Production Facility 5 {} has been ..."</comment>
+  </data>
+  <data name="Event_Desc_FacilityRecaptured" xml:space="preserve">
+    <value>{0} has been recaptured {1} by {2}.</value>
+    <comment>{0} = Facility name (optional "in ChokePoint"), {1} = Country Demonym, {2} = Player name (optional " (squad)"), "Peer-Achel [in Peer] has been recaptured British by xiper[ (16id)]"</comment>
+  </data>
+  <data name="Event_Desc_FacilityCaptured" xml:space="preserve">
+    <value>{0} has been captured {1} by {2}.</value>
+    <comment>{0} = Facility name (optional "in ChokePoint"), {1} = Country Demonym, {2} = Player name (optional " (squad)"), "Peer-Achel [in Peer] has been captured German by xiper[ (16id)]"</comment>
+  </data>
+  <data name="Event_Title_SpawnableCaptured" xml:space="preserve">
+    <value>{0} captured!</value>
+    <comment>{0} = Facility name, "Peer-Achel Depot captured!"</comment>
+  </data>
+  <data name="Event_Title_SpawnableRecaptured" xml:space="preserve">
+    <value>{0} recaptured!</value>
+    <comment>{0} = Facility name, "Peer-Achel Depot recaptured!"</comment>
+  </data>
+  <data name="Event_Desc_SpawnableRecaptured" xml:space="preserve">
+    <value>The {0} spawnable in {1} has been recaptured {2} by {3}.</value>
+    <comment>{0} = Enemy ChokePoint, {1} = Friendly ChokePoint, {2} = Country Demonym, {3} = Player name (optional " (squad)"), "The Achel spawnable in Peer has been recaptured British by xiper[ (16id)]."</comment>
+  </data>
+  <data name="Event_Desc_SpawnableCaptured" xml:space="preserve">
+    <value>The {0} spawnable in {1} has been captured {2} by {3}.</value>
+    <comment>{0} = Enemy ChokePoint, {1} = Friendly ChokePoint, {2} = Country Demonym, {3} = Player name (optional " (squad)"), "The Achel spawnable in Peer has been captured German by xiper[ (16id)]."</comment>
+  </data>
+  <data name="Event_Title_ChokePointCaptured" xml:space="preserve">
+    <value>{0} captured!</value>
+    <comment>{0} = ChokePoint name, "Peer captured!"</comment>
+  </data>
+  <data name="Event_Desc_ChokePointCapturedAfter" xml:space="preserve">
+    <value>{0} has been captured by {1} after {2}!</value>
+    <comment>{0} = ChokePoint name, {1} = Country name, {2} = Time taken, "Peer has been captured by England after 1h22m!"</comment>
+  </data>
+  <data name="Event_Desc_ChokePointCaptured" xml:space="preserve">
+    <value>{0} has been captured by {1}!</value>
+    <comment>{0} = ChokePoint name, {1} = Country name, "Peer has been captured by England!"</comment>
+  </data>
+  <data name="Event_Title_ChokePointUnderAttack" xml:space="preserve">
+    <value>{0} under attack</value>
+    <comment>{0} = ChokePoint name, "Peer under attack"</comment>
+  </data>
+  <data name="Event_Desc_ChokePointUnderAttack" xml:space="preserve">
+    <value>{0} is under attack by {1} forces!</value>
+    <comment>{0} = ChokePoint name, {1} = Enemy side, "Peer is under attack by Axis forces!"</comment>
+  </data>
+  <data name="Event_Desc_ChokePointUnderAttackAgain" xml:space="preserve">
+    <value>{0} is under attack again by {1} forces.</value>
+    <comment>{0} = ChokePoint name, {1} = Enemy side, "Peer is under attack again by Axis forces!"</comment>
+  </data>
+  <data name="Event_Title_ChokePointRegained" xml:space="preserve">
+    <value>{0} regained</value>
+    <comment>{0} = ChokePoint name, "Peer regained"</comment>
+  </data>
+  <data name="Event_Desc_ChokePointRegainedAfter" xml:space="preserve">
+    <value>{0} has been regained by {1} forces after {2}.</value>
+    <comment>{0} = ChokePoint name, {1} = Side name, {2} = Time taken, "Liege has been regained by Allied forces after 32 mins."</comment>
+  </data>
+  <data name="Event_Desc_ChokePointRegained" xml:space="preserve">
+    <value>{0} has been regained by {1} forces.</value>
+    <comment>{0} = ChokePoint name, {1} = Side name, "Liege has been regained by Allied forces."</comment>
+  </data>
+  <data name="Event_Title_ChokePointControlChanged" xml:space="preserve">
+    <value>{0} control changed</value>
+    <comment>{0} = ChokePoint name, "Peer control changed"</comment>
+  </data>
+  <data name="Event_Desc_ChokePointControlRegained" xml:space="preserve">
+    <value>{0} forces have regained control of {1}.</value>
+    <comment>{0} = Side name, {1} = ChokePoint name, "Allied forces have regained control Liege."</comment>
+  </data>
+  <data name="Event_Desc_ChokePointControlGained" xml:space="preserve">
+    <value>{0} forces have gained control of {1}.</value>
+    <comment>{0} = Side name, {1} = ChokePoint name, "Axis forces have gained control Liege."</comment>
+  </data>
+  <data name="Event_Title_AOPlaced" xml:space="preserve">
+    <value>AO placed on {0}</value>
+    <comment>{0} = ChokePoint name, "AO placed on Liege"</comment>
+  </data>
+  <data name="Event_Title_AORecalled" xml:space="preserve">
+    <value>AO recalled on {0}</value>
+    <comment>{0} = ChokePoint name, "AO recalled on Liege"</comment>
+  </data>
+  <data name="Event_Desc_AOPlaced" xml:space="preserve">
+    <value>The {0} {1} have ordered an attack on {2}.</value>
+    <comment>{0} = Enemy side, {1} = Brigade name, {2} = ChokePoint name, "The Allied 52 Squadron (Bomber Brigade) have ordered an attack on Liege."</comment>
+  </data>
+  <data name="Event_Desc_AOPlacedDeployed" xml:space="preserve">
+    <value>The {0} {1} deployed in {2} have ordered an attack on {3}.</value>
+    <comment>{0} = Enemy side, {1} = Brigade name, {2} = Enemy ChokePoint, {3} = Friendly ChokePoint name, "The Allied 52 Squadron (Bomber Brigade) deployed in Brussels have ordered an attack on Liege."</comment>
+  </data>
+  <data name="Event_Desc_AORecalled" xml:space="preserve">
+    <value>The {0} attack on {1} has been recalled.</value>
+    <comment>{0} = Enemy side, {1} = ChokePoint name, "The Axis attack on Liege has been recalled."</comment>
+  </data>
+  <data name="Enum_Side_Allied" xml:space="preserve">
+    <value>Allied</value>
+    <comment>[MultiValue] Allied side name, eg "... has been regained by {} forces", "The {} 52 Squadron have ordered an attack..."</comment>
+  </data>
+  <data name="Enum_Side_Axis" xml:space="preserve">
+    <value>Axis</value>
+    <comment>[MultiValue] Axis side name, eg "... has been regained by {} forces", "The {} 52 Squadron have ordered an attack..."</comment>
+  </data>
+  <data name="Enum_Side_Neutral" xml:space="preserve">
+    <value>Neutral</value>
+    <comment>[MultiValue] Neutral side name</comment>
+  </data>
+  <data name="Enum_Side_None" xml:space="preserve">
+    <value>None</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="Event_Title_FirebaseBlown" xml:space="preserve">
+    <value>{0} blown</value>
+    <comment>{0} = Firebase name, "Peer-Achel FB blown"</comment>
+  </data>
+  <data name="Event_Desc_FirebaseBlownOffensive" xml:space="preserve">
+    <value>The {0} has been blown, the {1:v2} now have an offensive FB to {2}.</value>
+    <comment>{0} = Firebase name, {1} = Country Demonym, {2} = ChokePoint name, "The Peer-Achel FB has been blown, the Germans now have an offensive FB to Peer."</comment>
+  </data>
+  <data name="Event_Desc_FirebaseBlownDefensive" xml:space="preserve">
+    <value>The {0} has been blown, the {1:v2} now have a defensive FB to {2}.</value>
+    <comment>{0} = Firebase name, {1} = Country Demonym, {2} = ChokePoint name, "The Peer-Achel FB has been blown, the Germans now have a defensive FB to Peer."</comment>
+  </data>
+  <data name="Event_Desc_FirebaseBlownBrigadeNonspawnable" xml:space="preserve">
+    <value>The {0} has been blown, the {1:v2} now have a (non-spawnable) brigade FB to {2}.</value>
+    <comment>{0} = Firebase name, {1} = Country Demonym, {2} = ChokePoint name, "The Peer-Achel FB has been blown, the Germans now have a (non-spawnable) brigade FB to Peer."</comment>
+  </data>
+  <data name="Event_Desc_FirebaseBlownBrigade" xml:space="preserve">
+    <value>The {0} has been blown, the {1:v2} now have a brigade FB to {2}.</value>
+    <comment>{0} = Firebase name, {1} = Country Demonym, {2} = ChokePoint name, "The Peer-Achel FB has been blown, the Germans now have a brigade FB to Peer."</comment>
+  </data>
+  <data name="Event_Title_NewBrigadeFirebase" xml:space="preserve">
+    <value>New brigade FB to {0}</value>
+    <comment>{0} = ChokePoint name, "New brigade fb to Peer"</comment>
+  </data>
+  <data name="Event_Desc_NewBrigadeFirebase" xml:space="preserve">
+    <value>{0} has a new brigade FB from {1} to {2}.</value>
+    <comment>{0} = Country name, {1} = From ChokePoint name, {2} = To ChokePoint name, "England has a new brigade FB from Peer to Achel."</comment>
+  </data>
+  <data name="Event_Title_HCUnitMoved" xml:space="preserve">
+    <value>{0} redeployed</value>
+    <comment>{0} = HCUnit title, "70 Bomber Wing redeployed"</comment>
+  </data>
+  <data name="Event_Misc_DivisionHQ" xml:space="preserve">
+    <value>Division HQ</value>
+    <comment>Appended to HCUnit title if it's a division, "70 Bomber Wing {} has been ..."</comment>
+  </data>
+  <data name="Event_Desc_HCUnitMoved" xml:space="preserve">
+    <value>{0} has been redeployed from {1} to {2} by {3}.</value>
+    <comment>{0} = HCUnit title, {1} = Old ChokePoint name, {2} = New ChokePoint name, {3} = Player name, "70 Bomber Wing [Division HQ] has been redeployed from Seclin to S-Hertogenbosch by xiper."</comment>
+  </data>
+  <data name="Event_Title_HCUnitDeployed" xml:space="preserve">
+    <value>{0} deployed</value>
+    <comment>{0} = HCUnit title, "70 Bomber Wing deployed"</comment>
+  </data>
+  <data name="Event_Desc_HCUnitDeployed" xml:space="preserve">
+    <value>{0} has been deployed at {1}.</value>
+    <comment>{0} = HCUnit title, {1} = ChokePoint name, "70 Bomber Wing has been deployed at Seclin."</comment>
+  </data>
+  <data name="Event_Title_HCUnitRetreat" xml:space="preserve">
+    <value>{0} has retreated</value>
+    <comment>{0} = HCUnit title, "70 Bomber Wing has retreated"</comment>
+  </data>
+  <data name="Event_Desc_HCUnitRetreat" xml:space="preserve">
+    <value>{0} has retreated from {1} to {2} after being overrun.</value>
+    <comment>{0} = HCUnit title, {1} = Old ChokePoint name, {2} = New ChokePoint name, "70 Bomber Wing [Division HQ] has retreated from Seclin to S-Hertogenbosch after being overrun."</comment>
+  </data>
+  <data name="Event_Title_HCUnitRouted" xml:space="preserve">
+    <value>{0} routed!</value>
+    <comment>{0} = HCUnit title, "70 Bomber Wing routed!"</comment>
+  </data>
+  <data name="Event_Desc_HCUnitRouted" xml:space="preserve">
+    <value>{0} has been routed from {1}!</value>
+    <comment>{0} = HCUnit title, {1} = ChokePoint name, "70 Bomber Wing has been routed from Seclin!"</comment>
+  </data>
+  <data name="Event_Title_FactoryDamaged" xml:space="preserve">
+    <value>{0} factory damaged</value>
+    <comment>{0} = Country Demonym, "British factory damaged"</comment>
+  </data>
+  <data name="Event_Desc_FactoryDamaged" xml:space="preserve">
+    <value>{0} at {1} has received {2}% damage, currently at {3}% health.</value>
+    <comment>{0} = Factory name, {1} = Factory ChokePoint, {2} = Damage, {3} = Health, "British Production Facility 4 at Ashford has received 10% damage, currently at 90% health."</comment>
+  </data>
+  <data name="Event_Title_FactoryHealthy" xml:space="preserve">
+    <value>{0} factory repaired</value>
+    <comment>{0} = Country Demonym, "British factory repaired"</comment>
+  </data>
+  <data name="Event_Desc_FactoryHealthy" xml:space="preserve">
+    <value>{0} at {1} has reached 100% health.</value>
+    <comment>{0} = Factory name, {1} = Factory ChokePoint, "British Production Facility 4 at Ashford has reached 100% health."</comment>
+  </data>
+  <data name="Event_Title_FactoryDestroyed" xml:space="preserve">
+    <value>{0} factory destroyed!</value>
+    <comment>{0} = Country Demonym, "British factory destroyed!"</comment>
+  </data>
+  <data name="Event_Desc_FactoryDestroyed" xml:space="preserve">
+    <value>{0} at {1} has been destroyed!</value>
+    <comment>{0} = Factory name, {1} = Factory ChokePoint, "British Production Facility 4 at Ashford has been destroyed."</comment>
+  </data>
+  <data name="Event_Title_FactoryRDPStart" xml:space="preserve">
+    <value>{0} factory resumed production</value>
+    <comment>{0} = Country Demonym, "British factory resumed production"</comment>
+  </data>
+  <data name="Event_Title_FactoryRDPStop" xml:space="preserve">
+    <value>{0} factory halted production</value>
+    <comment>{0} = Country Demonym, "British factory halted production"</comment>
+  </data>
+  <data name="Event_Desc_FactoryRDPStart" xml:space="preserve">
+    <value>{0} at {1} has resumed production following repairs.</value>
+    <comment>{0} = Factory name, {1} = Factory ChokePoint, "British Production Facility 4 at Ashford has resumed production following repairs."</comment>
+  </data>
+  <data name="Event_Desc_FactoryRDPStopCaptured" xml:space="preserve">
+    <value>{0} at {1} has halted production due to being captured.</value>
+    <comment>{0} = Factory name, {1} = Factory ChokePoint, "British Production Facility 4 at Ashford has halted production due to being captured."</comment>
+  </data>
+  <data name="Event_Desc_FactoryRDPStopDamaged" xml:space="preserve">
+    <value>{0} at {1} has halted production due to excessive damage.</value>
+    <comment>{0} = Factory name, {1} = Factory ChokePoint, "British Production Facility 4 at Ashford has halted production due to excessive damage."</comment>
+  </data>
+  <data name="Time_MinsAgo" xml:space="preserve">
+    <value>{0} ago</value>
+    <comment>{0} = Minutes ago, "1h10m ago", "1 hour, 10 mins ago"</comment>
+  </data>
+  <data name="Enum_HCUnitLevel_Branch" xml:space="preserve">
+    <value>Branch</value>
+    <comment>HC Unit level 1 name</comment>
+  </data>
+  <data name="Enum_HCUnitLevel_Brigade" xml:space="preserve">
+    <value>Brigade</value>
+    <comment>HC Unit level 4 name</comment>
+  </data>
+  <data name="Enum_HCUnitLevel_Corps" xml:space="preserve">
+    <value>Corps</value>
+    <comment>HC Unit level 2 name</comment>
+  </data>
+  <data name="Enum_HCUnitLevel_Division" xml:space="preserve">
+    <value>Division</value>
+    <comment>HC Unit level 3 name</comment>
+  </data>
+  <data name="Enum_HCUnitLevel_Top" xml:space="preserve">
+    <value>Top</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="OrderOfBattle_DeployTooltip_DeployedMoved" xml:space="preserve">
+    <value>{0} moved to {1} by {2} {3} ago</value>
+    <comment>{0} = HCUnit level, {1} = ChokePoint name, {2} = Player name, {3} = Long minutes ago, "Division moved to Peer by xiper 1 hour, 10 mins ago"</comment>
+  </data>
+  <data name="OrderOfBattle_DeployTooltip_NotDeployed" xml:space="preserve">
+    <value>{0} is not currently deployed</value>
+    <comment>{0} = HCUnit level, "Brigade is not currently deployed"</comment>
+  </data>
+  <data name="OrderOfBattle_DeployTooltip_NotDeployedRouted" xml:space="preserve">
+    <value>{0} routed {1} ago</value>
+    <comment>{0} = HCUnit level, {1} = Long minutes ago, "Brigade routed 1 hour, 10 mins ago"</comment>
+  </data>
+  <data name="OrderOfBattle_DeployTooltip_NotDeployedRoutedFrom" xml:space="preserve">
+    <value>{0} routed from {1} {2} ago</value>
+    <comment>{0} = HCUnit level, {1} = ChokePoint name, {2} = Long minutes ago, "Brigade routed from Peer 1 hour, 10 mins ago"</comment>
+  </data>
+  <data name="OrderOfBattle_RedeployTooltip_DeployedCanMove" xml:space="preserve">
+    <value>{0} is available to be moved</value>
+    <comment>{0} = HCUnit level, "Brigade is available to be moved"</comment>
+  </data>
+  <data name="OrderOfBattle_RedeployTooltip_DeployedCanMoveIn" xml:space="preserve">
+    <value>{0} can be moved in {1}</value>
+    <comment>{0} = HCUnit level, {1} = Long minutes, "Brigade can be moved in 1 hour, 10 mins"</comment>
+  </data>
+  <data name="OrderOfBattle_RedeployTooltip_UndeployedCanDeploy" xml:space="preserve">
+    <value>{0} is available to be deployed</value>
+    <comment>{0} = HCUnit level, "Brigade is available to be deployed"</comment>
+  </data>
+  <data name="OrderOfBattle_RedeployTooltip_UndeployedCanDeployIn" xml:space="preserve">
+    <value>{0} can be deployed in {1}</value>
+    <comment>{0} = HCUnit level, {1} = Long minutes, "Brigade can be deployed in 1 hour, 10 mins"</comment>
+  </data>
+  <data name="Error_CheckNetworkSettings" xml:space="preserve">
+    <value>Do you want to check your network settings and retry?</value>
+    <comment>Error message when network operation fails, OK/Cancel buttons</comment>
+  </data>
+  <data name="Error_TryAgain" xml:space="preserve">
+    <value>{0} will now try again.</value>
+    <comment>{0} = "Battleground Europe Game Monitor", Message box after checking network settings, before reinitialising.</comment>
+  </data>
+  <data name="GameStatus_UpdateAvailable" xml:space="preserve">
+    <value>Update available</value>
+    <comment>Tooltip for BEGM version after update check</comment>
+  </data>
+  <data name="GameStatus_NoUpdateAvailable" xml:space="preserve">
+    <value>Latest version</value>
+    <comment>Tooltip for BEGM version after update check</comment>
+  </data>
+  <data name="Error_EventLoopBusy" xml:space="preserve">
+    <value>Currently checking for new events in the background, please try again in a second.</value>
+    <comment>Error message when trying to force check but currently busy polling.</comment>
+  </data>
+  <data name="GameStatus_Reinitialising" xml:space="preserve">
+    <value>REINITIALISING, PLEASE WAIT...</value>
+    <comment>Message under gears animation when initialising again.</comment>
+  </data>
+  <data name="Error_Sleep" xml:space="preserve">
+    <value>Failed to start sleep process</value>
+    <comment>Error message when going to sleep fails</comment>
+  </data>
+  <data name="GameStatus_Show" xml:space="preserve">
+    <value>Show Game Status</value>
+    <comment>Tray menu item</comment>
+  </data>
+  <data name="GameStatus_Hide" xml:space="preserve">
+    <value>Hide Game Status</value>
+    <comment>Tray menu item</comment>
+  </data>
+  <data name="About_LogTabTitle" xml:space="preserve">
+    <value>Log</value>
+    <comment>Log tab title</comment>
+  </data>
+  <data name="Time_Min" xml:space="preserve">
+    <value>min</value>
+    <comment>"1 hour, 1 {}"</comment>
+  </data>
+  <data name="Time_Mins" xml:space="preserve">
+    <value>mins</value>
+    <comment>"1 hour, 2 {}"</comment>
+  </data>
+  <data name="Time_Hour" xml:space="preserve">
+    <value>hour</value>
+    <comment>"1 {}, 10 mins"</comment>
+  </data>
+  <data name="Time_Hours" xml:space="preserve">
+    <value>hours</value>
+    <comment>"2 {}, 10 mins"</comment>
+  </data>
+  <data name="Time_Day" xml:space="preserve">
+    <value>day</value>
+    <comment>"1 {}, 10 hours"</comment>
+  </data>
+  <data name="Time_Days" xml:space="preserve">
+    <value>days</value>
+    <comment>"2 {}, 10 hours"</comment>
+  </data>
+  <data name="Time_DaysLetter" xml:space="preserve">
+    <value>d</value>
+    <comment>"1{}10h"</comment>
+  </data>
+  <data name="Time_HoursLetter" xml:space="preserve">
+    <value>h</value>
+    <comment>"1{}10m"</comment>
+  </data>
+  <data name="Time_MinsLetter" xml:space="preserve">
+    <value>m</value>
+    <comment>"1h10{}"</comment>
+  </data>
+  <data name="Error_ClockSkew" xml:space="preserve">
+    <value>Warning: Excessive clock skew detected: {0}
+
+The times being sent by Wiretap are different to your local time. This may mean your
+computers clock or time zone settings are incorrect. Please check your time zone and
+make sure your clock is within 15 minutes of www.timeanddate.com for your time zone.
+
+Local clock:	{1}
+Wiretap clock:	{2} (±1 min)</value>
+    <comment>{0} = Skew in minutes, {1} = Local time, {2} = Remote time, Error message when user clock is out of sync</comment>
+  </data>
+  <data name="NetManager_PleaseEnterCredentials" xml:space="preserve">
+    <value>Please enter your Proxy Server credentials</value>
+    <comment>Proxy credentials dialog text</comment>
+  </data>
+  <data name="NetManager_ConnectTo" xml:space="preserve">
+    <value>Connect to {0}</value>
+    <comment>{0} = Proxy name, Proxy credentials dialog title</comment>
+  </data>
+  <data name="NetManager_ConnectToProxy" xml:space="preserve">
+    <value>Connect to proxy server</value>
+    <comment>Proxy credentials dialog title (proxy name unknown)</comment>
+  </data>
+  <data name="Error_DownloadError" xml:space="preserve">
+    <value>An error occurred downloading {0}</value>
+    <comment>{0} = Xml filename, Error message when a download fails, "An error occured downloading captures.xml"</comment>
+  </data>
+  <data name="Error_HeaderErrorLastMod" xml:space="preserve">
+    <value>An error occurred getting the Last-Modified header</value>
+    <comment>Error message when download of lastmod header fails</comment>
+  </data>
+  <data name="Error_ParseDatetime" xml:space="preserve">
+    <value>Failed to parse datetime string: '{0}'</value>
+    <comment>{0} = Datetime string, Error message if server sends unknown date/time format</comment>
+  </data>
+  <data name="Error_HeaderError" xml:space="preserve">
+    <value>An error occurred getting the headers for {0}</value>
+    <comment>{0} = Xml filename, Error when download of xml headers fails, "An error occured getting the headers for captures.xml"</comment>
+  </data>
+  <data name="Error_LoadNetworkSettings" xml:space="preserve">
+    <value>An error occurred loading your network settings, they have been reset to defaults.</value>
+    <comment>Error message when loading invalid network settings from registry</comment>
+  </data>
+  <data name="Error_Question" xml:space="preserve">
+    <value>Question</value>
+    <comment>Question message dialog title</comment>
+  </data>
+  <data name="Error_NetworkSettingsUntested" xml:space="preserve">
+    <value>Your network settings haven't been tested.
+Would you like to test them now?</value>
+    <comment>Warning message when changing network settings without testing, Buttons Yes/No/Cancel</comment>
+  </data>
+  <data name="Error_ApplyNetworkSettings" xml:space="preserve">
+    <value>An error occurred applying your network settings</value>
+    <comment>Error message when changing to invalid network settings</comment>
+  </data>
+  <data name="Options_NetworkTestSuccess" xml:space="preserve">
+    <value>Success</value>
+    <comment>Message when network test succeeds</comment>
+  </data>
+  <data name="Error_InvalidPort" xml:space="preserve">
+    <value>Not a valid port number</value>
+    <comment>Popup error when entering an invalid port number under network settings</comment>
+  </data>
+  <data name="Options_SleepMode" xml:space="preserve">
+    <value>When in sleep mode, Battleground Europe Game Monitor will "hibernate", using as little memory/cpu as possible and no network bandwidth.
+
+Waking up again will require an approx {0}kb download of data to re-establish game state.</value>
+    <comment>{0} = kb required for startup (depends on whether also loading factory data), Text in Sleep Mode info box on startup tab</comment>
+  </data>
+  <data name="Time_Sec" xml:space="preserve">
+    <value>sec</value>
+    <comment>"10 mins, 1 {}"</comment>
+  </data>
+  <data name="Time_Secs" xml:space="preserve">
+    <value>secs</value>
+    <comment>"10 mins, 2 {}"</comment>
+  </data>
+  <data name="Error_SaveNetwork" xml:space="preserve">
+    <value>Failed to save Network settings</value>
+    <comment>Error message when saving Network settings to registry fails</comment>
+  </data>
+  <data name="Error_SaveStartup" xml:space="preserve">
+    <value>Failed to save Startup settings</value>
+    <comment>Error message when saving Startup settings to registry fails</comment>
+  </data>
+  <data name="Error_SaveAlert" xml:space="preserve">
+    <value>Failed to save Alert settings</value>
+    <comment>Error message when saving Alert settings to registry fails</comment>
+  </data>
+  <data name="Error_SaveMisc" xml:space="preserve">
+    <value>Failed to save Misc settings</value>
+    <comment>Error message when saving Misc settings to registry fails</comment>
+  </data>
+  <data name="Error_SaveMap" xml:space="preserve">
+    <value>Failed to save Map settings</value>
+    <comment>Error message when saving Map settings to registry fails</comment>
+  </data>
+  <data name="Error_WindowsVersion" xml:space="preserve">
+    <value>Battleground Europe Game Monitor requires Windows 2000 or greater.</value>
+    <comment>Error message on startup if unsupported operating system</comment>
+  </data>
+  <data name="Error_AlreadyRunning" xml:space="preserve">
+    <value>Battleground Europe Game Monitor is already running.</value>
+    <comment>Error message on startup if BEGM is already running</comment>
+  </data>
+  <data name="Error_NonDefaultDPI" xml:space="preserve">
+    <value>Battleground Europe Game Monitor doesn't currently support your screen DPI setting ({0} dpi).
+
+Windows XP:
+Control Panel =&gt; Display =&gt; Settings =&gt; Advanced =&gt; General =&gt; 96 dpi.</value>
+    <comment>Error message on startup if user has non default dpi setting</comment>
+  </data>
+  <data name="Error_CrashLogfile" xml:space="preserve">
+    <value>Congratulations, you've made Battleground Europe Game Monitor crash! :)
+
+Could you please send the logfile below in an email to xiperware@gmail.com along with a brief description
+of what you were doing at the time. This will help the developer to identify and fix the problem.
+
+Logfile: {0}</value>
+    <comment>{0} = Logfile path, Error message when BEGM crashes with a logfile</comment>
+  </data>
+  <data name="Error_CrashTitle" xml:space="preserve">
+    <value>Unhandled Exception (BEGM {0})</value>
+    <comment>{0} = BEGM version, Error message dialog title</comment>
+  </data>
+  <data name="Error_CrashNoLogfile" xml:space="preserve">
+    <value>Congratulations, you've made Battleground Europe Game Monitor crash! :)
+
+Could you please press &lt;Ctrl&gt;+C to copy this information and paste it in an email to xiperware@gmail.com
+along with what you were doing at the time. This will help the developer to identify and fix the problem.</value>
+    <comment>Error message when BEGM crashes without logfile</comment>
+  </data>
+  <data name="Sleep_TrayIcon_Tooltip" xml:space="preserve">
+    <value>{0} (sleeping)</value>
+    <comment>{0} = "Battleground Europe Game Monitor"</comment>
+  </data>
+  <data name="Sleep_TrayIcon_WakeUpNow" xml:space="preserve">
+    <value>Wake up now</value>
+    <comment>Sleep tray icon menu item</comment>
+  </data>
+  <data name="Sleep_TrayIcon_DisableAutoWakeup" xml:space="preserve">
+    <value>Disable auto-wakeup</value>
+    <comment>Sleep tray icon menu item</comment>
+  </data>
+  <data name="Sleep_TrayIcon_EnableAutoWakeup" xml:space="preserve">
+    <value>Enable auto-wakeup</value>
+    <comment>Sleep tray icon menu item</comment>
+  </data>
+  <data name="Sleep_TrayIcon_Exit" xml:space="preserve">
+    <value>Exit</value>
+    <comment>Sleep tray icon menu item</comment>
+  </data>
+  <data name="Error_Wakeup" xml:space="preserve">
+    <value>Failed to launch Battleground Europe Game Monitor</value>
+    <comment>Error message when waking up fails</comment>
+  </data>
+  <data name="CurrentAttacks_Tooltip_ExpandAll" xml:space="preserve">
+    <value>Expand all towns with events</value>
+    <comment>Tooltip for [+] button</comment>
+  </data>
+  <data name="CurrentAttacks_Tooltip_ExpandContested" xml:space="preserve">
+    <value>Expand only contested towns</value>
+    <comment>Tooltip for [  ] button</comment>
+  </data>
+  <data name="CurrentAttacks_Tooltip_CollapseAll" xml:space="preserve">
+    <value>Collapse all towns</value>
+    <comment>Tooltip for [-] button</comment>
+  </data>
+  <data name="CurrentAttacks_ShowAlerts" xml:space="preserve">
+    <value>Show alerts</value>
+    <comment>Show alerts checkbox (in each cp section)</comment>
+  </data>
+  <data name="CurrentAttacks_TownStatus" xml:space="preserve">
+    <value>Town status</value>
+    <comment>Link to Town Status</comment>
+  </data>
+  <data name="Time_ReceivedMinsAgo" xml:space="preserve">
+    <value>received {0} ago</value>
+    <comment>{0} = Long minutes, eg, Event tooltip "15 mins ago (received 25 mins ago)"</comment>
+  </data>
+  <data name="CurrentAttacks_Tooltip_NoEvents" xml:space="preserve">
+    <value>{0} has an AO but no events in the past two hours</value>
+    <comment>{0} = ChokePoint name, Tooltip when a section is disabled</comment>
+  </data>
+  <data name="FactoryStatus_Output" xml:space="preserve">
+    <value>OUTPUT</value>
+    <comment>Output heading in side summary</comment>
+  </data>
+  <data name="FactoryStatus_Health" xml:space="preserve">
+    <value>{0}% health</value>
+    <comment>{0} = Health percent, Health text in side summary</comment>
+  </data>
+  <data name="FactoryStatus_OutputPercent" xml:space="preserve">
+    <value>{0}% today, {1}% campaign</value>
+    <comment>{0} = Percent production output today, {1} = Percent production output campaign, Side summary output percentages</comment>
+  </data>
+  <data name="FactoryStatus_RDPCycle" xml:space="preserve">
+    <value>RDP cycle {0}       {1}% complete       (eta {2})</value>
+    <comment>{0} = Cycle number, {1} = Cycle progress percent, {2} = Short time until cycle complete, RDP info line at top of each country</comment>
+  </data>
+  <data name="FactoryStatus_RDPCycleNoEta" xml:space="preserve">
+    <value>RDP cycle {0}       {1}% complete       (eta unknown)</value>
+    <comment>{0} = Cycle number, {1} = Cycle progress percent, RDP info line at top of each country</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_AllFactoriesCaptured" xml:space="preserve">
+    <value>All factories have been captured</value>
+    <comment>Tooltip for FactoryStatus_RDPCycleNoEta eta section</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_EstimatedCompletion" xml:space="preserve">
+    <value>Estimated completion: {0}</value>
+    <comment>{0} = Date/time of cycle complete, Tooltip for FactoryStatus_RDPCycle eta section</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_RdpPoints" xml:space="preserve">
+    <value>{0} of {1} points</value>
+    <comment>{0} = Points completed, {1} = Total points in cycle, Tooltip for FactoryStatus_RDPCycle complete section</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_OutputDay" xml:space="preserve">
+    <value>{0}% production output for past 24 hours</value>
+    <comment>{0} = Output percent, Tooltip for factory daily output percent and bar graph</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_OutputCampaign" xml:space="preserve">
+    <value>{0}% production output for current campaign</value>
+    <comment>{0} = Output percent, Tooltip for factory campaign output percent and pie graph</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_GraphDamage" xml:space="preserve">
+    <value>Damage for past 24 hours</value>
+    <comment>Tooltip for factory damage graph</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_GraphOutput" xml:space="preserve">
+    <value>Output for past 24 hours</value>
+    <comment>Tooltip for factory output graph</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_CurrentHealth" xml:space="preserve">
+    <value>Current health: {0}%</value>
+    <comment>{0} = Factory health, Tooltip for factory health</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_RdpOn" xml:space="preserve">
+    <value>Currently contributing to RDP</value>
+    <comment>Tooltip for green "RDP"</comment>
+  </data>
+  <data name="FactoryStatus_Tooltip_RdpOff" xml:space="preserve">
+    <value>Not currently contributing to RDP</value>
+    <comment>Tooltip for red "RDP"</comment>
+  </data>
+  <data name="GameMap_Tooltip_ViewTownStatus" xml:space="preserve">
+    <value>View town status</value>
+    <comment>Tooltip for selected town name</comment>
+  </data>
+  <data name="GameMap_None" xml:space="preserve">
+    <value>(none)</value>
+    <comment>"Deployments: {}", "Facilities: {}", etc.</comment>
+  </data>
+  <data name="GameMap_Facility_AB" xml:space="preserve">
+    <value>AB</value>
+    <comment>"Facilities: 1 {}, ..."</comment>
+  </data>
+  <data name="GameMap_Facility_ABs" xml:space="preserve">
+    <value>ABs</value>
+    <comment>"Facilities: 2 {}, ..."</comment>
+  </data>
+  <data name="GameMap_Facility_AF" xml:space="preserve">
+    <value>AF</value>
+    <comment>"Facilities: ..., 1 {}, ..."</comment>
+  </data>
+  <data name="GameMap_Facility_AFs" xml:space="preserve">
+    <value>AFs</value>
+    <comment>"Facilities: ..., 2 {}, ..."</comment>
+  </data>
+  <data name="GameMap_Facility_Depot" xml:space="preserve">
+    <value>depot</value>
+    <comment>"Facilities: ..., 1 {}, ..."</comment>
+  </data>
+  <data name="GameMap_Facility_Depots" xml:space="preserve">
+    <value>depots</value>
+    <comment>"Facilities: ..., 2 {}, ..."</comment>
+  </data>
+  <data name="GameMap_Facility_Other" xml:space="preserve">
+    <value>other</value>
+    <comment>"Facilities: ..., 1 {}"</comment>
+  </data>
+  <data name="GameMap_Facility_Others" xml:space="preserve">
+    <value>others</value>
+    <comment>"Facilities: ..., 2 {}"</comment>
+  </data>
+  <data name="Enum_Branch_Airforce" xml:space="preserve">
+    <value>Airforce</value>
+    <comment>The Airforce branch name</comment>
+  </data>
+  <data name="Enum_Branch_Army" xml:space="preserve">
+    <value>Army</value>
+    <comment>The Army branch name</comment>
+  </data>
+  <data name="Enum_Branch_Navy" xml:space="preserve">
+    <value>Navy</value>
+    <comment>The Navy branch name</comment>
+  </data>
+  <data name="Enum_Branch_None" xml:space="preserve">
+    <value>None</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="GameMap_Unit" xml:space="preserve">
+    <value>unit</value>
+    <comment>"Deployments: 1 army {}, ..."</comment>
+  </data>
+  <data name="GameMap_Units" xml:space="preserve">
+    <value>units</value>
+    <comment>"Deployments: 2 army {}, ..."</comment>
+  </data>
+  <data name="GameMap_Links_AllAvailable" xml:space="preserve">
+    <value>all available</value>
+    <comment>"Supply links: 4 ({})"</comment>
+  </data>
+  <data name="GameMap_Links_SomeAvailable" xml:space="preserve">
+    <value>{0} available</value>
+    <comment>{0} = Links available, "Supply links: 4 ({})"</comment>
+  </data>
+  <data name="GameMap_AltitudeMeters" xml:space="preserve">
+    <value>{0}m</value>
+    <comment>{0} = Altitude in meters, "Location: 1°02'03"N,4°05'06"E @ {}"</comment>
+  </data>
+  <data name="GameMap_AltitudeFeet" xml:space="preserve">
+    <value>{0}ft</value>
+    <comment>{0} = Altitude in feet, "Location: 1°02'03"N,4°05'06"E @ {}"</comment>
+  </data>
+  <data name="GameMap_Tooltip_GoogleMaps" xml:space="preserve">
+    <value>Go to Google Maps</value>
+    <comment>Tooltip for location lat/long</comment>
+  </data>
+  <data name="Common_Tooltip_ExpandAll" xml:space="preserve">
+    <value>Expand all levels</value>
+    <comment>Tooltip for [+] button</comment>
+  </data>
+  <data name="Common_Tooltip_ExpandTop" xml:space="preserve">
+    <value>Expand only top levels</value>
+    <comment>Tooltip for [  ] button</comment>
+  </data>
+  <data name="Common_Tooltip_CollapseAll" xml:space="preserve">
+    <value>Collapse all levels</value>
+    <comment>Tooltip for [-] button</comment>
+  </data>
+  <data name="RecentEvents_Tooltip_FactoryDataNotLoaded" xml:space="preserve">
+    <value>Factory data not loaded</value>
+    <comment>Tooltip for disabled Fatory checkbox</comment>
+  </data>
+  <data name="TownStatus_Event" xml:space="preserve">
+    <value>{0} event</value>
+    <comment>{0} = "1", Link to CurrentAttacks, "1 event"</comment>
+  </data>
+  <data name="TownStatus_Events" xml:space="preserve">
+    <value>{0} events</value>
+    <comment>{0} = Number, Link to CurrentAttacks, "2 events"</comment>
+  </data>
+  <data name="Misc_OwnedBy" xml:space="preserve">
+    <value>Owned by:</value>
+    <comment>Prefix for town owner</comment>
+  </data>
+  <data name="Time_CapturedMinsAgo" xml:space="preserve">
+    <value>captured {0} ago</value>
+    <comment>{0} = Long minutes, "Owner: England (captured 1 hour, 10 mins ago)"</comment>
+  </data>
+  <data name="Misc_ControlledBy" xml:space="preserve">
+    <value>Controlled by:</value>
+    <comment>Prefix for town controller</comment>
+  </data>
+  <data name="Time_ForMins" xml:space="preserve">
+    <value>for {0}</value>
+    <comment>{0} = Long minutes, "Contested (for 1 hour, 10 mins)"</comment>
+  </data>
+  <data name="Misc_Contested" xml:space="preserve">
+    <value>Contested</value>
+    <comment>Town is contested</comment>
+  </data>
+  <data name="Time_RegainedMinsAgo" xml:space="preserve">
+    <value>regained {0} ago</value>
+    <comment>{0} = Long minutes, "Controlled by: Germany (regained 1 hour, 10 mins ago)"</comment>
+  </data>
+  <data name="Time_GainedMinsAgo" xml:space="preserve">
+    <value>gained {0} ago</value>
+    <comment>{0} = Long minutes, "Controlled by: England (gained 1 hour, 10 mins ago)"</comment>
+  </data>
+  <data name="Misc_Uncontested" xml:space="preserve">
+    <value>Uncontested</value>
+    <comment>Town is not contested</comment>
+  </data>
+  <data name="TownStatus_AttackObjective" xml:space="preserve">
+    <value>Attack Objective</value>
+    <comment>If town has an AO</comment>
+  </data>
+  <data name="TownStatus_Tooltip_AOPlacedBy" xml:space="preserve">
+    <value>Placed by OIC of {0}</value>
+    <comment>{0} = HCUnit title (optional Misc_AtChokePoint), "Placed by OIC of 1st Infantry Division [at Peer]"</comment>
+  </data>
+  <data name="Misc_AtChokePoint" xml:space="preserve">
+    <value>at {0}</value>
+    <comment>{0} = ChokePoint name, Appended to hcunit name, Used by eg TownStatus_Tooltip_AOPlacedBy</comment>
+  </data>
+  <data name="Time_RemovedMinsAgo" xml:space="preserve">
+    <value>removed {0} ago</value>
+    <comment>{0} = Long minutes, "No Attack Objective (removed 1 hour, 10 mins ago)"</comment>
+  </data>
+  <data name="TownStatus_NoAttackObjective" xml:space="preserve">
+    <value>No Attack Objective</value>
+    <comment>If town doesn't have an AO</comment>
+  </data>
+  <data name="TownStatus_UnderAttackFrom" xml:space="preserve">
+    <value>Under attack from:</value>
+    <comment>Prefix for attacking town/town list, "{} Peer", "{} Peer (75%), Achel (25%)"</comment>
+  </data>
+  <data name="TownStatus_Section_Facilities" xml:space="preserve">
+    <value>Facilities</value>
+    <comment>Facilities section heading</comment>
+  </data>
+  <data name="TownStatus_Tables" xml:space="preserve">
+    <value>Capture</value>
+    <comment>Facilities column heading</comment>
+  </data>
+  <data name="TownStatus_HeldFor" xml:space="preserve">
+    <value>Held for</value>
+    <comment>Facilities column heading</comment>
+  </data>
+  <data name="TownStatus_Spawn" xml:space="preserve">
+    <value>Spawn</value>
+    <comment>Facilities column heading</comment>
+  </data>
+  <data name="TownStatus_Tooltip_CapturedBy" xml:space="preserve">
+    <value>Captured by {0}</value>
+    <comment>{0} = Player name, Tooltip for each facility name, "[1:55] Captured by xiper"</comment>
+  </data>
+  <data name="TownStatus_Tooltip_SpawnSpawnable" xml:space="preserve">
+    <value>Enemy spawnable (if capped)</value>
+    <comment>Tooltip for orange spawn light</comment>
+  </data>
+  <data name="TownStatus_Tooltip_SpawnFriendly" xml:space="preserve">
+    <value>Friendly spawnable</value>
+    <comment>Tooltip for green spawn light</comment>
+  </data>
+  <data name="TownStatus_Tooltip_SpawnClosed" xml:space="preserve">
+    <value>Not currently spawnable</value>
+    <comment>Tooltip for grey spawn light</comment>
+  </data>
+  <data name="TownStatus_Tooltip_SpawnEnemy" xml:space="preserve">
+    <value>Enemy spawnable</value>
+    <comment>Tooltip for red spawn light</comment>
+  </data>
+  <data name="TownStatus_Section_HCUnits" xml:space="preserve">
+    <value>Deployed HC Units</value>
+    <comment>HCUnits section heading</comment>
+  </data>
+  <data name="Common_DivisionHQ" xml:space="preserve">
+    <value>Division HQ</value>
+    <comment>Name of a Division HQ in the various Deployed HC Units lists</comment>
+  </data>
+  <data name="Common_Tooltip_DivisionDeployed" xml:space="preserve">
+    <value>Division HQ currently deployed in {0}</value>
+    <comment>{0} = Chokepoint name, Tooltip for brigade</comment>
+  </data>
+  <data name="Common_Tooltip_DivisionNotDeployed" xml:space="preserve">
+    <value>Division HQ not currently deployed</value>
+    <comment>Tooltip for brigade</comment>
+  </data>
+  <data name="TownStatus_Section_LinkedTowns" xml:space="preserve">
+    <value>Linked Towns</value>
+    <comment>Linked Towns section heading</comment>
+  </data>
+  <data name="Common_Tooltip_GoToMap" xml:space="preserve">
+    <value>Go to {0} on map</value>
+    <comment>{0} = ChokePoint name, Tooltip for town flag link, "Go to Peer on map"</comment>
+  </data>
+  <data name="TownStatus_Tooltip_FirebaseNone" xml:space="preserve">
+    <value>There are no firebases between {0} and {1}</value>
+    <comment>{0} = ChokePoint name, {1} = ChokePoint name, Tooltip for no firebase, "There are no firebases between Peer and Achel"</comment>
+  </data>
+  <data name="TownStatus_Tooltip_FirebaseInactive" xml:space="preserve">
+    <value>The firebases between {0} and {1} are not currently active</value>
+    <comment>{0} = ChokePoint name, {1} = ChokePoint name, Tooltip for grey firebase, "The firebases between Peer and Achel are not currently active"</comment>
+  </data>
+  <data name="TownStatus_Tooltip_FirebaseUp" xml:space="preserve">
+    <value>The {0}-{1} {2} firebase is up ({3})</value>
+    <comment>{0} = ChokePoint name, {1} = ChokePoint name, {2} = Firebase state, {3} = Side name, Tooltip for green firebase, "The Peer-Achel brigade firebase is up (Axis)"</comment>
+  </data>
+  <data name="TownStatus_Tooltip_FirebaseDown" xml:space="preserve">
+    <value>The {0}-{1} {2} firebase is down ({3})</value>
+    <comment>{0} = ChokePoint name, {1} = ChokePoint name, {2} = Firebase state, {3} = Side name, Tooltip for red firebase, "The Peer-Achel offensive firebase is down (Allied)"</comment>
+  </data>
+  <data name="Enum_FirebaseState_Brigade" xml:space="preserve">
+    <value>Brigade</value>
+    <comment>The brigade firebase name, "The Peer-Achel {} firebase is ..."</comment>
+  </data>
+  <data name="Enum_FirebaseState_Defensive" xml:space="preserve">
+    <value>Defensive</value>
+    <comment>The defensive firebase name, "The Peer-Achel {} firebase is ..."</comment>
+  </data>
+  <data name="Enum_FirebaseState_Inactive" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>The inactive firebase name</comment>
+  </data>
+  <data name="Enum_FirebaseState_Offensive" xml:space="preserve">
+    <value>Offensive</value>
+    <comment>The offensive firebase name, "The Peer-Achel {} firebase is ..."</comment>
+  </data>
+  <data name="Common_Tooltip_GoToStatus" xml:space="preserve">
+    <value>View status of {0}</value>
+    <comment>{0} = ChokePoint name, Tooltip for town name link, "View status of Peer"</comment>
+  </data>
+  <data name="TownStatus_Section_Bridges" xml:space="preserve">
+    <value>Nearby Bridges</value>
+    <comment>Bridge section heading</comment>
+  </data>
+  <data name="Time_PlacedMinsAgo" xml:space="preserve">
+    <value>placed {0} ago</value>
+    <comment>{0} = Long minutes, "Attack Objective (placed 1 hour, 10 mins ago)"</comment>
+  </data>
+  <data name="TreeView_tvwFilterCountry_nodeEngland" xml:space="preserve">
+    <value>England</value>
+    <comment>Country Filter &gt; England</comment>
+  </data>
+  <data name="TreeView_tvwFilterCountry_nodeFrance" xml:space="preserve">
+    <value>France</value>
+    <comment>Country Filter &gt; France</comment>
+  </data>
+  <data name="TreeView_tvwFilterCountry_nodeGermany" xml:space="preserve">
+    <value>Germany</value>
+    <comment>Country Filter &gt; Germany</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeAttackObjective" xml:space="preserve">
+    <value>Attack Objective</value>
+    <comment>Event Filter &gt; Attack Objective</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeAttackObjectivePlaced" xml:space="preserve">
+    <value>Placed</value>
+    <comment>Event Filter &gt; Attack Objective &gt; Placed</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeAttackObjectiveWithdrawn" xml:space="preserve">
+    <value>Withdrawn</value>
+    <comment>Event Filter &gt; Attack Objective &gt; Withdrawn</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCaptures" xml:space="preserve">
+    <value>Captures</value>
+    <comment>Event Filter &gt; Captures</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesChokepoint" xml:space="preserve">
+    <value>Town</value>
+    <comment>Event Filter &gt; Captures &gt; Town</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesChokepointCaptured" xml:space="preserve">
+    <value>Captured</value>
+    <comment>Event Filter &gt; Captures &gt; Town &gt; Captured</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesChokepointContested" xml:space="preserve">
+    <value>Contested</value>
+    <comment>Event Filter &gt; Captures &gt; Town &gt; Contested</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesChokepointContestedRegained" xml:space="preserve">
+    <value>Regained</value>
+    <comment>Event Filter &gt; Captures &gt; Town &gt; Contested &gt; Regained</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesChokepointContestedUnderAttack" xml:space="preserve">
+    <value>Under attack</value>
+    <comment>Event Filter &gt; Captures &gt; Town &gt; Contested &gt; Under attack</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesChokepointControlChanged" xml:space="preserve">
+    <value>Control changed</value>
+    <comment>Event Filter &gt; Captures &gt; Town &gt; Control changed</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesFacility" xml:space="preserve">
+    <value>Facility</value>
+    <comment>Event Filter &gt; Captures &gt; Facility</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesFacilityCaptured" xml:space="preserve">
+    <value>Captured</value>
+    <comment>Event Filter &gt; Captures &gt; Facility &gt; Captured</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesFacilityRecaptured" xml:space="preserve">
+    <value>Recaptured</value>
+    <comment>Event Filter &gt; Captures &gt; Facility &gt; Recaptured</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesFacilitySpawnable" xml:space="preserve">
+    <value>Spawnable Depot</value>
+    <comment>Event Filter &gt; Captures &gt; Facility &gt; Spawnable Depot</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesFacilitySpawnableCaptured" xml:space="preserve">
+    <value>Captured</value>
+    <comment>Event Filter &gt; Captures &gt; Facility &gt; Spawnable Depot &gt; Captured</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeCapturesFacilitySpawnableRecaptured" xml:space="preserve">
+    <value>Recaptured</value>
+    <comment>Event Filter &gt; Captures &gt; Facility &gt; Spawnable Depot &gt; Recaptured</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFactory" xml:space="preserve">
+    <value>Factory</value>
+    <comment>Event Filter &gt; Factory</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFactoryHealth" xml:space="preserve">
+    <value>Health</value>
+    <comment>Event Filter &gt; Factory &gt; Health</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFactoryHealthDamaged" xml:space="preserve">
+    <value>Damaged</value>
+    <comment>Event Filter &gt; Factory &gt; Health &gt; Damaged</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFactoryHealthDestroyed" xml:space="preserve">
+    <value>Destroyed</value>
+    <comment>Event Filter &gt; Factory &gt; Health &gt; Destroyed</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFactoryHealthRepaired" xml:space="preserve">
+    <value>Repaired</value>
+    <comment>Event Filter &gt; Factory &gt; Health &gt; Repaired</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFactoryRdp" xml:space="preserve">
+    <value>RDP</value>
+    <comment>Event Filter &gt; Factory &gt; RDP</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFactoryRdpHalted" xml:space="preserve">
+    <value>Halted</value>
+    <comment>Event Filter &gt; Factory &gt; RDP &gt; Halted</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFactoryRdpResumed" xml:space="preserve">
+    <value>Resumed</value>
+    <comment>Event Filter &gt; Factory &gt; RDP &gt; Resumed</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFirebase" xml:space="preserve">
+    <value>Firebase</value>
+    <comment>Event Filter &gt; Firebase</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFirebaseAlliedBlown" xml:space="preserve">
+    <value>Allied fb blown</value>
+    <comment>Event Filter &gt; Firebase &gt; Allied fb blown</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFirebaseAxisBlown" xml:space="preserve">
+    <value>Axis fb blown</value>
+    <comment>Event Filter &gt; Firebase &gt; Axis fb blown</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeFirebaseNewBrigade" xml:space="preserve">
+    <value>New brigade fb</value>
+    <comment>Event Filter &gt; Firebase &gt; New brigade fb</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeHCUnit" xml:space="preserve">
+    <value>HC Unit</value>
+    <comment>Event Filter &gt; HC Unit</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeHCUnitDeployed" xml:space="preserve">
+    <value>Deployed</value>
+    <comment>Event Filter &gt; HC Unit &gt; Deployed</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeHCUnitMoved" xml:space="preserve">
+    <value>Moved</value>
+    <comment>Event Filter &gt; HC Unit &gt; Moved</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeHCUnitRetreat" xml:space="preserve">
+    <value>Retreat</value>
+    <comment>Event Filter &gt; HC Unit &gt; Retreat</comment>
+  </data>
+  <data name="TreeView_tvwFilterEventType_nodeHCUnitRouted" xml:space="preserve">
+    <value>Routed</value>
+    <comment>Event Filter &gt; HC Unit &gt; Routed</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeAirfields" xml:space="preserve">
+    <value>Airfields</value>
+    <comment>Map Options &gt; Airfields</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeAirGrid" xml:space="preserve">
+    <value>Air Grid</value>
+    <comment>Map Options &gt; Air Grid</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeAttackArrows" xml:space="preserve">
+    <value>Attack Arrows</value>
+    <comment>Map Options &gt; Attack Arrows</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeAttackArrowsLinked" xml:space="preserve">
+    <value>Only Linked Towns</value>
+    <comment>Map Options &gt; Attack Arrows &gt; Only Linked Towns</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeAttackObjectiveNames" xml:space="preserve">
+    <value>Town Names</value>
+    <comment>Map Options &gt; Attack Objectives &gt; Town Names</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeAttackObjectives" xml:space="preserve">
+    <value>Attack Objectives</value>
+    <comment>Map Options &gt; Attack Objectives</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeBrigadeLinks" xml:space="preserve">
+    <value>Brigade Links</value>
+    <comment>Map Options &gt; Brigade Links</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeBrigadeLinksArmy" xml:space="preserve">
+    <value>Only Army Brigades</value>
+    <comment>Map Options &gt; Brigade Links &gt; Only Army Brigades</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeBrigadeLinksSelected" xml:space="preserve">
+    <value>Only Selected Town</value>
+    <comment>Map Options &gt; Brigade Links &gt; Only Selected Town</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeFirebases" xml:space="preserve">
+    <value>Firebases</value>
+    <comment>Map Options &gt; Firebases</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeFrontlines" xml:space="preserve">
+    <value>Frontlines</value>
+    <comment>Map Options &gt; Frontlines</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodePlayerActivity" xml:space="preserve">
+    <value>Player Activity</value>
+    <comment>Map Options &gt; Player Activity</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeSupplyLinks" xml:space="preserve">
+    <value>Supply Links</value>
+    <comment>Map Options &gt; Supply Links</comment>
+  </data>
+  <data name="Error_SaveLanguage" xml:space="preserve">
+    <value>Failed to save Language settings</value>
+    <comment>Error message when saving Language settings to registry fails</comment>
+  </data>
+  <data name="Error_Restart" xml:space="preserve">
+    <value>Failed to restart BEGM</value>
+    <comment>Error message when restarting fails</comment>
+  </data>
+  <data name="Options_NewLanguage" xml:space="preserve">
+    <value>The new language setting will not take effect until next time BEGM is run.
+
+Do you want to restart BEGM now?</value>
+    <comment>Message when language changed, Yes/No buttons</comment>
+  </data>
+  <data name="Enum_ServerPopulation_Average" xml:space="preserve">
+    <value>Average</value>
+    <comment>Server Population description 3/6</comment>
+  </data>
+  <data name="Enum_ServerPopulation_Empty" xml:space="preserve">
+    <value>Empty</value>
+    <comment>Server Population description 0/6</comment>
+  </data>
+  <data name="Enum_ServerPopulation_Good" xml:space="preserve">
+    <value>Good</value>
+    <comment>Server Population description 4/6</comment>
+  </data>
+  <data name="Enum_ServerPopulation_High" xml:space="preserve">
+    <value>High</value>
+    <comment>Server Population description 5/6</comment>
+  </data>
+  <data name="Enum_ServerPopulation_Low" xml:space="preserve">
+    <value>Light</value>
+    <comment>Server Population description 2/6</comment>
+  </data>
+  <data name="Enum_ServerPopulation_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Server Population unknown</comment>
+  </data>
+  <data name="Enum_ServerPopulation_VeryHigh" xml:space="preserve">
+    <value>Very High</value>
+    <comment>Server Population description 6/6</comment>
+  </data>
+  <data name="Enum_ServerPopulation_VeryLight" xml:space="preserve">
+    <value>Very Light</value>
+    <comment>Server Population description 1/6</comment>
+  </data>
+  <data name="ServerStatus_Tooltip_Kills" xml:space="preserve">
+    <value>Player kills over past hour</value>
+    <comment>Tooltip for kills gauge and graph</comment>
+  </data>
+  <data name="ServerStatus_Tooltip_Captures" xml:space="preserve">
+    <value>Captures over past hour</value>
+    <comment>Tooltip for captures gauge and graph</comment>
+  </data>
+  <data name="ServerStatus_Tooltip_Population" xml:space="preserve">
+    <value>Current live server player population</value>
+    <comment>Tooltip for population gauge</comment>
+  </data>
+  <data name="Enum_ServerState_Closed" xml:space="preserve">
+    <value>Closed</value>
+    <comment>Server state, "Server is {}"</comment>
+  </data>
+  <data name="Enum_ServerState_Locked" xml:space="preserve">
+    <value>Locked</value>
+    <comment>Server state, "Server is {}"</comment>
+  </data>
+  <data name="Enum_ServerState_Offline" xml:space="preserve">
+    <value>Offline</value>
+    <comment>Server state, "Server is {}"</comment>
+  </data>
+  <data name="Enum_ServerState_Online" xml:space="preserve">
+    <value>Online</value>
+    <comment>Server state, "Server is {}"</comment>
+  </data>
+  <data name="Enum_ServerState_Starting" xml:space="preserve">
+    <value>Starting</value>
+    <comment>Server state, "Server is {}"</comment>
+  </data>
+  <data name="Enum_ServerState_Syncing" xml:space="preserve">
+    <value>Syncing</value>
+    <comment>Server state, "Server is {}"</comment>
+  </data>
+  <data name="Enum_ServerState_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Server state unknown</comment>
+  </data>
+  <data name="Enum_ServerState_Info_NoCap" xml:space="preserve">
+    <value>No capture</value>
+    <comment>Server state locked info, "Server is Locked ({}, No spawn)"</comment>
+  </data>
+  <data name="Enum_ServerState_Info_NoKill" xml:space="preserve">
+    <value>No kill</value>
+    <comment>Server state locked info, "Server is Locked (No capture, {}, No spawn)"</comment>
+  </data>
+  <data name="Enum_ServerState_Info_NoSpawn" xml:space="preserve">
+    <value>No spawn</value>
+    <comment>Server state locked info, "Server is Locked (No capture, {})"</comment>
+  </data>
+  <data name="ServerName_Beta" xml:space="preserve">
+    <value>Beta</value>
+    <comment>"The {} server is Online"</comment>
+  </data>
+  <data name="ServerName_Live" xml:space="preserve">
+    <value>Live</value>
+    <comment>"The {} server is Online"</comment>
+  </data>
+  <data name="ServerName_Training" xml:space="preserve">
+    <value>Training</value>
+    <comment>"The {} server is Online"</comment>
+  </data>
+  <data name="GameStatus_Tooltip_LaunchGame" xml:space="preserve">
+    <value>The {0} server is currently {1}, player population: {2}</value>
+    <comment>{0} = Server name, {1} = Server state, {2} = Server population, Tooltip for launch game menu items, "The live server is currently Online, player population: light"</comment>
+  </data>
+  <data name="Options_Display" xml:space="preserve">
+    <value>Display {0}</value>
+    <comment>{0} = Display/monitor number ("1", "2", ...), Value of dropdown lists on Misc tab for selecting which monitor to show GameStatus &amp; Alerts</comment>
+  </data>
+  <data name="GameStatus_UpdateAvailablePlugin" xml:space="preserve">
+    <value>Plugin update available</value>
+    <comment>Tooltip for BEGM version after update check</comment>
+  </data>
+  <data name="Equipment_Tooltip_PrevCycle" xml:space="preserve">
+    <value>Prev cycle</value>
+    <comment>Tooltip for [&lt;] button</comment>
+  </data>
+  <data name="Equipment_Tooltip_NextCycle" xml:space="preserve">
+    <value>Next cycle</value>
+    <comment>Tooltip for [&gt;] button</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeCountryBorders" xml:space="preserve">
+    <value>Country Borders</value>
+    <comment>Map Options &gt; Country Borders</comment>
+  </data>
+  <data name="TreeView_tvwMapOptions_nodeCountryBordersNames" xml:space="preserve">
+    <value>Names</value>
+    <comment>Map Options &gt; Country Borders &gt; Names</comment>
+  </data>
+  <data name="Enum_CountryName_Belgium" xml:space="preserve">
+    <value>BELGIUM</value>
+    <comment>Country name on map</comment>
+  </data>
+  <data name="Enum_CountryName_France" xml:space="preserve">
+    <value>FRANCE</value>
+    <comment>Country name on map</comment>
+  </data>
+  <data name="Enum_CountryName_Germany" xml:space="preserve">
+    <value>GERMANY</value>
+    <comment>Country name on map</comment>
+  </data>
+  <data name="Enum_CountryName_Luxembourg" xml:space="preserve">
+    <value>LUXEMBOURG</value>
+    <comment>Country name on map</comment>
+  </data>
+  <data name="Enum_CountryName_Netherlands" xml:space="preserve">
+    <value>NETHERLANDS</value>
+    <comment>Country name on map</comment>
+  </data>
+  <data name="Enum_CountryName_England" xml:space="preserve">
+    <value>ENGLAND</value>
+    <comment>Country name on map</comment>
+  </data>
+  <data name="Enum_HCMoveResult_007" xml:space="preserve">
+    <value>No division members in range of destination</value>
+    <comment>Brigade movement error 007 - Contact</comment>
+  </data>
+  <data name="Enum_HCMoveResult_012" xml:space="preserve">
+    <value>Enemy controls destination</value>
+    <comment>Brigade movement error 012 - Control</comment>
+  </data>
+  <data name="Enum_HCMoveResult_017" xml:space="preserve">
+    <value>Enemy depot blocking move</value>
+    <comment>Brigade movement error 017 - EnemyDepot</comment>
+  </data>
+  <data name="Enum_HCMoveResult_018" xml:space="preserve">
+    <value>Enemy firebase blocking move</value>
+    <comment>Brigade movement error 018 - EnemyFB</comment>
+  </data>
+  <data name="Enum_HCMoveResult_001" xml:space="preserve">
+    <value>No such brigade</value>
+    <comment>Brigade movement error 001 - Failed</comment>
+  </data>
+  <data name="Enum_HCMoveResult_011" xml:space="preserve">
+    <value>Can't deploy to a frontline town</value>
+    <comment>Brigade movement error 011 - FrontLine</comment>
+  </data>
+  <data name="Enum_HCMoveResult_006" xml:space="preserve">
+    <value>No direct link to destination</value>
+    <comment>Brigade movement error 006 - Link</comment>
+  </data>
+  <data name="Enum_HCMoveResult_008" xml:space="preserve">
+    <value>No armybases at destination</value>
+    <comment>Brigade movement error0 08 - NoAbs</comment>
+  </data>
+  <data name="Enum_HCMoveResult_009" xml:space="preserve">
+    <value>No airfields at destination</value>
+    <comment>Brigade movement error 009 - NoAfs</comment>
+  </data>
+  <data name="Enum_HCMoveResult_013" xml:space="preserve">
+    <value>Destination has no factory link</value>
+    <comment>Brigade movement error 013 - NoFacLink</comment>
+  </data>
+  <data name="Enum_HCMoveResult_010" xml:space="preserve">
+    <value>No naval bases at destination</value>
+    <comment>Brigade movement error 010 - NoNbs</comment>
+  </data>
+  <data name="Enum_HCMoveResult_014" xml:space="preserve">
+    <value>Cannot manually route</value>
+    <comment>Brigade movement error 014 - OffMap</comment>
+  </data>
+  <data name="Enum_HCMoveResult_015" xml:space="preserve">
+    <value>Cannot manually route from non-pocket</value>
+    <comment>Brigade movement error 015 - OffMapNP</comment>
+  </data>
+  <data name="Enum_HCMoveResult_003" xml:space="preserve">
+    <value>Enemy owns destination</value>
+    <comment>Brigade movement error 003 - Owner</comment>
+  </data>
+  <data name="Enum_HCMoveResult_004" xml:space="preserve">
+    <value>Player not an active HC member</value>
+    <comment>Brigade movement error 004 - Permission</comment>
+  </data>
+  <data name="Enum_HCMoveResult_016" xml:space="preserve">
+    <value>Too much equipment to manually route</value>
+    <comment>Brigade movement error 016 - PremSurrender</comment>
+  </data>
+  <data name="Enum_HCMoveResult_002" xml:space="preserve">
+    <value>Invalid destination</value>
+    <comment>Brigade movement error 002 - Target</comment>
+  </data>
+  <data name="Enum_HCMoveResult_005" xml:space="preserve">
+    <value>Can't move brigade yet</value>
+    <comment>Brigade movement error 005 - Time</comment>
+  </data>
+  <data name="Enum_VehicleCategory_Aircraft" xml:space="preserve">
+    <value>Aircraft</value>
+    <comment>Vehicle category 1</comment>
+  </data>
+  <data name="Enum_VehicleCategory_GroundVehicle" xml:space="preserve">
+    <value>Ground Vehicle</value>
+    <comment>Vehicle category 2</comment>
+  </data>
+  <data name="Enum_VehicleCategory_Infantry" xml:space="preserve">
+    <value>Infantry</value>
+    <comment>Vehicle category 4</comment>
+  </data>
+  <data name="Enum_VehicleCategory_Munitions" xml:space="preserve">
+    <value>Munitions</value>
+    <comment>Vehicle category 5</comment>
+  </data>
+  <data name="Enum_VehicleCategory_SeaVehicle" xml:space="preserve">
+    <value>Sea Vehicle</value>
+    <comment>Vehicle category 3</comment>
+  </data>
+  <data name="Enum_VehicleClass_AirBomb" xml:space="preserve">
+    <value>Air Bomb</value>
+    <comment>Vehicle class 10</comment>
+  </data>
+  <data name="Enum_VehicleClass_Artillery" xml:space="preserve">
+    <value>Artillery</value>
+    <comment>Vehicle class 05</comment>
+  </data>
+  <data name="Enum_VehicleClass_Bomber" xml:space="preserve">
+    <value>Bomber</value>
+    <comment>Vehicle class 01</comment>
+  </data>
+  <data name="Enum_VehicleClass_Crew" xml:space="preserve">
+    <value>Crew</value>
+    <comment>Vehicle class 08</comment>
+  </data>
+  <data name="Enum_VehicleClass_Fighter" xml:space="preserve">
+    <value>Fighter</value>
+    <comment>Vehicle class 02</comment>
+  </data>
+  <data name="Enum_VehicleClass_Gm" xml:space="preserve">
+    <value>GM</value>
+    <comment>Vehicle class 03</comment>
+  </data>
+  <data name="Enum_VehicleClass_Gun" xml:space="preserve">
+    <value>Gun</value>
+    <comment>Vehicle class 07</comment>
+  </data>
+  <data name="Enum_VehicleClass_HeavyInfantry" xml:space="preserve">
+    <value>Heavy Infantry</value>
+    <comment>Vehicle class 11</comment>
+  </data>
+  <data name="Enum_VehicleClass_Para" xml:space="preserve">
+    <value>Para</value>
+    <comment>Vehicle class 14</comment>
+  </data>
+  <data name="Enum_VehicleClass_Riverine" xml:space="preserve">
+    <value>Riverine</value>
+    <comment>Vehicle class 12</comment>
+  </data>
+  <data name="Enum_VehicleClass_Sea" xml:space="preserve">
+    <value>Sea</value>
+    <comment>Vehicle class 13</comment>
+  </data>
+  <data name="Enum_VehicleClass_Tank" xml:space="preserve">
+    <value>Tank</value>
+    <comment>Vehicle class 04</comment>
+  </data>
+  <data name="Enum_VehicleClass_Troop" xml:space="preserve">
+    <value>Troop</value>
+    <comment>Vehicle class 09</comment>
+  </data>
+  <data name="Enum_VehicleClass_Truck" xml:space="preserve">
+    <value>Truck</value>
+    <comment>Vehicle class 06</comment>
+  </data>
+  <data name="Enum_ActivityLevel_Heavy" xml:space="preserve">
+    <value>Heavy</value>
+    <comment>Activity level 4</comment>
+  </data>
+  <data name="Enum_ActivityLevel_Light" xml:space="preserve">
+    <value>Light</value>
+    <comment>Activity level 2</comment>
+  </data>
+  <data name="Enum_ActivityLevel_Low" xml:space="preserve">
+    <value>Low</value>
+    <comment>Activity level 1</comment>
+  </data>
+  <data name="Enum_ActivityLevel_Moderate" xml:space="preserve">
+    <value>Moderate</value>
+    <comment>Activity level 3</comment>
+  </data>
+  <data name="Enum_ActivityLevel_None" xml:space="preserve">
+    <value>None</value>
+    <comment>Activity level 0</comment>
+  </data>
+  <data name="TownStatus_Activity" xml:space="preserve">
+    <value>Activity:</value>
+    <comment>Prefix for activity level, "{} Light"</comment>
+  </data>
+  <data name="Equipment_NoImageAvailable" xml:space="preserve">
+    <value>No image available</value>
+    <comment>Message if no vehicle image available</comment>
+  </data>
+  <data name="Equipment_RankRequired" xml:space="preserve">
+    <value>RANK REQUIRED</value>
+    <comment>Heading for rank required box</comment>
+  </data>
+  <data name="Equipment_RankRequiredNextCycle" xml:space="preserve">
+    <value>NEXT CYCLE</value>
+    <comment>Heading for rank required next cycle box</comment>
+  </data>
+  <data name="Enum_HCUnitMoveState_Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+    <comment>Brigade movement state</comment>
+  </data>
+  <data name="Enum_HCUnitMoveState_CompletionFailed" xml:space="preserve">
+    <value>Completion Failed</value>
+    <comment>Brigade movement state</comment>
+  </data>
+  <data name="Enum_HCUnitMoveState_Pending" xml:space="preserve">
+    <value>Pending</value>
+    <comment>Brigade movement state</comment>
+  </data>
+  <data name="Enum_HCUnitMoveState_RequestFailed" xml:space="preserve">
+    <value>Request Failed</value>
+    <comment>Brigade movement state</comment>
+  </data>
+  <data name="Enum_HCUnitMoveState_Success" xml:space="preserve">
+    <value>Success</value>
+    <comment>Brigade movement state</comment>
+  </data>
+  <data name="Enum_HCUnitMoveState_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="OrderOfBattle_RedeployTooltip_MovePending" xml:space="preserve">
+    <value>A request to move to {0} is pending</value>
+    <comment>{0} = ChokePoint name, "A request to move to Peer is pending"</comment>
+  </data>
+  <data name="Time_Today" xml:space="preserve">
+    <value>today</value>
+    <comment>"Brigade last moved {} at 1:00pm"</comment>
+  </data>
+  <data name="Time_Yesterday" xml:space="preserve">
+    <value>yesterday</value>
+    <comment>"Brigade last moved {} at 1:00pm"</comment>
+  </data>
+  <data name="BrigadeStatus_NotDeployed" xml:space="preserve">
+    <value>Not deployed</value>
+    <comment>If not deployed</comment>
+  </data>
+  <data name="BrigadeStatus_Section_DivisionMembers" xml:space="preserve">
+    <value>Division Members</value>
+    <comment>Division Members section heading</comment>
+  </data>
+  <data name="BrigadeStatus_Section_Deployment" xml:space="preserve">
+    <value>Deployment</value>
+    <comment>Deployment section heading</comment>
+  </data>
+  <data name="BrigadeStatus_DeployedAt1" xml:space="preserve">
+    <value>Deployed at</value>
+    <comment>If deployed (part 1/2)</comment>
+  </data>
+  <data name="BrigadeStatus_DeployedAt2" xml:space="preserve">
+    <value>{0} for {1}</value>
+    <comment>If deployed (part 2/2), {0} = ChokePoint name, {1} = Long minutes ago, "Deployed at [flag] Peer for 1 hour, 10 minutes"</comment>
+  </data>
+  <data name="BrigadeStatus_UndeployedFor" xml:space="preserve">
+    <value>Undeployed for {0}</value>
+    <comment>{0} = Long minutes ago, "Undeployed for 1 hour, 10 minutes"</comment>
+  </data>
+  <data name="BrigadeStatus_Undeployed" xml:space="preserve">
+    <value>Currently undeployed</value>
+    <comment>If undeployed time is unknown</comment>
+  </data>
+  <data name="BrigadeStatus_LastMoved" xml:space="preserve">
+    <value>Last moved {0} by {1}</value>
+    <comment>{0} = DateTime of last move, {1} = Player name, "Last moved today, 1:10pm by xiper"</comment>
+  </data>
+  <data name="BrigadeStatus_Section_Command" xml:space="preserve">
+    <value>Command</value>
+    <comment>Command section heading</comment>
+  </data>
+  <data name="Common_Tooltip_GoToEquipment" xml:space="preserve">
+    <value>Go to Equipment</value>
+    <comment>Tooltip for link to Equipment</comment>
+  </data>
+  <data name="BrigadeStatus_CommandingOfficer" xml:space="preserve">
+    <value>Commanding Officer:</value>
+    <comment>CO subheading, "{} xiper"</comment>
+  </data>
+  <data name="BrigadeStatus_OfficerInCharge" xml:space="preserve">
+    <value>Acting Officer in Charge:</value>
+    <comment>OIC subheading, "{} xiper"</comment>
+  </data>
+  <data name="BrigadeStatus_Section_StackedWith" xml:space="preserve">
+    <value>Stacked with</value>
+    <comment>Stacked with section heading</comment>
+  </data>
+  <data name="Common_Tooltip_GoToBrigade" xml:space="preserve">
+    <value>Go to Brigade</value>
+    <comment>Tooltip for link to Brigade Status</comment>
+  </data>
+  <data name="Equipment_NotAvailable" xml:space="preserve">
+    <value>Not available in cycle {0}</value>
+    <comment>Message if no supply in the selected cycle</comment>
+  </data>
+  <data name="ServerStatus_Tooltip_TrackingChangesSince" xml:space="preserve">
+    <value>Tracking changes since {0}</value>
+    <comment>{0} = Date, Tooltip for Reset Changes link, "Tracking changes since yesterday, 1:23PM"</comment>
+  </data>
+  <data name="ServerStatus_Tooltip_UsedToBe" xml:space="preserve">
+    <value>Used to be: {0}</value>
+    <comment>{0} = Original value, Tooltip for server config item that has changed, "Used to be: 10"</comment>
+  </data>
+  <data name="Enum_HCMoveResult_101" xml:space="preserve">
+    <value>Movement veto'd</value>
+    <comment>Brigade movement error 101 - Veto</comment>
+  </data>
+  <data name="Enum_HCMoveResult_102" xml:space="preserve">
+    <value>Server shutdown</value>
+    <comment>Brigade movement error 102 - Shutdown</comment>
+  </data>
+  <data name="Enum_HCMoveResult_103" xml:space="preserve">
+    <value>OIC replaced</value>
+    <comment>Brigade movement error 103 - OICReplaced</comment>
+  </data>
+  <data name="Enum_HCMoveResult_104" xml:space="preserve">
+    <value>OIC removed</value>
+    <comment>Brigade movement error 104 - OICRemoved</comment>
+  </data>
+  <data name="Enum_HCMoveResult_105" xml:space="preserve">
+    <value>OIC left game/changed brigade</value>
+    <comment>Brigade movement error 105 - OICLeft</comment>
+  </data>
+  <data name="Enum_HCMoveResult_106" xml:space="preserve">
+    <value>Expired</value>
+    <comment>Brigade movement error 106 - Expired</comment>
+  </data>
+  <data name="GameStatus_HeaderIntermission" xml:space="preserve">
+    <value>Intermission {0}</value>
+    <comment>{0} = Intermission number, Text below BEGM logo during intermission, "Intermission 45"</comment>
+  </data>
+  <data name="GameStatus_HeaderCampaign" xml:space="preserve">
+    <value>Campaign {0}, Day {1}</value>
+    <comment>{0} = Campaign number, {1} = Day number, Text below BEGM logo during campaign, "Campaign 45, Day 70"</comment>
+  </data>
+  <data name="Country_Name_NeutralFriendly" xml:space="preserve">
+    <value>Neutral Friendly</value>
+    <comment>Note: no demonym</comment>
+  </data>
+  <data name="Country_Name_NeutralHostile" xml:space="preserve">
+    <value>Neutral Hostile</value>
+    <comment>Note: no demonym</comment>
+  </data>
+</root>

@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<!-- Downloaded from http://ww2.kfs.org/ranklist.xml at Wed May 14 15:26:35 2008 -->
+<ranklist version="1.1">
+	<rank level="1" type="enlisted">
+		<british country="1">
+			<ground branch="1">Recruit</ground>
+			<air branch="2">Aircraftsman</air>
+			<navy branch="3">Recruit</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Recrue</ground>
+			<air branch="2">Aviateur</air>
+			<navy branch="3">Matelot</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Rekrut</ground>
+			<air branch="2">Flieger</air>
+			<navy branch="3">Matrose</navy>
+		</german>
+	</rank>
+	<rank level="2" type="enlisted">
+		<british country="1">
+			<ground branch="1">Private</ground>
+			<air branch="2">Aircraftsman, 1C</air>
+			<navy branch="3">Ordinary Seaman</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Soldat</ground>
+			<air branch="2">Aviateur, 1C</air>
+			<navy branch="3">Quartier Maitre</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Grenadier</ground>
+			<air branch="2">Gefreiter</air>
+			<navy branch="3">M-Gefreiter</navy>
+		</german>
+	</rank>
+	<rank level="3" type="enlisted">
+		<british country="1">
+			<ground branch="1">Lance Corporal</ground>
+			<air branch="2">L. Aircraftsman</air>
+			<navy branch="3">Able Seaman</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Caporal</ground>
+			<air branch="2">Caporal</air>
+			<navy branch="3">Quartier Maitre 1C</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Gefreiter</ground>
+			<air branch="2">Obergefreiter</air>
+			<navy branch="3">M-Obergefreiter</navy>
+		</german>
+	</rank>
+	<rank level="4" type="enlisted">
+		<british country="1">
+			<ground branch="1">Corporal</ground>
+			<air branch="2">Corporal</air>
+			<navy branch="3">Leading Seaman</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Caporal-Chef</ground>
+			<air branch="2">Caporal-Chef</air>
+			<navy branch="3">Caporal-Chef</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Obergefreiter</ground>
+			<air branch="2">Unteroffizier</air>
+			<navy branch="3">Maat</navy>
+		</german>
+	</rank>
+	<rank level="5" type="enlisted">
+		<british country="1">
+			<ground branch="1">Sergeant</ground>
+			<air branch="2">Sergeant</air>
+			<navy branch="3">Petty Officer</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Sergent</ground>
+			<air branch="2">Sergent</air>
+			<navy branch="3">Second Maitre</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Unteroffizier</ground>
+			<air branch="2">Feldwebel</air>
+			<navy branch="3">Obermaat</navy>
+		</german>
+	</rank>
+	<rank level="6" type="enlisted">
+		<british country="1">
+			<ground branch="1">Colour Sergeant</ground>
+			<air branch="2">Flight Sergeant</air>
+			<navy branch="3">Chief Petty Ofc.</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Sergent-Chef</ground>
+			<air branch="2">Adjutant</air>
+			<navy branch="3">Maitre</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Unterfeldwebel</ground>
+			<air branch="2">Oberfeldwebel</air>
+			<navy branch="3">Bootsmann</navy>
+		</german>
+	</rank>
+	<rank level="7" type="enlisted">
+		<british country="1">
+			<ground branch="1">QM Sergeant</ground>
+			<air branch="2">Warrant Officer</air>
+			<navy branch="3">Warrant Officer</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Adjudant</ground>
+			<air branch="2">Major</air>
+			<navy branch="3">Premier Maitre</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Feldwebel</ground>
+			<air branch="2">Stabsfeldwebel</air>
+			<navy branch="3">Oberbootsmann</navy>
+		</german>
+	</rank>
+	<rank level="8" type="enlisted">
+		<british country="1">
+			<ground branch="1">Sgt. Major</ground>
+			<air branch="2">Act. Pilot Officer</air>
+			<navy branch="3">Midshipman</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Adjudant-Chef</ground>
+			<air branch="2">Aspirant</air>
+			<navy branch="3">Maitre Principal</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Oberfeldwebel</ground>
+			<air branch="2">Oberfahnrich</air>
+			<navy branch="3">Oberfahnrich</navy>
+		</german>
+	</rank>
+	<rank level="9" type="officer">
+		<british country="1">
+			<ground branch="1">2nd Lieutenant</ground>
+			<air branch="2">Pilot Officer</air>
+			<navy branch="3">Sublieutenant</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Sous-Lieutenant</ground>
+			<air branch="2">Sous-Lieutenant</air>
+			<navy branch="3">Enseigne</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Leutnant</ground>
+			<air branch="2">Leutnant</air>
+			<navy branch="3">Leutnant</navy>
+		</german>
+	</rank>
+	<rank level="10" type="officer">
+		<british country="1">
+			<ground branch="1">Lieutenant</ground>
+			<air branch="2">Flying Officer</air>
+			<navy branch="3">Lieutenant (Jr.)</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Lieutenant</ground>
+			<air branch="2">Lieutenant</air>
+			<navy branch="3">Lieutenant</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Oberleutnant</ground>
+			<air branch="2">Oberleutnant</air>
+			<navy branch="3">Oberleutnant</navy>
+		</german>
+	</rank>
+	<rank level="11" type="officer">
+		<british country="1">
+			<ground branch="1">Captain</ground>
+			<air branch="2">Flight Lieutenant</air>
+			<navy branch="3">Lieutenant</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Capitaine</ground>
+			<air branch="2">Capitaine</air>
+			<navy branch="3">Cpt. de Corvette</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Hauptmann</ground>
+			<air branch="2">Hauptmann</air>
+			<navy branch="3">Kapitanleutnant</navy>
+		</german>
+	</rank>
+	<rank level="12" type="officer">
+		<british country="1">
+			<ground branch="1">Major</ground>
+			<air branch="2">Squadron Leader</air>
+			<navy branch="3">Lt. Commander</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Commandant</ground>
+			<air branch="2">Commandant</air>
+			<navy branch="3">Cpt. de Frigate</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Major</ground>
+			<air branch="2">Major</air>
+			<navy branch="3">Korvettenkapitan</navy>
+		</german>
+	</rank>
+	<rank level="13" type="officer">
+		<british country="1">
+			<ground branch="1">Lt. Colonel</ground>
+			<air branch="2">Wing Commander</air>
+			<navy branch="3">Commander</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Lt. Colonel</ground>
+			<air branch="2">Lt. Colonel</air>
+			<navy branch="3">Cpt. de Vaisseau</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Oberstleutnant</ground>
+			<air branch="2">Oberstleutnant</air>
+			<navy branch="3">Fregattenkapitan</navy>
+		</german>
+	</rank>
+	<rank level="14" type="command">
+		<british country="1">
+			<ground branch="1">Colonel</ground>
+			<air branch="2">Group Captain</air>
+			<navy branch="3">Captain</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Colonel</ground>
+			<air branch="2">Colonel</air>
+			<navy branch="3">Colonel</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Oberst</ground>
+			<air branch="2">Oberst</air>
+			<navy branch="3">Kapitan zur See</navy>
+		</german>
+	</rank>
+	<rank level="15" type="command">
+		<british country="1">
+			<ground branch="1">Brigadier Gen.</ground>
+			<air branch="2">Air Commodore</air>
+			<navy branch="3">Commodore</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Gen. de Brigade</ground>
+			<air branch="2">Gen. de Brigade</air>
+			<navy branch="3">Contre-Amiral</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Generalmajor</ground>
+			<air branch="2">Generalmajor</air>
+			<navy branch="3">Kommodore</navy>
+		</german>
+	</rank>
+	<rank level="16" type="command">
+		<british country="1">
+			<ground branch="1">Major General</ground>
+			<air branch="2">Air Vice Marshall</air>
+			<navy branch="3">Rear Admiral</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Gen. de Division</ground>
+			<air branch="2">Gen. de Division</air>
+			<navy branch="3">Vice-Amiral</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Generalleutnant</ground>
+			<air branch="2">Generalleutnant</air>
+			<navy branch="3">Konteradmiral</navy>
+		</german>
+	</rank>
+	<rank level="17" type="command">
+		<british country="1">
+			<ground branch="1">Lt. General</ground>
+			<air branch="2">Air Marshall</air>
+			<navy branch="3">Vice Admiral</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">General de Corps</ground>
+			<air branch="2">General de Corps</air>
+			<navy branch="3">Amiral d'Escadre</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">General</ground>
+			<air branch="2">Gen. Der Flieger</air>
+			<navy branch="3">Vizeadmiral</navy>
+		</german>
+	</rank>
+	<rank level="18" type="command">
+		<british country="1">
+			<ground branch="1">General</ground>
+			<air branch="2">Air Chief Marshall</air>
+			<navy branch="3">Admiral</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">General d'Armee</ground>
+			<air branch="2">General Aerienne</air>
+			<navy branch="3">Amiral</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Generaloberst</ground>
+			<air branch="2">Generaloberst</air>
+			<navy branch="3">Admiral</navy>
+		</german>
+	</rank>
+	<rank level="19" type="command">
+		<british country="1">
+			<ground branch="1">Field marshal</ground>
+			<air branch="2">Air marshal</air>
+			<navy branch="3">Fleet Admiral</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Chef d'Etat Major</ground>
+			<air branch="2">General, C.S.A.</air>
+			<navy branch="3">Fleet Amiral</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Gen.Feldmarschall</ground>
+			<air branch="2">Gen.Feldmarschall</air>
+			<navy branch="3">Grossadmiral</navy>
+		</german>
+	</rank>
+	<rank level="20" type="command">
+		<british country="1">
+			<ground branch="1">Country Leader</ground>
+			<air branch="2">Country Leader</air>
+			<navy branch="3">Country Leader</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Country Leader</ground>
+			<air branch="2">Country Leader</air>
+			<navy branch="3">Country Leader</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Country Leader</ground>
+			<air branch="2">Country Leader</air>
+			<navy branch="3">Country Leader</navy>
+		</german>
+	</rank>
+	<rank level="21" type="command">
+		<british country="1">
+			<ground branch="1">Theater Leader</ground>
+			<air branch="2">Theater Leader</air>
+			<navy branch="3">Theater Leader</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Theater Leader</ground>
+			<air branch="2">Theater Leader</air>
+			<navy branch="3">Theater Leader</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Theater Leader</ground>
+			<air branch="2">Theater Leader</air>
+			<navy branch="3">Theater Leader</navy>
+		</german>
+	</rank>
+	<rank level="22" type="command">
+		<british country="1">
+			<ground branch="1">Side Command</ground>
+			<air branch="2">Side Command</air>
+			<navy branch="3">Side Command</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Side Command</ground>
+			<air branch="2">Side Command</air>
+			<navy branch="3">Side Command</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Side Command</ground>
+			<air branch="2">Side Command</air>
+			<navy branch="3">Side Command</navy>
+		</german>
+	</rank>
+	<rank level="23" type="staff">
+		<british country="1">
+			<ground branch="1">Rat Godling</ground>
+			<air branch="2">Rat Godling</air>
+			<navy branch="3">Rat Godling</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Rat Godling</ground>
+			<air branch="2">Rat Godling</air>
+			<navy branch="3">Rat Godling</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Rat Godling</ground>
+			<air branch="2">Rat Godling</air>
+			<navy branch="3">Rat Godling</navy>
+		</german>
+	</rank>
+	<rank level="24" type="staff">
+		<british country="1">
+			<ground branch="1">Rat Demigod</ground>
+			<air branch="2">Rat Demigod</air>
+			<navy branch="3">Rat Demigod</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Rat Demigod</ground>
+			<air branch="2">Rat Demigod</air>
+			<navy branch="3">Rat Demigod</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Rat Demigod</ground>
+			<air branch="2">Rat Demigod</air>
+			<navy branch="3">Rat Demigod</navy>
+		</german>
+	</rank>
+	<rank level="25" type="staff">
+		<british country="1">
+			<ground branch="1">Rat God</ground>
+			<air branch="2">Rat God</air>
+			<navy branch="3">Rat God</navy>
+		</british>
+		<french country="3">
+			<ground branch="1">Rat God</ground>
+			<air branch="2">Rat God</air>
+			<navy branch="3">Rat God</navy>
+		</french>
+		<german country="4">
+			<ground branch="1">Rat God</ground>
+			<air branch="2">Rat God</air>
+			<navy branch="3">Rat God</navy>
+		</german>
+	</rank>
+</ranklist>

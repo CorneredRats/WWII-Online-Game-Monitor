@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="vehicle001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\001_uk_spit1a.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\002_uk_hurri1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\008_uk_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\009_uk_smg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\010_uk_sapper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\011_fr_hawk75.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\019_fr_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\020_fr_smg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\021_fr_sapper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\022_de_ju87.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\023_de_bf109e.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\031_de_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\032_de_smg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\033_de_sapper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\062_uk_fairmile.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle063" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\063_fr_fairmile.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle064" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\064_de_fairmile.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle065" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\065_uk_blen4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle066" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\066_de_bf110c4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle070" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\070_fr_blen4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle072" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\072_uk_blen1f.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle076" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\076_de_he111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle080" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\080_de_destroyer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle086" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\086_fr_dewoitine.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle090" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\090_uk_spit5b.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\091_uk_hurri2c.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle092" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\092_de_bf109f.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle093" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\093_de_bf110c4b.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle094" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\094_fr_hawk81.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle095" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\095_fr_db7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle097" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\097_uk_havoc1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle098" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\098_uk_destroyer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle099" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\099_fr_destroyer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\100_uk_freighter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\101_fr_freighter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\102_de_freighter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\104_uk_lmg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\105_fr_lmg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\106_de_lmg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\108_fr_bell.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\112_uk_grenader.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\113_fr_grenadier.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\114_de_grenadier.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\118_uk_atr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\119_fr_atr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\120_de_atr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\134_uk_spit9c.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\135_fr_p38.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\136_de_fw190a.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\140_uk_c47.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\141_fr_ju52.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\142_de_ju52.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\160_uk_sniper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\161_fr_sniper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle162" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\162_de_sniper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle168" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\168_fr_mortar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle169" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\169_de_mortar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle170" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\170_uk_hurri2b.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\171_fr_hawk87.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle172" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\172_de_bf109g.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle173" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\173_uk_mortar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle174" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\174_uk_pararifle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle175" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\175_uk_parasmg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle176" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\176_uk_paralmg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle177" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\177_uk_paraatr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle178" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\178_uk_parasniper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle179" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\179_uk_paramortar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\180_fr_pararifle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\181_fr_parasmg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle182" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\182_fr_paralmg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle183" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\183_fr_paraatr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle184" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\184_fr_parasniper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle185" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\185_fr_paramortar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\186_de_pararifle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle187" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\187_de_parasmg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle188" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\188_de_paralmg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle189" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\189_de_paraatr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle190" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\190_de_parasniper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\191_de_paramortar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\004_uk_a13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\006_uk_beddy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\007_uk_2pdr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\014_fr_charb1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle015" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\015_fr_somuas35.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\017_fr_samle34.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\018_fr_samle37.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\024_de_pz3f.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\025_de_pz38t.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\026_de_pz2c.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle027" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\027_de_opel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle028" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\028_de_halftrack.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\029_de_pak36.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\030_de_flak36.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle067" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\067_fr_renaultr35.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\071_de_flak30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle073" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\073_uk_matty.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle074" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\074_de_stug3b.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle075" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\075_de_pz4d.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle078" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\078_fr_camle38.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle079" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\079_uk_camle38.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle081" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\081_fr_panhard.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle082" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\082_de_232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle083" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\083_uk_morris.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle084" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\084_uk_vickers.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle085" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\085_uk_bofors.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle087" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\087_uk_crus2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle088" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\088_de_pz3h.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle089" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\089_uk_daimler.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle096" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\096_fr_hotchkiss.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\103_de_251.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\107_fr_stuart.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\109_fr_bofors.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\110_fr_lafflyw15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\111_de_flak28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\121_uk_crus3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\128_uk_6pdr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\129_fr_m1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\130_de_pak38.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\131_de_pz4g.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\132_de_stug3g.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\133_fr_sherman.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\146_uk_church7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\150_fr_m10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle154" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\154_de_pz6e.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle159" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\159_uk_church3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\164_fr_sherman76.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle165" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\165_fr_m5a2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\166_de_pak40.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle167" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\167_uk_17pdr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle077" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\077_fr_laffly.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\192_uk_spit1b.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle193" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\193_de_bf109e1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\194_uk_spit2b.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle195" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\195_de_bf109f1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle196" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\196_de_bf110fb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle197" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vehicles\197_de_bf109f2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

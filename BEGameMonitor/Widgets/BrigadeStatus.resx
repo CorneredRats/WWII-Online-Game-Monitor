@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;dgvHCUnits.Name" xml:space="preserve">
+    <value>dgvHCUnits</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeBrigade.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvMoves.Name" xml:space="preserve">
+    <value>dgvMoves</value>
+  </data>
+  <data name="&gt;&gt;lblMoves.Parent" xml:space="preserve">
+    <value>pnlMoves</value>
+  </data>
+  <data name="&gt;&gt;tmrReveal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMoves.Name" xml:space="preserve">
+    <value>lblMoves</value>
+  </data>
+  <data name="colResult.HeaderText" xml:space="preserve">
+    <value>Result</value>
+    <comment>#locked</comment>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colSpacer.MinimumWidth" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeBranch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;colPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lnkTreeDivision.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="picTreeDivision.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeCorps.Name" xml:space="preserve">
+    <value>lnkTreeCorps</value>
+  </data>
+  <data name="colArrow.HeaderText" xml:space="preserve">
+    <value>&gt;</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="&gt;&gt;cbMovesHideFailed.Name" xml:space="preserve">
+    <value>cbMovesHideFailed</value>
+  </data>
+  <data name="lnkTreeBranch.Text" xml:space="preserve">
+    <value>Branch</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="&gt;&gt;colTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picTreeBrigade.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="picHCUnitInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lnkTreeBrigade.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lnkTreeBranch.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;dgvHCUnits.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMoves.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colPlayer.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colResult.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;picHCUnitInfo.Name" xml:space="preserve">
+    <value>picHCUnitInfo</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgvHCUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 229</value>
+  </data>
+  <data name="lnkTreeBrigade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeDivision.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeBranch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvMoves.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="colSpacer.HeaderText" xml:space="preserve">
+    <value />
+    <comment>#locked</comment>
+  </data>
+  <data name="lblMoves.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="dgvMoves.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 80</value>
+  </data>
+  <data name="&gt;&gt;colArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlMoves.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lnkTreeBrigade.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="dgvHCUnits.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cbMovesHideFailed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="lblActiveTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 232</value>
+  </data>
+  <data name="&gt;&gt;picTreeDivision.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeBranch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="picHCUnitInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 289</value>
+  </data>
+  <data name="picHCUnitInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 100</value>
+  </data>
+  <data name="&gt;&gt;lblMoves.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colTime.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dgvHCUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;colSpacer.Name" xml:space="preserve">
+    <value>colSpacer</value>
+  </data>
+  <data name="lnkTreeBranch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;colResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeCorps.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblMoves.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="lnkTreeBrigade.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="picTreeCorps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 247</value>
+  </data>
+  <data name="&gt;&gt;picTreeDivision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colTo.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkTreeDivision.Text" xml:space="preserve">
+    <value>Division</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="&gt;&gt;cbMovesHideFailed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="colTo.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lnkTreeCorps.Text" xml:space="preserve">
+    <value>Corps</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="&gt;&gt;picTreeCorps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colTo.HeaderText" xml:space="preserve">
+    <value>To</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lnkTreeBrigade.Text" xml:space="preserve">
+    <value>Brigade</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="&gt;&gt;dgvHCUnits.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="picTreeBrigade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeDivision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lnkTreeBrigade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 268</value>
+  </data>
+  <data name="lblMoves.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picTreeBrigade.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeBrigade.Name" xml:space="preserve">
+    <value>lnkTreeBrigade</value>
+  </data>
+  <data name="&gt;&gt;cbMovesHideFailed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colTime.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblActiveTitle.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;colArrow.Name" xml:space="preserve">
+    <value>colArrow</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BrigadeStatus</value>
+  </data>
+  <data name="&gt;&gt;lblActiveTitle.Name" xml:space="preserve">
+    <value>lblActiveTitle</value>
+  </data>
+  <data name="lblActiveTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colPlayer.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFrom.HeaderText" xml:space="preserve">
+    <value>From</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="pnlMoves.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;colPlayer.Name" xml:space="preserve">
+    <value>colPlayer</value>
+  </data>
+  <data name="&gt;&gt;colTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colPlayer.HeaderText" xml:space="preserve">
+    <value>Player</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="pnlMoves.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 402</value>
+  </data>
+  <data name="colArrow.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="picTreeCorps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="lblMoves.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 1</value>
+  </data>
+  <data name="lblActiveTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkTreeCorps.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeCorps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picTreeBrigade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 271</value>
+  </data>
+  <data name="lnkTreeCorps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picTreeDivision.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblActiveTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="lblActiveTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 13</value>
+  </data>
+  <data name="&gt;&gt;dgvHCUnits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colFrom.Name" xml:space="preserve">
+    <value>colFrom</value>
+  </data>
+  <data name="&gt;&gt;picTreeBrigade.Name" xml:space="preserve">
+    <value>picTreeBrigade</value>
+  </data>
+  <data name="lblMoves.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colFrom.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lnkTreeDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="dgvMoves.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="lnkTreeCorps.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dgvMoves.Parent" xml:space="preserve">
+    <value>pnlMoves</value>
+  </data>
+  <data name="&gt;&gt;pnlMoves.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;picTreeCorps.Name" xml:space="preserve">
+    <value>picTreeCorps</value>
+  </data>
+  <data name="&gt;&gt;cbMovesHideFailed.Parent" xml:space="preserve">
+    <value>pnlMoves</value>
+  </data>
+  <data name="pnlMoves.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 100</value>
+  </data>
+  <data name="&gt;&gt;pnlMoves.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbMovesHideFailed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkTreeCorps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 244</value>
+  </data>
+  <data name="&gt;&gt;lblActiveTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblActiveTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeDivision.Name" xml:space="preserve">
+    <value>lnkTreeDivision</value>
+  </data>
+  <data name="&gt;&gt;picTreeBrigade.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colSpacer.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picTreeDivision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 259</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 520</value>
+  </data>
+  <data name="picTreeCorps.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lnkTreeDivision.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeBrigade.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="picTreeBrigade.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblMoves.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="colArrow.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkTreeDivision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 256</value>
+  </data>
+  <data name="&gt;&gt;picHCUnitInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colResult.Name" xml:space="preserve">
+    <value>colResult</value>
+  </data>
+  <data name="&gt;&gt;tmrReveal.Name" xml:space="preserve">
+    <value>tmrReveal</value>
+  </data>
+  <data name="&gt;&gt;picTreeBrigade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFrom.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeBrigade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picTreeCorps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;colTo.Name" xml:space="preserve">
+    <value>colTo</value>
+  </data>
+  <data name="colResult.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picTreeDivision.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkTreeBrigade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 18</value>
+  </data>
+  <data name="dgvMoves.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;dgvMoves.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picHCUnitInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbMovesHideFailed.Text" xml:space="preserve">
+    <value>Hide failed attempts</value>
+    <comment>Movement History checkbox</comment>
+  </data>
+  <data name="&gt;&gt;picTreeCorps.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pnlMoves.Name" xml:space="preserve">
+    <value>pnlMoves</value>
+  </data>
+  <data name="cbMovesHideFailed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dgvMoves.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colFrom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvHCUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 0</value>
+  </data>
+  <data name="cbMovesHideFailed.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lnkTreeBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 232</value>
+  </data>
+  <data name="&gt;&gt;picHCUnitInfo.Type" xml:space="preserve">
+    <value>ImageMap.ImageMap, BEGameMonitor, Version=1.2.4.1, Culture=neutral, PublicKeyToken=f82a0502a1568522</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeBranch.Name" xml:space="preserve">
+    <value>lnkTreeBranch</value>
+  </data>
+  <data name="lnkTreeBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="&gt;&gt;picTreeDivision.Name" xml:space="preserve">
+    <value>picTreeDivision</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeDivision.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lnkTreeCorps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lnkTreeCorps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="picTreeDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="&gt;&gt;picTreeCorps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMoves.Text" xml:space="preserve">
+    <value>Movement History</value>
+    <comment>Movement History heading</comment>
+  </data>
+  <data name="lnkTreeBranch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbMovesHideFailed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 0</value>
+  </data>
+  <data name="&gt;&gt;colSpacer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmrReveal.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 41</value>
+  </data>
+  <data name="&gt;&gt;colTime.Name" xml:space="preserve">
+    <value>colTime</value>
+  </data>
+  <data name="lnkTreeDivision.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+</root>

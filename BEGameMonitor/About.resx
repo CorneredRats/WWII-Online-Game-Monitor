@@ -1,0 +1,1872 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="txtLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;picLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbCredits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 231</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblCredits.Parent" xml:space="preserve">
+    <value>gbCredits</value>
+  </data>
+  <data name="lnkEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lnkHomepage.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="tabLog.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;gbCredits.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblKBytesHead.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblKBytesHead.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 429</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDisclaimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabLog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lnkBEHomepage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;tabAbout.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>300, 500</value>
+  </data>
+  <data name="lblDisclaimer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="lblVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;lblKBytesValues.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="lblKBytesHead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 39</value>
+  </data>
+  <data name="lnkBEHomepage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 365</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDisclaimer.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;txtLog.Name" xml:space="preserve">
+    <value>txtLog</value>
+  </data>
+  <data name="lblCopyright.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lnkHomepage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblCredits.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkBEHomepage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;lnkHomepage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Name" xml:space="preserve">
+    <value>lblCopyright</value>
+  </data>
+  <data name="lblCredits.Text" xml:space="preserve">
+    <value>Credits</value>
+    <comment>Credits groupbox title</comment>
+  </data>
+  <data name="txtLog.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lnkEmail.Text" xml:space="preserve">
+    <value>xiperware@gmail.com</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="txtLog.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabAbout.Name" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkBEHomepage.Name" xml:space="preserve">
+    <value>lnkBEHomepage</value>
+  </data>
+  <data name="lblTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="lblDisclaimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 39</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lnkHomepage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>292, 464</value>
+  </data>
+  <data name="lblCopyright.Text" xml:space="preserve">
+    <value>Copyright © 2013 Xiperware
+GNU General Public License v2</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lnkEmail.Name" xml:space="preserve">
+    <value>lnkEmail</value>
+  </data>
+  <data name="lblDisclaimer.Text" xml:space="preserve">
+    <value>This program is unaffiliated with and
+unsupported by Cornered Rat Software.
+Contains material © 2001-2013 Playnet, Inc.</value>
+    <comment>Disclaimer</comment>
+  </data>
+  <data name="tabAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lnkEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lnkHomepage.Name" xml:space="preserve">
+    <value>lnkHomepage</value>
+  </data>
+  <data name="lblVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
+    <value>lblVersion</value>
+  </data>
+  <data name="&gt;&gt;lnkBEHomepage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblCredits.Name" xml:space="preserve">
+    <value>lblCredits</value>
+  </data>
+  <data name="lblKBytesValues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lnkHomepage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 13</value>
+  </data>
+  <data name="lnkHomepage.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblKBytesValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lnkBEHomepage.Text" xml:space="preserve">
+    <value>http://www.battlegroundeurope.com/</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblKBytesHead.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tabAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtLog.Parent" xml:space="preserve">
+    <value>tabLog</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK button</comment>
+  </data>
+  <data name="&gt;&gt;lblCredits.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;lblDisclaimer.Name" xml:space="preserve">
+    <value>lblDisclaimer</value>
+  </data>
+  <data name="&gt;&gt;lnkBEHomepage.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="lnkHomepage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 151</value>
+  </data>
+  <data name="tabLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;lblCredits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDisclaimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 322</value>
+  </data>
+  <data name="tabAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 385</value>
+  </data>
+  <data name="lnkBEHomepage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 13</value>
+  </data>
+  <data name="&gt;&gt;lblKBytesHead.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="lnkEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 164</value>
+  </data>
+  <data name="&gt;&gt;lblDisclaimer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;picLogo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblKBytesValues.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblKBytesHead.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblCredits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 0</value>
+  </data>
+  <data name="&gt;&gt;lblKBytesValues.Name" xml:space="preserve">
+    <value>lblKBytesValues</value>
+  </data>
+  <data name="lblVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 96</value>
+  </data>
+  <data name="&gt;&gt;txtLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtLog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt</value>
+  </data>
+  <data name="&gt;&gt;tabAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 411</value>
+  </data>
+  <data name="lblCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 32</value>
+  </data>
+  <data name="lnkHomepage.Text" xml:space="preserve">
+    <value>http://begm.sourceforge.net/</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 13</value>
+  </data>
+  <data name="lblKBytesValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="txtLog.Text" xml:space="preserve">
+    <value />
+    <comment>#locked</comment>
+  </data>
+  <data name="&gt;&gt;lnkEmail.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="tabAbout.Text" xml:space="preserve">
+    <value>About</value>
+    <comment>About tab title</comment>
+  </data>
+  <data name="lblDisclaimer.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;gbCredits.Name" xml:space="preserve">
+    <value>gbCredits</value>
+  </data>
+  <data name="tabLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 385</value>
+  </data>
+  <data name="tabLog.Text" xml:space="preserve">
+    <value>Log</value>
+    <comment>Log tab title (also About_LogTabTitle)</comment>
+  </data>
+  <data name="lblVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblKBytesValues.Text" xml:space="preserve">
+    <value>0 KB
+0 KB</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;lnkEmail.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;gbCredits.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblKBytesHead.Name" xml:space="preserve">
+    <value>lblKBytesHead</value>
+  </data>
+  <data name="txtLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 385</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>About</value>
+    <comment>Window title</comment>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="gbCredits.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="picLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gbCredits.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAEBAAAAEAIABoBAAAZgAAABgYAAABACAAiAkAAM4EAAAgIAAAAQAgAKgQAABWDgAAMDAAAAEA
+        IACoJQAA/h4AAEBAAAABACAAKEIAAKZEAABgYAAAAQAgAKiUAADOhgAAKAAAABAAAAAgAAAAAQAgAAAA
+        AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1q+eAJZjd6h6M0P8ZjdL/IpbV/y6c2f9ArOT/WMDu/1e6
+        5/9XvO3/T7Pr/z+o6f84p+nqPq7qfwAAAAFLue2AZMn2/2DJ+P9w1vv/e939/3rZ/f992vz/fNr9/5Dp
+        /v+h9f//oPP+/2GcsP9dmrL/gt/7/2HK9v9Ht+2AcND5643m/f+k8f7/lu3+/5bs/v+c8/7/kev9/4fh
+        /f+R5/3/ne7+/4K/y/8tODn/MUFC/2abov+B4P7/L57e62jH7f+k9f7/q/T+/670/v+s8f7/qPH+/6r1
+        /v+d6/3/svj//53Z5f8kMDL/rd7g/6Pn8P8OFhf/a7rS/yiX2v9s0Pb/m/H+/5vu/v+x9f7/uvf//67w
+        /v+g5fv/meX9/7Lu9v8uPD3/m8PF/7bt8v8rQkj/UYaS/4Hi/v8djND/TLXp/4Hc/f+R5f3/p/D+/5Hd
+        +f+Hv9P/hLrR/7Ls+f9DV1n/fZ6g/7no6v8tOjz/ZJmq/5fv/v973P3/H5bZ/z6s5/+C3P3/k+n+/2WT
+        m/8OFhr/IC4z/yUxNP8MDxD/N0ND/8Dk5f8rNTX/jLm9/6Xy/v+c8/7/e9r9/ySY1v8sndr/hd/9/1yO
+        lP8iMTP/h8Pb/6Lj/f+06v7/oc/e/y01Nf8dICD/o8XF/8L3/v+m8f7/jOb9/37a/f82pOD/KaDf/37W
+        8v8PFxj/j87k/6Ll/f+l5v3/r+f+/7/v/v/N5uf/FBcX/9Dx8f+48/7/oe7+/4jh/P982fz/O6fg/yWX
+        1/9hp7v/L0dN/6Lp/v+r6/7/r+7+/7bu/v/A8/7/4f///0NQUP+ZuLj/wvr//6z1/v+R6f3/k+3+/0m1
+        6P83puT/ZKOz/zlSVv+v8f7/t/T+/7r1/v++9/7/uvP+/8Dz/v9CVln/iKux/8D4/v+z9v7/mOz+/5vx
+        /v9AqN7/SK3g/4jV5f8TGxv/tfH2/8X8///A+f7/r/H+/6ns/v+o5vf/FBsc/53W5P+3+P//vfr//7D0
+        /v+U6v7/MqDe/0Kj2P+a8f7/Q2Ro/0FbX/+o7Pn/rPH+/6zz/v+i5/r/RV9i/0BcZP+m6/7/qe/+/63z
+        /v+g8v7/i+L9/ymc3P8toObrieX+/5nq9/86WV7/FyIl/0Zqcf9GaXL/FyMm/zlXW/+g7Pf/n+/+/6Pw
+        //+i8P7/oPP+/3zY/P81qObrF4vRgHDO+P+I4f3/lev+/4bM0/9dkJb/UIWV/2q00P+F3f3/hN/9/4bj
+        /v+R6f7/h+D9/3vb+/9iyfj/U7/1gAAAAAFDreWAPKzj6z2o4P9DrOL/Rq7j/z2l2/9Druj/Lp3Z/yug
+        3/8fk9T/LZzc/zGd4f8oldbqU7/xgAAAAAGAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAKAAAABgAAAAwAAAAAQAgAAAAAAAACQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAACHprgaxKI0tMRf8b+B3O7/wV1vf8Uic//DIPF/xaGx/8lmdn/KpvV/zqq
+        4v9PvO7/OJ7U/0Gp4/9Eref/OKLh/zKf4v80ouf9Kprh0kCr62sAAAACAAAAAAAAAAJRu+6pUrzx/0m5
+        8/9JuvH/VcP3/02+9f9Uwff/Vb/z/2DE9/9sy/z/bMv5/4bh/f+O6P3/lOv+/5Pq/v+H3/7/dMrz/x8/
+        Uv9Hmcb/VMD0/0Cy7f8/s+upAAAAAkm17GxXwPD/bNH5/2zS/P9q0fr/f+H9/4fm/v+F5P7/hOD+/4nk
+        /v9/3Pz/g+D+/4nk/v+g9v//pfj//6P1//+b7f3/ME5Y/1OAif8gMTX/abDC/3PW+f9mzvv/L6Lga2fL
+        +tN82v3/hOD8/5vt/v+d8P7/k+3+/5Dq/v+c9P//mPH+/5Ht/f+C3/3/hd/9/4fg/P+X7v7/nvD+/6Tx
+        /v9PeIL/XHd4/6/0/v+a3+j/JDc6/2Kktv9nzfv/Go/U01q/7/2e8P7/ofP+/671/v+w9P7/ne7+/6Hu
+        /v+g7v7/ovP+/5/z/v+d8P7/mOv9/6Xy/v+i7/7/p/D+/3Ojrf85TVD/yfr8/7v6/v+x9///kN3o/woS
+        FP9Qr9//En7I/VG14v+c8P7/pfX+/6Xy/v+y9v7/sPP//7Dy/v+t7v7/q/P+/7H4/v+g6/3/mOf9/7X4
+        //+w8/7/k8fP/yo3OP+77/L/wfv//6Xv/v+Z5e//KUFF/1qSm/9ky/r/E4TM/17F8v+T6/3/ovj//5ju
+        /v+o8v7/s/T//774//+6+P//re/9/6vv/f+b5f3/kOD8/7T2/v+v4uf/KTMz/6ra3v/K/f//u/n//4DJ
+        4f8gMzn/Zaa0/4vq/v9fyvv/CXi//0i16f+K5P7/jOT+/43j/f+r9v//tPf//6ju/v+u8f7/ouX8/4zU
+        9v+s7P3/qOz+/7bv9/8yQED/lr/C/8b8///K/P//l8zX/x8vM/90t8j/iuj+/4fm/v9QwPb/Bne+/zWm
+        4P9wzfr/huH+/4vh/v+i7/7/jM7h/0lxgv8qP0j/IC82/yQ0O/9MZWr/ibTA/0ZbXv9+m5z/xvv//8r8
+        //+iy8z/JTEz/3+/1v+W6f7/m/P//4jk/v9Uwff/E4vS/zCl4/9wzvz/ht/9/4nf+v9Ten7/Kzo8/1yM
+        of9vn7L/c5yp/3mgr/9+o7H/R1xi/xYdHf+64uP/0P3//57Cw/8sNTb/otrh/6Tu/v+g8f7/mfL+/4Pg
+        /v9XwPX/D4jL/x6S0f9qyfn/j+f8/zJRWP9YgIT/cJia/0Vlcv9dkKv/ibvP/4iywP9fe4T/W3R5/5mz
+        tf8uMzP/i6Oj/y85Of/C5+j/vPr//7L5/v+g8/7/lO7+/4vl/v9gxff/FonJ/xWNzf9hxvf/S3uK/1B6
+        ff9SeX7/hLnC/5/l/f+d4v3/qOf+/7Ts/v+x5P3/rd7s/1lpaf+oubn/DQ8P/7zl5v/V/v//svH+/6Hr
+        /f+d8P7/hOH9/4Hc/P9ry/z/JZna/xuV2P9ZvOn/HzI2/2ufo/91rbr/oOX9/6Hk/f+h5P3/qej+/63l
+        /v+y6P3/xfP+/9Xx8f9lcHD/cX19/4yjo//h////pez9/5jm/f+V6/3/hN/9/4Pg/v9myPj/KZnW/wuD
+        x/8wdpn/UoWP/0Zrcv+i7f7/pOj+/6Di/f+p6f3/rOv+/63n/f+y6P7/zPv//+T///+QoaH/nri4/zxH
+        R//O/f//s/X//7D3//+k8/7/hN78/4Xg/f942Pz/LpzY/w+EyP8iTmT/aaiz/1mKlP+c6f7/oOb+/6vs
+        /v+z8P7/ru7+/7z0/v+v6f7/xPb+/9/////I7e3/couM/ys2N//S/f7/wPr//6ry/v+f8P7/kuz+/5z0
+        /v983fz/NKXf/xyQ1f8fQVL/bKiy/3Onrv+n8f//p+v+/7Px/v+38/7/uPT//8L5/v+99P//vPX+/837
+        /v/G+f7/WXZ9/yw6Pv/O+Pn/v/r//7P2//+j7/7/ken9/6D1/v9/3fv/KJHO/x+R1v8rUmP/baqz/2eU
+        mP+7+v//vvv//7/6///B+v//v/n//7r2/v+w7/7/tfD+/6bk/v+l3u//X3+J/yQyN/+18v3/tPP+/7r4
+        //+x9P7/ofL+/570/v993fz/K5jY/zGa0/9UiJf/XI6V/0xwc/+z+P//uvj+/8f8///H/f//uvb+/7L1
+        /v+i6f7/p+v+/6/w/v92n6j/ga22/y0+Q/+z9P//uPj//777///A+/7/rvP+/53t/v9lzPj/HYzQ/y2K
+        xf+A0uj/JTg5/2OWm/+HvsX/rfL+/6/x/v+x8/7/rfH+/7H2/v+h6P7/per+/67u9v9KZ23/WXyG/2SO
+        mv+j6f7/rfH//7T2/v+q8/7/n/D+/5bo/v9gx/X/G43R/xSF0P173P7/S3d+/16Hi/9OcHX/hsTP/6Dt
+        /v+i7v7/ou7+/6fz/v+h7f7/nOTz/0dnbP97sbv/JDU4/6Xs+f+j7f//qvP//6/1/v+T6f3/n/X+/5Hn
+        /f9axPb/H5fc/RSO3dNiyPr/i+T6/y1HTP9ejpT/VYWO/0t0e/96ucH/hdDi/3S80f9RgpL/PGRw/2yr
+        uv8gMTP/i87W/5vu/v+d7f7/o/H//6Py/v+i8f7/oPP+/4Db/f9awvX/LaPh0wJ2vGxEsOr/gNv8/4PZ
+        9v8/ZGz/LEVI/26nrf9yqq3/X5KX/12WpP9iorb/PWVz/yE1PP92wNn/kun+/5Hr/v+U7f7/nPH//5Tq
+        /v+T6f7/g+H9/2XM9/9bw/b/RbXzawAAAAJFreWpXr/v/2jM+P9+3Pn/ZrTR/zZhcf8aMTr/Gi41/xYr
+        NP8jRFb/S4ut/2XG9v9hw/b/YMj6/1rG+P9nzfr/btH8/2TG+f9oyvv/UL3x/2TL+f9pzv2pAAAAAgAA
+        AAAAAAACLKDdbCme29MlmNf+I5LT/yeV1f8lktL/LZva/yOPzv8plNL/L6Lh/x2Qz/8Tisv/GZPW/wqC
+        xv8Mf8X/GIrQ/xmJ0v8aitP9EH3B0yyi4GwAAAACAAAAAMAAAwCAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACAAAEAwAADACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAMjtdUBXvItgp5xfYDa7b/BGax/wJmr/8IecX/CIHG/wN2uv8Jerv/DYLF/x2T0/8Ui8f/JZnW/z2u
+        6P82pNz/K5HL/y2X1v87p+b/NaHh/yeU1v8qmd7/Kprk/y+f5/Yajtm2NqDpVAAAAAAAAAAAAAAAAAAA
+        AAAAAAAHQrPqrT2v6/86r+//PrLu/0G08P8yqun/JaXl/zex7/9Ct/D/Oqzk/0y37/9VvfX/aMr8/2jI
+        +P901Pz/ieb+/33a+f992fv/fdn9/3rX/f940v3/acX3/0CLtv9KpNv/SLLt/0a07/8+sOz/RbDkrQAA
+        AAcAAAAAAAAAAEy36a5cwvL/Ysj3/1fC9/9Gue//V8b1/2rS/P9t0/7/Z838/3DT/f9rzvr/dNT8/3HO
+        +/911Pz/dNP7/4nj/v+X7v//mvD//6b2//+h9f//mez+/5Dl/v9kqcb/BgoM/w0bIf9Zr9X/adD6/029
+        9P9Jt+//Q7j0rQAAAABRuvNVTLjs/2LI9f9w1fr/ctf9/3DU/f942vz/h+f+/43q/v+K5///huL+/4Tg
+        /v+P6P//f938/4Xh/v+D4P7/heD9/5vz//+i9///o/j//6L1//+k9P//gs3i/w4WGf9lm6f/V4OK/w4Y
+        Gv95w9L/ft36/2/V/P9ZxPX/GIvLVGLG+Lhv0fr/fdv9/4De/P+U6f7/nfD+/5Xu/v+S7v7/iub+/5ry
+        //+a9P//lvD+/5Tw/v+C4fz/heD+/4Xf/v9/2vv/lu/+/5nu/v+f8///pvP//5Xh9P8eLjL/XXt8/630
+        /v+s9P//Zpaa/w4UFf9vt8j/d9j+/1C+9P8Ngsq3XcL1943l/v+c8P//m+/+/6z1//+09/7/nez9/5Tq
+        /v+Z6v7/nO/+/6H0/v+g9P//nPL+/5Lp/v+K4/z/i+D8/5jp/f+W6/7/lef+/6fy//+o8P3/N1BV/zlP
+        Uv/Q/f3/u/n+/7H1//+n9f7/Z5+p/wkQEv9WoL//Trv3/wpzvvc/quD/kOb+/6f1/v+i8v7/q/X//7L2
+        /v+u9v7/p/H//6vy//+j6/7/ouz+/6Tz/v+o9/7/o/P+/6T0//+j8v7/svr//6r2//+p8P7/q/D+/1R2
+        f/8kMDD/te70/8z9//+3+f7/tPr//6j3//96vcf/CxIU/z59nP9EtvT/CXjC/0Cn2f+Q5/3/pPb+/6P1
+        /v+h8P7/rvX+/7T3//+x8///sfP//7Pz//+q7f7/r/f+/7L5//+q8f7/luP9/5bk/P+19///tvj//7Tz
+        //96pan/EhgY/7Df4f/B+v//wfv//6Pt/v+i8v7/baay/woQEf9noqn/ft7+/0u79v8Hcr3/VL/w/4fi
+        +/+a8f7/pPn//5rv/v+f7f7/qfD+/7f2//+/+f//vPj//7j3//+u8P7/tvf+/6Tr/v+U4f3/kOH8/7L2
+        ///C+///n8nM/w0REf+SwMX/y/3//8T7//+7+f//kOH8/1SImf8KERP/brLA/5Hu//933f7/QbXw/wJs
+        tv9Jtu3/jej+/5Xs//+Y7v7/lez+/57t//+v9///t/f//7X1//+19f//svL+/6Hk+/+K0vX/neL8/63z
+        /v+U4Pz/rO7+/7Dj5v8UGhz/fJ+h/8X8///K/f//y/z//6/w/v9OdYD/EBoc/3jD0v+F5P7/jOn+/3DV
+        /v8vqej/Amiy/yqe1/910vv/gt39/4Pd/f+G3vz/ofD+/6/4//+u8///nef9/5fh/f+i5Pb/jcrl/4rN
+        7f+e3/v/ufX//7Hv/v+88vb/KjY3/1x1df/C+v//xPv//8n9///D+P3/SGNq/xckKP+By+D/lOr+/5Ht
+        /v+J5v7/btP9/y+s6v8Ec77/J53Y/2nI+P941fz/h+L+/4rg/v+T5P3/qPP//3m2yv85WGf/Eh0i/wEC
+        Av8GCQr/AQIC/xMaHP9FWl3/gq69/0FVW/88TEz/zfv8/8f8///L/f//yPn6/0haWv8lMzb/jdLq/5Pj
+        /f+b7/7/nfX//43n//9q0Pz/P7Xx/wuByv8loN//aMn8/3zY/f+G3/7/h9/9/4/b6f86UlT/DhUW/0Rq
+        ev97s8n/k9Hp/5zR4P+h1en/kb7R/198h/8XHiH/AgIC/6TNzv/P/f//0P7//8j29/8/TEz/NEFC/6zq
+        8v+i7P7/mer9/6L1//+V7v7/gd7+/3LU/P9Bsev/BoDH/xSLzP9Xvfb/edT8/4zl/f91wNT/ERsc/0pp
+        av+n3uD/TXF//yY7Rv8xS1j/SWRt/0BWXv81RUn/VWxy/6TS3f9mfoL/EBMT/6fAwP/M9fb/OUZG/z5L
+        TP/F9Pf/tvf//7P6//+n9v//n/T//5v1//+K5f//cNH9/0S06v8Ge73/DYPD/1G58P982P3/hNPl/xAZ
+        Gv9fkJb/fbW6/zRFRf91qLv/i9P5/5PZ+/+q5v7/s+r+/7bp/v+Svcz/OktN/42iov+fs7P/EBIS/zU8
+        PP9BUFD/y/j5/9T+//+4+P7/s/j+/6n3//+T6v3/ieb9/4ni/f900v3/T7nw/w1+wf8Lhcj/SLTs/3jX
+        /P8mPkf/SXF1/3mxtf86VVv/qOz4/6Hn/v+i5f7/n+L+/6vp/v+07f7/s+f+/7Tn/f+57Pz/YHNz/4mY
+        mP+JmJj/CgwM/8vy8//T/v//0/7//6fr/v+Z5Pz/o/L+/5Ts/v+A3v7/g979/3jT/f9jyPv/GZLV/xKN
+        0v9Ku/L/U5u3/xQgIv+R2d7/MEZJ/5nj+f+j5/7/ouX9/6fo/v+j5f7/p+b+/7Dp/v+37P7/r+P9/8b1
+        /v/f/v7/U1tb/7zOzv83PT3/gZeX/97////Z/v//mOX8/5Th/P+f8v//hd77/4fh/v+E4f7/ctH6/2HE
+        +f8cjs7/CYHI/z+28P8fP0//VomT/0Vobf+GxM//nOX+/6Dk/f+e4P3/ouX+/5/i/P+s6/7/p+L9/63l
+        /f+z6f3/0/7//+P////O6Oj/S1RU/5y1tf8oLi7/2v7//8j7//+n8P//p+/+/6n3//+W6f3/f9r8/4De
+        /v931fz/WMD0/xaHxv8Edbv/PLDr/wUKDP+B0uP/LUdM/57t//+n7/7/qOv//6Lk/v+v7f7/qur+/6/v
+        //+07v7/sej+/7Xt/v/R/P//5f///+X///9TX1//wuTk/wwODv+84+P/wvr//7z5//+z+P//q/j//5Lo
+        /v+J5fz/juj+/4/p/v9s0vf/LJvZ/wZ4v/88nc3/Dxga/37I0/9Kcnr/men+/5fj/v+i5/7/re7+/7Dt
+        /v+18///re3+/731//+17v7/r+j+/8j6///e////2v///4CcnP+PsLH/Ljw8/5m2tv/P/v//vfn//6zy
+        /v+l8f7/ler+/5Pu/v+g+P7/j+v+/2DJ9/8rndr/DIDI/z+Tvv8cLjH/dbS8/2SQk/+j7v//pe3+/6Xo
+        /v+y8P7/t/P+/7Hw/v+69f//wvj+/8L4//+58v//vfb+/9L+///S/v//jbK1/2+Tmv88T1P/iaKi/9X+
+        //+++v//tPb//6rz/v+V5/7/juf8/53z/v+Z7/7/XMPz/xqBwP8Ti9X/Sp3H/xYjJ/94vMb/W4SJ/7D4
+        //+6+f//t/f//7v4//+49P//wPr//7z4//+99/7/uPP//7z2//+38P7/rOn+/67p/v95oKv/b5Wj/zBC
+        Sf95oar/u/n//7Tw/v+6+P//tPb//5/v/v+g8/7/oPX//5bu/v9qzvn/Io3M/xCAxv9iveb/BAcI/4va
+        5/8+Wl3/tfr//7n5///C/P//xvz//8H7///F+///vff//7r3/v+l6f7/re/+/7Du/v+l5f3/p+f+/1l3
+        ff+Rws7/FyAj/5HCzf+49///tfb//7z5//+49v//sfP+/6Dy//+h9f//jun+/1G+9P8ijdL/JI3K/4Hc
+        +P8cKi3/drO7/zNMTv+o7fP/s/b//734/v/J/P//xPv//8b9//+39f7/tvf//6fv/v+g6P7/p+r+/7P0
+        //+28/3/MkRG/5vQ2/8KDg//q+z6/7n5//+29///v/z//8H8///A+/7/rfP+/57s/v+C3v7/QLHr/xiE
+        yv8ferb/gN35/1B9h/84UlT/c661/1d6fv+t9P//r/L//7Pz//+19f//tfT+/7H0//+09v//pe3+/5/l
+        /v+k6f7/tff//3KcoP9iiJP/T212/0JeZv+i6P7/qO3+/63w//+09v//r/T+/6z2/v+e7v7/men+/4Xc
+        /f85reb/G4nP/wxuuf9exfj/id7v/w0UFv99usD/RmFj/3irt/+p8v7/pe/+/5/p/v+j7f7/pu7+/6z3
+        /v+p9P//qfL//6Xu/v+Mx8//NUtO/4rG1/8KDhD/kM7b/6ju/v+i6///r/X//7X4//+d7P7/mPH+/5vz
+        /v+T6f7/etf8/z6x7f8VidD/CYDQ91rE+v+H5f//Y5+p/xMbHP+R0tz/Olda/12Mlf+Z6vz/oPD+/5/t
+        /v+b7f7/mur+/5zq/v+S4/3/bKGs/y5FS/+Q1eH/Hy0v/1mBh/+l8P//pPH//6Pv//+m8f//rvf//5nr
+        /f+a8P7/pvf+/5Po/v9v0Pr/QbXt/xuU3PcLhti4Pq/x/3XV/v+P6v7/TXqB/xQfIf+DyND/WYyW/ylB
+        Rf9biY3/ebrH/4HL2v9vtsr/UISW/ylCSf9GdIH/esbb/yAxM/89XGD/pfX9/5vw//+X6/7/oe///6Ly
+        //+g8f//n+/+/6b2//+b8P7/g939/2rM+/9GtOr/L6PjtwBvulUek9b/a8z5/4bh/f+L4/3/VoqY/wkP
+        EP9IcXb/j9ng/3Sxuf9Xg4X/SXBy/0t3gf9enbD/e8vj/0Z0hv8JDxH/RnF+/4nh/f+Y7f//lOz+/5Ts
+        /v+d8v//n/L//5vv//+W7P7/mu7//4Ph/f9u0vn/WsH1/1fA9P85rexUAAAAABqP0a5fwPD/cMz5/3PR
+        /P+M5fz/fcnc/zRVX/8GCgv/JTc4/0NkZv9Jcnf/PmJq/yE4P/8FCQv/I0BP/2Kszf940vz/e9j9/3PU
+        /f942f7/eNr+/4Ti//+C3/3/cs/4/3rY/v9x0/z/X8j1/2LK+f9gyPr/XMX8rQAAAAAAAAAAAAAAB1W4
+        6K1FsOb/Tbru/1zF8v9ex/L/Xsbz/2TF6/9Eja//LWaC/y1fd/8rZH//PIGl/1625v9nyfv/U7zy/0y1
+        6/9NuPD/R7jx/zay7P88sev/ULz0/1S/+P9QuvX/WcD6/0a08P9AsOr/VsHy/3DU/K0AAAAHAAAAAAAA
+        AAAAAAAAAAAAAB6W2FUimdi4HZLU9h2M0P8Zh8v/HIrO/xiGyv8ZhMf/IpLU/xeEx/8Tfbz/I5PU/xyX
+        2P8QhMX/CYHB/wqGy/8PiM7/BnrA/wJwuf8GeL//DX7H/w6BzP8Ne8f/CnbA9gRusrgSjdVVAAAAAAAA
+        AAAAAAAA4AAAB8AAAAOAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACAAAABwAAAA+AAAAcoAAAAMAAAAGAAAAABACAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAd8MeAmy3fQNyxdAEYrD7AV2r/wNapv8EVqT/Alil/wFisP8EbLj/BXO6/wN3
+        wv8Ca6//BGyt/wRrsP8Dd7n/C4XH/w2Bv/8Gern/EIfE/ySb2/8poeD/K6Pf/w53r/8UfLz/En7B/yyc
+        3/8pmNr/I5PX/yWV2v8ThMn/H5DY/yWZ4/8ekt7/JZzm+hmP29ASjNR9M6HuHgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAACSSg4ZQhneP8G5Xd/x2c4f8jouP/HJre/w+R1v8Hic7/BIjK/wyT
+        1f8lpOn/IaHg/xmX1v8Sk87/I57b/y2l5P82ruz/T7r3/1S+9P9Ds+r/T7fu/2XN/P9z1fz/ctT7/1q8
+        7v9lx/b/X8Hy/2bK/P9hw/f/YsP2/1u78v9Os+z/RKzo/z+o5v9CqOz/S6/s/zyl5/8wnuT/PKjr/Eau
+        6pQAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAABaw/ARR7jqy0ez6/9Cs+3/QbXx/0K29P9Ht/L/Srn0/0i3
+        8v9FtvP/Nq7u/zOv7P9AtfH/Sbz1/0i48f9HtOv/VLvy/1O98/9lxPr/a83+/2bG9/9vzPn/dtX8/4vn
+        /v+R6v//fNr6/4zl/v+F3/z/hN7+/4bf/v982f3/gNn+/3bQ/P9uyfj/TJO9/ylce/9Yt/H/R7Lt/0y6
+        8v9Ete//O7Hu/zyr5v9Fs+XLLaXhEQAAAAAAAAAAAAAAAAAAAAlSuuzMVrzu/2LG9/9exPb/VcD3/0u5
+        8v9Ctez/UcLz/2PO+f9m0Pz/aM7+/2LL/f9gx/r/Z839/2XK+/9exPb/bs/8/2vK+v9vzPv/ctD9/2nK
+        +f9z0fv/gdz9/5Xr//+Z8P//k+r//6P2//+c8P//ofX//6D1//+N4f7/lOj//4Ta/f9ptdj/CA8S/wAA
+        AP8fPUv/XcDu/2HH9f9gy/r/Srr1/z6w6/9Asuz/OLPvywAAAAkAAAAAAAAAAD+v5ZRGtuf/Ycj0/2XL
+        9/9u0/v/aM78/1zG+f9Wxff/YMv4/3PY+v932v7/hej//37e//963P//f97//4He/v+C3v7/heD+/4De
+        /v962P3/huH+/4Th/v9+2v3/h+P+/5Hq//+Y8f//n/b//6n5//+p+P//pPX//6r2//+k8///lej+/4TS
+        7v8WJCn/BwsN/zlea/8AAAD/Hzc//3nQ6/9+4P7/Zc34/1zF9/9jyvr/W8X8/zyu6pQAAAAAXMj/IUq3
+        7fxWvfL/XsT1/2jO9/9z1/r/dtr8/3XZ/v942f7/e9z8/4bl/f+O6/7/jev+/4zp/v+R7P//jOf+/4Le
+        /v+L5v//kuv//4zm/v972/n/gN39/4Xi/v+F4/7/gNv9/43n/v+k+f//pPj//6P5//+g9///m/L//6T2
+        //+i9P//keb7/yhBSf8BAQL/b6ew/53v/v9gjZT/AQEB/yAyNP+N3ur/j+r8/33e+/9y2P3/aND4/y6g
+        3PwIc7QfVr31gWLH+P9rzvv/dtX8/3jY/P972/v/i+T9/5Lp//+W7P7/kez+/5Xw//+P7f7/hOH+/47p
+        /v+Z8///mvT//4/r//+X8f//m/X//4no/f+C4f3/huL+/4bi/v+B2/3/f9r7/4zm/v+a8/7/nfT//5vw
+        //+e8///pfX//57u//+W5/7/RGhx/wAAAP9fhIf/qvL+/6jy//+r9f//b5+j/wMFBf8cKSn/h9bi/4fk
+        /v9z1v3/Xcj2/yii4v8EbbR+XcH10XzZ/v+D3v7/juf//43m/v+R6P7/ovH+/672//+t9v7/ofL+/5Ls
+        /v+V7P7/ler+/5ny//+c8f//off//5nz/v+f9///nvb//4Th+/+F4v3/fNn7/4Pd/f+K4v3/gtn5/4zl
+        /f+T7P7/kuf+/5np/v+l9f//qfL+/6bv/v9kkpz/AAAA/0ZcXP/M/f3/vPr+/63z/v+u9P//o/P+/22o
+        sf8FCAn/ER0g/2i62v9v0/7/XMP7/y2p7P8Ccb3RTrTv+33Y/v+W7P//oPP//5/x//+g8///rPb//7P2
+        //+3+P7/o+z8/5Xr/v+U6P7/luX9/6Dw/v+f7/7/n/D+/6T2//+g8v//nvL+/5bs/f+Z7v7/le3+/4fe
+        /P+Q4/v/ofH//5Xm/v+a7f//l+j+/6Lr/v+n8v//qvP//3+3wf8EBgb/JjQ3/7jx9v/X/v//wvz//7X4
+        /v+x8///sPj//6H0//9xsr7/BwwN/wsVGP9estj/U8D6/ySc4f8EXav7K5vX/3TR+v+W6v7/qvb//6Ty
+        /v+h9P//rff//670/v+3+f//sPX+/6f1//+k7v//p/D//6jw/v+i7P7/ou79/57u/v+m9v7/pvb+/6T2
+        //+h8v7/pPT//6T1//+l9f7/sPr//635//+r9///qvD//6z0//+o7f7/ks7e/w8UFf8UGxz/p97m/8j9
+        ///O/v//vfv//7f6//+1+v//rff//6b4//+J1uP/FyYq/wEBAv9DjrP/Tbv5/xyc4f8FZLD/LZvS/3rW
+        /P+W6f7/n/L+/6r2/v+e8v//o/L//7D2//+z9///tPn//6/1//+t8f//qvD//6vv/v+p7P7/pen+/6Pt
+        /v+p9f//q/j+/6r1//+h7/7/o/H+/57u/v+c6/7/svr//7L5//+p8f//pOr+/6rw//+o5/L/Hiot/wcK
+        Cv+bysz/wvz//8P7//+/+///rvL//6j0/v+u+v//oPL+/3/H1P8RHB7/BAcI/1mVp/9lyvj/U8H6/yqk
+        5v8Da7j/JZDG/3XS9f+a7/7/n/P//6n4//+j9v//nvD+/6Pv/v+r8/7/s/f//7L1//+y8v//tPP//7b2
+        //+29f//r/D+/6rx/v+1+v//tfr//7n7//+q7/3/kNz7/5Dd+/+X5f3/s/T//777//+7+///ufX//7/5
+        /P85TU//AQEB/4Knqf/M/v//wfv//8D6///C/f//pe3+/5nr/v+h8v//d7bC/woQEv8JDxD/dbjB/5fz
+        //9+3v//WcP6/x+d4v8CYa7/QbLn/3fW+f+K4/z/luz+/6D3//+j+f//nPH+/5Pn/v+l8P//p+/+/6rt
+        //+8+P//wvr//774//+9+P//uPf//7T1//+y9f7/vvv//7j6//+g6f7/jtv8/4XX+v+X6P7/sfj//7v5
+        ///B+v//xfz+/2F4eP8AAAD/XHp//8P7///O/v//x/z//8H7//+8+///m+j+/4fc/f9jnaz/BAcI/w8a
+        Hf99x9P/lPD//4/t//913P//Ub/3/xaX2v8BXqn/QLDs/3/c/v+V7P7/mfD+/570//+m+v//m/T//5Xr
+        //+m8///rvf//6vy//+7+P//wPn//7b1//+59///uvj//7Hx//+d4vv/nOP8/5zk+/+Y4P3/pvD//5jn
+        /v+L2vr/o+v+/7/7//+++P//dpui/wABAf9CVFX/wfn9/8j9///J/f//yvz//775//+x9P//nOj9/0R3
+        jv8BAgP/GCgt/3vQ4v+M6f//je3//37g/v9p0f7/TLv3/wuM0f8CXar/N6nl/3DW/v+T6///lez//5br
+        //+Q5/7/kun+/5Ln/v+i7///sPn//7H2//+5+P//s/T//7H0//+29f//svL+/63t//+e4fv/j9X3/4jR
+        8v+l5f7/svT//6bu/v+Z4/7/pOr//8f9//+bxsf/BggI/ycyMv+68PT/xPv//8f9///M/f//zfz//7z0
+        /v+q7P7/TXB8/wAAAP8lOj//i9zu/5Hs/v9+3v7/iun+/4jm/v9qz/7/PLHw/weKzv8BXKn/HJTP/17B
+        9f9/2/3/gt39/4rl//9+2fz/g9z8/4/h/P+q9f//sfr//7L4//+z9v//pO7//5bi/f+g6f7/sfT//6Pn
+        /v+b3fr/jdT4/47X+P+h4Pz/t/X//7X0//+r6/7/wvz//6rb4f8TGBj/FBkZ/7Ph4v/C+///wfv//8z+
+        ///J/v//xvv//7Xw+/9DXWX/AAAA/zJMU/+O4Pb/lef+/5Lv//+I5v7/iOb9/4Pj//9nzv3/NLHt/w6T
+        0/8CYrD/C4jD/1e98/900Pr/dtL7/4Hc/v+J4v7/hd3+/5Dm/v+c6/3/qfX//6Ls//+e5/3/lOD9/3i9
+        3P9fj6X/S257/ztWYv83UFv/PVhl/1J1hv97prX/sejw/8D4//+w6/7/uOz0/ygyMv8GCAj/nMbH/8T6
+        //+/+f//xPv//83+///I/P//xfX4/z9SVf8AAAD/PVxo/4zb+P+S5P3/mu7//5fv//+c9f//kev//3/e
+        /v9iyfv/QbXz/yKi5v8Ecb3/FZHQ/1/F+f9lxPb/cM/7/4rk//+F4f7/iuH+/43h/f+X6P7/q/f//5zm
+        9v9TgZP/GCgw/wABAf8AAAD/AAAA/wUICf8LDxH/AwQE/wAAAP8AAAD/BAYG/zlLTv95o7f/Ok5U/wAA
+        AP+BoaP/1f7//839///I/f//yPz//87+///E8/T/OUhI/wAAAP9VdHr/n+T8/5Li/f+T5f3/mu7+/6H2
+        //+Z8///j+r//3/e/v9kzPv/R7vz/ySj5f8Dd7//FJXX/1vE+v9szP3/eNX+/4nh/v+H3/7/ieH+/4Xc
+        /P+l9P7/cqGl/xEYGf8AAAD/FB8j/0ZtfP97r77/mNbs/6rr//+v6///sOb9/5jL4P95nqz/RFlj/woO
+        D/8AAAD/AAAA/0lgYv/N/v//z/3//8v9///T/v//zPz//8Lu7/8wOjr/AQEB/2iJi/+y9f7/o+z+/5Xk
+        /f+X6f3/pPX//5rz/v+U7f7/g9/+/4Li/v9szvz/Trr0/yCd3P8DecX/CYbH/0e38/9oyPz/cs37/4Xf
+        /f+C3Pr/ieP+/4vc8v83VVj/AAAA/x4nJ/9/q7D/k9z8/4LG6f9kkqj/RWR1/zlQWP86S0//QVde/1t4
+        gv+Grr3/tej5/7Hj8v9if4j/Cg0N/wUHB/94kZH/1f7+/9L9///Q/v//wevs/yo0NP8CAgL/f5ma/7z3
+        //+z9f//tfn//6Px//+k9f//oPP//5/1/v+Y8P7/ieX//37d/v9fxfn/RbHp/xiW1P8CcLb/CH2+/zis
+        6f9bvvf/dtD8/4fg/v+U6/7/hNjt/x4xN/8AAAD/UHJ0/6/z9/+l1tj/OlNb/wYKDP8hNkD/QWZ6/2OL
+        nP9xmKb/ZYeW/1Fpb/8hKy7/EBUX/2F6f/+z5/H/r9rh/zU+Pv8AAAD/Z3Jy/9z+/v/A6uv/Ji4v/wME
+        BP+Go6P/0f7//7r2//+6+v//t/v//6v3//+k9f//nPH//573//+a9P//kOn//4Hf/v9sz/3/U73x/yGd
+        2/8DcrT/B3q7/zKl4f9dwPT/edX9/43m//+U6ff/JDg7/wIDA/9nmqD/qPT8/1+Fhv8NEhL/UnR9/4HC
+        4/+K0/r/itP5/6jn/v+o4/7/s+n+/7ft//+26v7/lcDQ/0FSVf8WHBz/oLu7/975+f9TXV3/AAAA/2d0
+        dP8qMTH/BAUF/5CsrP/U/v//3P7//8H6//+8/P//t/r//674/v+n+P//lu39/4rk/P+O6f7/kuv//4fi
+        /v9vzfz/Urzx/zCm5f8EbrD/BXi3/yGc1/9QuPD/bMz6/4rj//88YWv/AAAA/2SWmP+i7/r/OVVY/yU1
+        Nv+l293/oef+/5Xa+/+b4P3/ltz8/6Tl/v+u6P7/sev+/7Xs/v+56v//seX9/77z//+IrbT/ExcX/4ab
+        m//l+/v/R1BQ/wAAAP8DAwP/iaeo/8b8///N/f//1P7//8D5//+s7/7/s/b//6Xx//+i8/7/l+3+/4rm
+        /v+D4v7/f9r5/3vX/f9ty/z/YMT4/zeu7P8Ec7f/BH7H/yqg3f9VvvX/ctT9/2WpwP8AAQH/Oltg/6T2
+        /v9AXV//LUFG/5rh9P+s8///pOr+/6Pn/v+k5v7/oOX+/6bn//+p6P7/suz+/7js/v+s4P3/ruP9/7Lm
+        /v+78f//sdbW/xgbG/+Yqan/2vDw/x4iIv8VGBj/zfLy/9T+///a////2f///8P6//+Z4f3/kNv6/5zs
+        /v+i8v7/mvD+/4Db/f+C3/7/g93+/4jh/v9z0P3/a879/1C79/8Mic3/B4PJ/y2o5v9Vw/f/cdX8/x0w
+        Nv8NFBb/muju/2aXm/8cKiv/mODz/5rj/f+m6P7/pur+/6Po/v+r6///oOX+/6fo//+o5v7/r+n+/7br
+        //+57f//reL9/7Dj/f/J+f//2/7//7fLy/8SFBT/yNvb/6m3t/8AAAD/cIGB/9j////e////4P///8H6
+        //+P3/v/kd37/53v/v+h9f//iuH8/37b+/+I4/7/hOH+/4fi/v9ry/j/ZcX5/1O99f8QgcL/CX3J/y2p
+        6v9QwPX/TJi9/wAAAP9UhIz/nOft/w4VFf+Gw83/m+b+/5zk/v+j5v7/nuD9/53g/P+i5P7/mNz7/6rq
+        /v+p6P7/qeT+/6be/P+07P7/r+T9/8Dx/v/a/v//5P///+D///92hIT/RUxM/+T+/v83QED/ERUV/9X3
+        9//l////4P///7Dy//+U5P3/mOL9/5rr/v+g9P//iuH7/4ji/v+B3f7/heL+/37b/f9qzPr/XML0/zqs
+        6v8Hebj/AnO8/xic2v9HvPX/Jk1h/wUHCP+L3ez/UX2F/zlVWv+l8f//nOf+/5/m/v+h4/3/nuD9/5/h
+        /v+m6P7/oOT7/6fp//+s7P7/rOj+/6jf/P+y6P7/ruT9/8f6///S/f//4////+L////b9fX/FhgY/7bQ
+        0P+OqKj/AAAA/5Surv/V/v//zP7//67x//+s9f//rvH//6n2//+u+f//ofL//4fe/P9+2fv/fdn9/4Hf
+        /v931f3/Zcr6/zum4/8OgL//Amqy/xGV1P9Ku/b/CxUa/yxGS/+P6f7/FSQn/3m3w/+f7f//qO/+/6bs
+        /v+q7P//oeL+/6Pj/v+08f//qOn+/6vr//+w7v//se3+/6/m/v+z6v7/tev//771///Z/v//5f///+j/
+        ///l////and3/2Jzc//U9vb/BggI/1ZmZv/T/v//xPz//7v3//+3+P//uvv//675//+t+f//lej+/4bg
+        +/+D4f3/heH+/5Do/v+M6P//d9n6/0637P8ek9P/A2ux/xWV2P9LrNz/AAAA/01+iP+C0+H/DBMU/5bq
+        +/+a6/7/nun+/5nh/f+r7///per+/6nn/v+w7P7/sO7//7Py//+u7v//vPT//7jw/v+q4v3/ruX9/7rw
+        /v/T/v//4v///+P////f////pcTE/yYuLv/X/v//MDw8/yYvL//Q/v//yf3//8T7//+8+v//svn//6Px
+        //+m9v//mO3+/4/q/v+Y8/7/nvb//5fv//+P6v7/ctf4/0m16v8ikdL/A2+4/yGg3/8+jrX/AAAA/2em
+        sf9urLT/Jz1D/5vt//+b6f7/nOn+/5Td/f+o6/7/sfD//6zt/v+08P7/t/X//7Lx//+n6P7/vPX//7/2
+        //+38f//sOv//7nv///M/f//3P///9v////X////xvLz/wgLC//E9vn/TGJk/woMDP/W+/v/1v///8L6
+        //+9+f//svT//6Dp/v+n8///mev+/47m/v+U8P7/ofj+/5r0//+J5v7/Z8z6/0K07P8kl9b/AXC8/zGp
+        6f8/g6b/AAAA/3i+x/9il53/P1tc/6b0//+g7f//pO///57k/v+m5/7/s/D//7Hv/v+59P//s/H+/7Pv
+        //+79v//wPf+/8b7///A+P//t/D//7Pt/v/B+f//1f///9v////S/v//yfv9/wwQEf+r4un/WnZ7/wAA
+        AP/T9PT/3P///8f9//+9+///uPn//6fu//+p8/7/nOv+/4Xd+/+R6v3/nPT+/6P0//+P6f7/as75/zaj
+        3v8LcLD/B3nE/zas6/8+g6X/AAAA/3a6yf9ekZv/QFte/6fx//+q8v//sPX//6zw/v+s7v7/tPT//7Lv
+        //+39P7/ufX+/7fz//+89///v/b//8P6//+89P//wPf//773//+99v//wfj//8T3/v/B9///uvL+/w0R
+        Ev+h1ef/V3R9/wAAAP++8PL/y/3//7/5//+59v//uvn//7T3//+v9v//mOn+/5Pr//+b8P7/nfT+/6X3
+        /v+T6/7/btD5/0m17v8Verv/B3/M/zmu7P9MlLb/AAAA/2yptf9vqq//MEZI/635//+1+v//wPv//7r6
+        //+8+v//vfv//7v2//+79v//wvz//7/5//+7+P//uvT+/777//+z7///u/b//7r0//+x6/7/qeb+/6Ph
+        /f+r6P7/reb2/wcJCv+l3/X/Q11o/wYICf+v6vr/uPj//7b0/v+x7v7/u/n//7b1//+39///pfL+/53w
+        /v+i9f7/ofb//5vz/v+U7f3/c9X7/0q17f8Qfb//BW+7/zep5P9jtNj/AAAA/1WFj/+Fz9n/Ehob/6/4
+        /f+5+///vfv//7z7///H/f//xf3//8D8///D/P//xPr//8P7//+9+P//vPj//7Py//+n6v//re7+/7f1
+        //+x7v7/p+X+/6Tl/v+s6v7/ksLN/xwlJv+y7v7/LD1C/x0nKf+28v//uPX//7n5//+x8///vPr//7v3
+        //+29f//svP+/6bw/v+e8///n/X//53z//+L5/7/Ysn5/zSm5f8eic7/DHzF/0iz4/+E3Pv/ChAS/zFO
+        Vf+d8/7/Ehsc/4zKz/+x+P//uPn//7X2///B/P//y/7//8X8///E+///yv7//7z2/v+x7/7/vPj//6jw
+        /v+g5f7/pOv+/63y//+m5/7/qer+/6Pm/v+r6f7/XX6E/0liaP+y7vr/CQwN/0BWXP+w8P//t/f//7j5
+        //+5+P//vfv//7/6//+9+///v/r//7L1//+j8v//pfX//53w//993v7/Ur/1/yWc3f8bgMj/GHm9/1rB
+        5/+M5Pv/NlFV/wgNDv+a6vT/TXN1/0hoa/+y+P//s/b//7Hz/v/A+///xvv//8T6///G/P//yP7//775
+        /v+8+f7/t/f//672//+o7///nOX+/57k/v+q7P//tPX//736//+49Pv/GiIi/4u6wf+ArLb/AAAA/26X
+        ov+t8f//uPj//7j5//+19v//vfz//8D8///A+///w/z+/7X0/v+s8/7/nuv+/5Tl/v962P7/Tbnx/yKX
+        1/8TfcT/E2Sj/1fA5v+N5fr/aaOw/wAAAP9pmp3/ktvj/wsREv+Y1t3/q/T//7D0//+x8///svP//7n2
+        //+9+f//vPn//7f1//+19///tvf//7P2//+h6f7/meD9/5/j/v+p7f3/uvn//7f4//9wl5r/JzY6/6zr
+        /v83TFH/BwsM/53d8f+m6/7/qu///67x//+u8P//tfX//7X2//+x8///s/f+/6rz/v+d7P7/nev+/5Pi
+        /v+B2v3/Rrbt/yOX1/8bh8//CVeg/0Gw6P9/3P3/jeX7/xYkJv8WISL/l+r2/1iAg/8sPT//rPD7/6nv
+        /v+o8P//qe/+/6ju/v+n7v7/pe3//6Pp/v+n7v7/rPP+/6/3//+i7P7/pev+/6fv/v+k7P7/rvP//5rV
+        3f8OFBX/hLvL/4G3yv8BAgL/SWdv/6Tr/v+e5f7/nOf+/6bu//+v8///tvj//7H2/v+i7/7/oPP//6T4
+        /v+S6/3/lOr+/5bo/v941fz/QLXs/yCY2P8MfcT/BWKv/yOb4f9qz/3/kez//2eiq/8AAAD/TXV6/7L4
+        +v8vQkT/Ql5j/6Xu/P+q8///pO/+/6Lu/v+c5v3/pvL+/6Tu/v+o8f//q/b//675//+o8///qfT//6rx
+        //+i7P7/m9/p/x0pKv9eh4z/ouf5/yAvNP8KDxD/mNnn/63z/v+n7f//oer//6nx//+x+P//t/r//6vy
+        /v+U5/3/le/+/531/v+Z8v7/ken+/47k/f9x0vz/R7fx/yui5P8Ths//AnHD+yak7f9u0f7/heP//5Tt
+        /v8xTVH/AgID/3mvtf+g5/H/Jjg7/zdRU/+T3u//mOr+/6Hv//+e7f7/pvH+/5vr/v+g8P//m+r+/6by
+        //+d6f3/leT9/57s/v+HxtL/FyMl/05yef+j7/7/R2Zr/wAAAP9plp3/qvL//6bx//+j7///o+7//6bx
+        //+n8v//svn//6jy/v+P4/v/k+v9/5/1/v+p9/7/m+7+/4nh/f9nzPn/Sbrx/ymh4/8WkNv7AnfM0Sqk
+        7v9fyPz/etr+/4nl/v+J3e3/FiQm/wcLDP93s73/nu30/z5eYf8RGx7/Ypei/5vs+f+k9v//ne/+/5Dk
+        /f+X7P7/kuf+/4rf/P+P5P7/g9Dq/z5oeP8KEBL/VIiZ/57x/f9Ren7/AAAA/0JgYf+j8v7/n/H//5/w
+        //+f7///n+3//6fz//+i7///qPb//6Xz/v+e7///pPT+/6P1//+f8v7/jOT9/3fT/P9nyfr/Srrv/y2l
+        4P8ZkdvRAHjLgRmU3v9Ds/P/a839/4bi/v+T7f7/htLe/xMeIP8EBwf/YJOY/5jv/v9srLn/IDQ3/xAY
+        Gf9DZWj/ZJii/3S0wf94vsr/aq26/0h8kP8rSFL/BwwN/zRTW/92xNz/h9vz/zdYXv8AAAD/MEtR/6Ly
+        +f+k9f//nPH//5Ho/v+W6/7/n+7//6X1//+e7///nfD//6Dw/v+e7P//pfX//6b2//+X7f//iuT+/3PQ
+        /P9nyvv/Trnu/zus5P8yp+p+AGS5IQV3v/wuoeX/Ysb3/4Pe/v+R6f7/ken+/4LP4/8hMzj/AAAA/yhB
+        Rf+CytL/ofb+/4XK0P9TgIX/NVBR/yEzM/8cKyv/IjY6/zJTXv9Vi5n/fM7n/4nd/P9Xkqn/ERwg/wAA
+        Af8+Y23/ieD7/5Ts/v+e8f//l+3+/5Dp/v+V7f7/nfL//6Hz//+f8v//ovT//5vv//+a7///ovP//5nw
+        //+F4v7/fd37/2LH9/9fw/f/XcP0/0W17vwxrO4fAAAAAAN1upQhl9j/X8Pz/3vX+/9yzvr/edP8/3/a
+        /P+Q5fj/THiA/wUICf8BAgL/LENG/2WaoP+V3OL/qvn+/6H4//+d9P//lev//4vj+v9ut9H/SXmH/xUk
+        Kf8AAAD/ERsf/2Kdsf+L4P7/ht7+/4nj/v+L5f//iuX//5Lv//+K5f//le7//53z//+U6///juX//4Xg
+        /f+H4P7/h+H+/37c/f9y1fz/ZMz4/1K/9P9WwfX/XMT4/0S09JQAAAAAAAAAAAAAAAkgk9XMVLfs/2/L
+        9f9qyfj/cdH8/3rX/P+R6Pz/juf9/4DO4v89Y3H/ChET/wAAAP8AAQH/DRIS/xsrLf8fMjX/FyQn/wUJ
+        Cv8AAAD/AAAA/xIhKf9Bd5H/bcbz/3fT/f9tyvr/cc78/3LV/f9rzvz/btD9/3DU/v901/7/fNz//4Ph
+        //911Pz/a8r2/23L+v941/7/bc/8/1rF9f9Yw/L/Zcz6/2HH+v9mzPz/YMf8ywAAAAkAAAAAAAAAAAAA
+        AAAtltIRWrvqy06w5P9Quev/WMDz/17I9f9s0Pb/b9H3/27Q+P9v0Pn/dtb2/1igvP83aX7/JUZV/xYv
+        O/8XLTb/GTVA/yVMXv87cY3/U6PM/2/N/f9pyvv/Wb70/1m+8v9Uuu7/VLvz/1bC+P9OvPT/Rbrz/0W5
+        8v9TvvX/WMH3/2LJ+/9dxvz/WsH6/17C+/9kx/z/V773/0W08P9Jt+3/XcX0/27T+/901v3LadL/EQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAACT6q45Qmndz8KqHd/y2m4f84ruf/M6jh/y+j4P8xpuH/Oavm/z2u
+        6P9Bsu3/O6zm/0Ct5/9Gtu//N6vm/zel3/87puL/Urry/1jB+f9Jt/P/OKrn/zKm4v8fmtX/KJ7b/yyo
+        4/8up+n/Fpvb/w2S0/8Ok9P/HZzd/yym5v8up+r/LKPk/yyg5v84q/D/K6Tp/xiR0v8gl9f/I5vb/Eu7
+        9JQAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXi9AhJZnZgCGV0tAShcr7GIbM/xeA
+        x/8VfcP/GIDG/w57wf8Md73/DHS5/xiCxv8XiM3/EXrA/w10tP8Ib7H/EIDE/xKMzv8Jhcn/Bni5/wZ5
+        uv8EeLn/AnrD/wWAxf8GfMX/A3K9/wFmrv8BZK7/A2u1/wJstf8Fb7v/CXvK/wRntf8Cb7z/Ami1+gFb
+        oNABXaOAAGy5IQAAAAAAAAAAAAAAAAAAAAAAAAAA+AAAAAAfAADwAAAAAA8AAMAAAAAAAwAAwAAAAAAD
+        AACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACAAAAAAAEAAMAAAAAAAwAAwAAAAAADAADwAAAAAA8AAPgAAAAAHwAAKAAAAEAA
+        AACAAAAAAQAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAGKvQwBmuJsEZrzfA1Wk/wFXpf8CTJr/BE+c/wNOn/8DTp7/AVSg/wFhtf8DYa3/BGyy/wNz
+        vP8Cbbr/AmOm/wNnqP8DX6L/A2Om/wJ0tv8FfsD/B3e2/wZyr/8Cdbb/B3u5/xSR0P8fl9n/IZ3d/yai
+        4P8MdrD/CXGs/whur/8Icrb/GYnO/yeY3P8cjdL/G47S/xyO1v8Xhs3/C37E/xeI0v8ckd7/HZLb/xWO
+        2/8cleH/FIrT3w6G0psHgcVDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAWnOFyConS3wuDzf8Gh9D/EZXc/xCR1v8EhMz/BIPL/wWByv8CesD/AXq+/wJ9
+        wP8GjNT/GJbd/w6S0/8LlNj/BIDE/wSFxP8Kj87/FJPU/xSU1/8bnuD/Manr/zis6/8qp+P/HJzW/zKl
+        3v9ItfH/V7/1/17F+P9jzPz/Qqzj/0ux5/9Oter/Pqbd/1S69f9bwvr/TLTu/0mx6v9SuPL/Razn/zSh
+        4f87p+P/OaXm/zuk6/89pO3/S7D0/0Cq7v8fjdf/IZXf/z2m7d8qm+hxAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAADOt6hkqpODAMabl/zar7f8wpen/Mqrt/zGo6f8zq+n/Na3s/zCq
+        6v8ent//FZfZ/xGY2v8Pmdn/HqXk/zOu8P82rOr/Na7n/y2j3f8motv/PKvn/0e08P9Ase3/Ubv1/2LH
+        /P9pyvz/Y8f6/2PD9/9kxfj/bdL+/3ng/v+F4v//ftz7/2XG7/9qyvj/cdL7/3HR+/9vz/3/ctP9/3PR
+        /P9zz/7/bcf6/2C/9f9evvP/ULTv/0Sq5P9Ksu//S6/v/0mv5/9FsO3/R7Lv/0Ct7f88rej/R7Lr/1Kx
+        5MBRt+oZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFK97h9KuevfT7rv/0m17P9Ete7/Q7Xx/0S3
+        8/9JuvX/Srnz/0679P9RvfX/Srj0/0u69v87sPD/ObPx/0O49f9HufP/Sr33/1PD+v9Hte3/Trju/1e9
+        8/9XwPP/W8D3/2rH+/9uz/7/acr8/2bG9f9zz/r/ddX7/4rl//+U7v//k+r//4Th/f+M5/3/ieD8/4/n
+        /v+J4f7/iuL//4Pe/v+A2/7/hd3+/33W/v930P7/bsj4/1mjz/8SKjn/OHSZ/1u89v9KtfD/RrXv/028
+        8/9EtfD/PLPv/ziv7f84peD/SLjo3zOy5R4AAAAAAAAAAAAAAAAAAAAAAAAAAFG36hlUu+zfV7zu/2HG
+        9v9fw/X/XcP2/1bA9v9QvfX/RLXt/0O27P9Rw/T/Xsr5/2DM+v9jzfz/Z8v+/2HL/v9cx/v/W8L4/1/J
+        /P9kyPv/XcT3/1zD9f9szf3/asn6/2bE+f9vzPv/c9H+/2jJ+P9pyvr/ddP7/37Z/P+R6P//l+v//5rx
+        //+S6v//lOr//6r7//+X6///n/P//5/2//+Z7f7/id79/5Pn//+J3f//ftb8/26/6P8QGiD/AAAA/wAA
+        AP83bIX/XsX2/1zC8/9dx/X/W8j6/0q79f85sO3/PKnm/zyz7P8zsOzfKK3qGQAAAAAAAAAAAAAAAAAA
+        AABDsOTATbvr/1rD8f9exPX/Zsv4/2fN+v9gx/r/V8L2/02+9P9Fu+7/TcHw/2LN9v9x1/v/ctn+/3Tb
+        //963P//dNf+/3DV/v962///huD+/37d/v921v3/e9j9/4Hf//951v7/dNH7/3/b/f983P7/etr+/3rW
+        /P+B3v7/lu3//5Lr//+Z8f//mvL//6f4//+x/f//pff//6b4//+h9P//pvf//53w//+X7P//juT+/4bZ
+        9/8eMz3/AAAA/wkPEv8AAAD/AAAA/zVjdv9z0vf/dtf7/3TX/f9gyPr/UcD1/1W/9P9Xwff/VcL6/0K0
+        88AAAAAAAAAAAAAAAABHsupyPbLm/0q36f9fxvT/Zcv3/2zR+v9z1/z/btP9/2nQ/P9ozfz/Zs/9/2zS
+        /f9z1vv/f+H9/4Pj//+M7P//jer//4Pj//+I5f//gN///4Ld/v971/7/h+H//4jj//+K5P//fNr+/4Pj
+        /v+E4P7/iub//4Xg/v993P3/huT//47n//+U7f//oPf//6L4//+g9f//qfv//6P0//+g8v//qfb//6r1
+        //+j8v//mOr//47h/v82VmP/AAAA/wkPEP95wtf/UICO/wAAAf8AAAD/OV1l/4vl+v+I5///ddf3/2fN
+        9/9p0Pn/Z879/2TL/P9NuvP/H5PUcgAAAAAAAAAAVb705Ey37P9bv/T/X8b1/2LJ9f9t0vj/ddj6/3nc
+        /P943P3/d9r+/3vb/v9+3v3/hOL+/4zq/v+P7f//juz+/43o/v+M6f//k+7//47q//+K5P7/heH+/4vl
+        //+U7P//lO3//4Le/P952fj/f939/4Xh/v+A3v7/ief+/3vW/f+D4P3/lO3//6X5//+l+f//n/f//6L4
+        //+h9///mvH//6X5//+i9f//ofT//5Hn/v9RgY7/AAAA/wIDA/93r7j/m+z//6T1//9omJ3/AgMD/wAA
+        AP84VFj/mO35/5fv/v+G5Pv/et78/3PZ/f9x1/v/RLPp/xiJyN8AAAAAVbv3SGLH+/9cwvP/bM/9/3DR
+        +/901fv/dtf7/3nZ+v+H4/3/iOP+/5Lr/v+R6f7/jOn//5Pv//+T7///jOv+/37e/f+G4///lvL//5fy
+        //+Y8f//ku7//5Dt//+X8f//m/T//5Pv//+J5/7/g+D9/4bi/v+L5f7/geD//4Da/f+C2/z/gt/9/5Tt
+        //+Z8v7/nvb//53y//+Y7///n/X//6H0//+h8v//l+v//5Xn//9tqLf/AQID/wAAAP9ii5D/qfP//6Xx
+        //+m8///qvb//3WprP8EBgb/AAAA/zJJSv+W6vX/jOb+/4Xk/v9x1P3/Zc75/z6z6/8RiMz/A2avQ1i7
+        7pxszfv/d9j9/33Z/f+I4v//h+L//4Xh/f+M5fz/mez+/6fy//+p9f//p/X+/6Hz/v+V7v//k+3+/5bv
+        //+V6/7/ke3+/5vy//+e9P//o/r//5v1//+S7P7/nfX//5v2//+G5Pz/gOH8/33c/P9/2/3/hN/+/4rj
+        /v+I4f3/eNT4/4Da+f+U6v//mPH//5Xq/v+U5/7/n/L//6X1//+v9///pe7//6Pu//+ExdX/CQ4P/wAA
+        AP9NZGT/xf7+/7v7//+t8P7/rfH//7D2//+q9///dbK6/wYKC/8AAAD/Ijk9/3nS8P942P//bNH+/1/F
+        +/8/tPH/FJTa/wFntJtUu/Tfb8/9/4fg//+L5f//lOv//5bs//+T6/7/me3//6Xz//+t9P//s/j//7D2
+        /v+l8v3/kun//5bu/v+T6P7/kub+/5zx//+Y7f//nfD//6H1//+i+f//mvP//6P5//+h9///k+v8/4ji
+        +/+N6P//gN79/3jV+f+C3fv/jOL9/5bo/v+K3/v/jub+/5Pr/v+S5v3/j+H9/6bz//+l9P//qPL//6Xt
+        /v+b4O3/FyEk/wAAAP8rPD7/xPn5/9f///+7+f//r/P+/630//+v8///oO7+/6H1//95ucb/ChAR/wAA
+        AP8YKzH/b8fp/3PW//9my/7/Rbb2/xCN1P8CZbTfRK3p/3DQ/f+G4P7/nPD//6P0//+j9P//nfH//6P0
+        //+r9f//svb//7X4//+49/7/qOv8/5fq/v+V7P7/keb+/5Hh/f+l8P//nu/+/6Dv/v+d7v7/o/T//6T1
+        //+f7///oPL//570/v+T6P7/nvL//5/z//+Q5v7/id37/5Tk+/+k8v//nOr+/5vs/v+c7v//mur//5ro
+        /v+u8///pe///6ny//+o7/r/LD9C/wAAAP8XICH/o+Dr/9H+///W/v//x/3//7v8//+2+P//sfT//7b7
+        //+m9///nvD//3vD0f8NFRj/AAAA/xAgJ/9lxO//VMD7/zmt7v8Qh9D/A1Ki/ySY1/9iwvP/gtz+/53u
+        //+t+P//qPX+/5/x/v+i9f//rPf//671//+x9P7/t/n//7L1/v+o9P//pPL//57q//+j7f//r/b//57q
+        /v+i7v7/oe7+/5/v/v+j9f//pfb//6f3//+n+f//o/b//6Dy/v+m9f//ovT//6Hy//+r+f//sfv//635
+        //+n9///rPn//630//+p8P//r/f//6fs/v+m6///SWVq/wAAAP8JDA3/l8vT/7/6///P////0f7//8D9
+        //+5+v//ufv//7f7//+x+P//pvf//6T3//+R5vb/KkVL/wAAAP8AAQL/TKTU/1C++f8zrO//C4vT/wRV
+        ov8ShsD/Z8f0/4jg/v+a7v7/nvH+/6j2/v+p9P7/nvD//6Py//+u9v//rvX//7L0//+y9///rff//6z1
+        //+u8///qvL//671//+k6f3/puv+/6js/v+f6f7/nuv+/6r2//+m9f7/q/n//6f1//+i8P7/pfP//6Xz
+        //+g8f7/n+7+/7L6//+5/P//rfn//6jv//+o7/7/pOz//63y//+o6/7/ZIqV/wAAAP8BAgL/iLGy/8L8
+        //+++v//zv7//8H8//+19///rfX+/7P4//+u+v//qPj//6D0//+P4O3/Izc7/wAAAP8DBgf/UI6n/1vC
+        9P9Vw/z/N6zs/xOY3v8DZ7b/I5HL/2/O+f+A2fv/mez+/57z/v+u+v//p/b+/5jw//+f8P//qfT//7P4
+        //+3+///ufz//7T4//+r7///rvH//6jt//+s8f//r/D//6/w//+o6v3/o+r9/6Xw/v+u+v//qvb//6/6
+        //+q8///n+v+/5fm/P+f7f7/leX9/53r/v+u9f//uPn//7H2//+w8///pOj//67w//+x9P//h7e8/wME
+        BP8AAAD/ZoaJ/8b8///F/v//v/n//8X9//+7+f//rPH//6Hu//+q9v//qPj//5/w/v+EzeD/GCYp/wAA
+        AP8LERH/dbjA/4Lg/v9t0Pz/WcP6/ziv7v8Tkdn/A1im/xJ/tv9avOr/i+T7/57y//+b8f//qvn//6j4
+        //+j9v//pfb//5jo/v+g7P7/rPP//7P3//+t8v//tvj//7Tz//+59///tfb//7r3//+28///sfH+/6vv
+        /v+x+P//ufz//7r8//+2+f//vPv//6Tr/f+R2/z/kt39/4rX+P+b6P7/rvH//8D7//+8/f//u/v//7v3
+        ///E/P//pdfa/wwREv8AAAD/R11e/8f9/v/N/v//wvv//733///B+///wf3//6bu/v+Z6P7/mOz+/57w
+        //9+xNH/EBka/wAAAP8RHB7/gMvV/531//+P7///edr//2PJ/P85svL/BoTO/wJbqf8yp93/b8/6/3HR
+        9P+Q5/7/lez//5z0//+h+P//o/j//5/0/v+W6P7/lOf+/6fv//+n7/7/p+3+/6zu///A+v//xPz//8D5
+        ///C+v//vvn//7j2//+29v//sPT//7T3//+++///wP3//7D0//+j6/7/jtv9/4TV+v98z/f/nev//7P5
+        //+4+f//wPv//733///F/P//wO/v/yAoKP8AAAD/KDY5/7Pv9//L/f//zv7//8f8//+/+f//w/7//7z9
+        //+h7P7/jt/+/47k/v9wr73/CA0O/wAAAP8YKS7/idnk/5Pv//+V8P//i+v//3HY//9axvv/M67s/wOF
+        zf8CUp7/OrLt/3TU/f+K5/7/kur9/5vw/v+d9P//p/r//6P6//+b9f//l+3//5jr/v+q9P//r/b//6bu
+        //+y9v//vvn//8H5//+59v//uPb//7j2//+5+P//ufn//7Hx//+j5v3/rfD+/63z//+n7f7/ld/9/5/q
+        //+d6v//leb//5Pk/v+k7///uvn//8T9///F/P//vvT7/zhISP8AAAD/Fh0d/63h5//C+f//yv7//8r9
+        ///I+///wfv//7j3//+z9P//luT8/33U+P9PiaP/AwYG/wAAAP8iOkD/hNrv/5Ls//+O7f//jOr//3nf
+        /v9o0v7/Ub76/yah4f8ChMv/AlWj/zOl4/9pyvr/huP//53z/v+W7P//lez//6L1//+g9f//nfX//5nv
+        //+V6v//qvb//6/4//+o8///tvf//7n3//+9+P//ufj//7b1//+59///uff//7Hx//+r7P7/ktj1/4vT
+        9f+E0PL/m+H8/5Xd/f+m8P//pe/+/5Df+f+M2vr/leD+/7b2///E/f//uvX//09qcf8AAAD/CAsL/5/M
+        zv/B+///xfz//8j8///H/P//zv3//8f7//+39v//rfP//6bu/v9JeIv/AAEB/wAAAP8wT1b/h+T3/4rp
+        /v+G5v7/iuv+/4nm//932/7/ac/+/0279/8amt3/A3zE/wJVof8qod3/YMj7/3/f/v+S6///lu3//5Xs
+        //+W6v//iOH+/4zl/v+S5/7/k+X//6Xx//+x+f//svr//7b2//+49///sfP//6/z//+y8///tPX//7Dx
+        /v+v7///qer//6Di/f+U2fv/hc7y/5vf+/+q6f7/t/b//7T4//+a5P7/m+X+/57m///H/f//yP3//3uc
+        nP8AAAD/AQEB/4Oprf/F/P//xPv//8n9///K/v//z/3//879///I+///sO3+/6jq/f9MbXf/AAAA/wAA
+        AP9CZ3D/k+n9/5jy//+L5v//edv9/4rp/v+S7P//et7//2fL//9DtPP/E5rZ/wF5wP8CVaP/E5DM/0y1
+        6/9vz/v/hN79/4Te/f+P6P//iOP+/3/Z/f+F3vz/gdj6/5rq/v+r9v//s/r//7L6//+19///tvj//6ry
+        //+e6f7/lOD9/6nw/v+09v//rvH//6Pm/v+a3Pr/jtT5/4nT9f+U2/v/p+X+/7r2//+39v//rfD//6Tl
+        /v+++///vvb+/5a/wf8EBgb/AAAA/2iCgv/J/f//xPv//7/6///L/v//y////8n+///F+v//wvr//6zq
+        +v8/WWD/AAAA/wABAf9QfYn/kuf+/5Pl/v+R6v//jOr+/4Tk/v+F4/z/i+j//3ve//9lzP7/OrXx/xWd
+        3f8CgMP/Alak/wuKxf88qeL/Z8X4/3nV/f920fr/gNv+/4Pe/f+B3P3/ht3+/47m/v+X6v//qvX+/635
+        //+o8v//puz//6nw//+e6P//jtr6/4vY+/+V3v3/neL6/4vI4f99tdH/fLPN/3+71/+S0/D/lNb4/6nm
+        /f+18v//vvf//8D5//+z7P7/w/v//7Le3v8PFBX/AAAA/0VXV//E+v7/wfn//7r4//+8+P//yP3//8r9
+        ///F/P//yfz//7vw9/83Sk7/AAAA/wIDBP9ajZ//j978/5Ts/f+a7v7/k+v//5rx//+Z8///j+r//4bj
+        //942P7/X8j6/0a59v8lp+b/CY7W/wNouf8Igb7/PrDo/2XE9/9xz/n/cdD8/3/a/v+I4f//hN/+/4bf
+        //+K4P7/j+L9/5ro/f+p9f//o+///53n/v+S3vv/g8zu/1yOpf8yUWD/GSQq/wIEBf8AAAD/AAAA/wAA
+        AP8AAAD/AAEB/xQcH/86TVL/bo+T/6ja4v+58///q+b+/67k8v8iLC3/AAAA/yk0NP/B9PX/yf3//8b8
+        ///D/P//x/z//9X////M/P//zP3//8Tx8v8zQUL/AAAA/wcJCv9vobT/keD9/47c/P+V5v7/mev//5nv
+        //+f9v//mvT//5Xu//+L5v//ddf+/1rD+f9IuvX/NK7u/xia4f8CabT/DovL/0i38f9oyPr/Z8X3/23M
+        +v+C3/7/i+f//4bi//+K4P7/juP+/4jc/P+c6/7/rPf//6bz//+DwtP/Mk9d/wQICv8AAAD/AAAA/wAA
+        AP8AAAD/AgME/wwSFP8OFBf/BQcI/wAAAP8AAAD/AAAA/wAAAP8BAgL/MD5D/3agtP8zRk7/AAAA/xQa
+        Gv+14uT/2P///9P+///K/P//yv3//8b7///M/v//zv7//7vs7P8rNjb/AAAA/woODv+GuMH/pOj+/47d
+        +/+V4/7/lej9/5fs/v+i9///ovn//5fy//+O6f//huH//3jb/v9iy/z/Tb/1/zSu6/8QlNr/Am+4/wuO
+        0P9EtPD/aMv8/2zK/f931P3/heD+/4rh/v+E3P7/jOP+/4La/P+Q5f3/pvX//53f5/9AWlv/AAEB/wAA
+        AP8AAAD/FiIn/0lsdv92prT/kszf/6Tn/f+r6v//rOj//7Lp//+f0ur/gazB/2B9hv8sOT7/AQEB/wAA
+        AP8AAAD/AAAA/wYICP+Xxsr/0P7//9D+///N/f//y/3//9L+///L/f//yfz//7zk5P8jKyv/AAAA/xAV
+        Ff+Xysz/s/b//6bt/v+S4f3/kuH8/5bo/f+k9P//off//5j0//+T7f//huP+/3zb/v+H5v7/Zsr8/1bB
+        +f82ref/D5ja/wJ0v/8Ijc7/P7Lw/1zC+v9wzv7/c8/8/4Hc/f+M5f//f9r8/4fh/f+J3/7/lOn//3Kn
+        qv8LEBD/AAAA/wECAv85UVb/cq3G/4rY+v+P2f7/neD+/5TV9f+DvNT/irnD/4y3v/+Ovc7/pNru/7Do
+        //+z6f//suj//57N3/9Wb3f/CQwN/wAAAP8BAgL/W3d4/836+v/S/v//zP3//9D9///R/v//0v7//7rh
+        4f8dJCT/AAAA/xkdHf+p1df/t/f//7Dz//+w9///oOz//5nq//+k9v//pPX//53y//+S6v7/lu///4nj
+        /v941v7/ft/+/17D+P9Gsez/MKTg/weFyf8Bbrn/A3a3/yWk5P9PufX/Z8j8/23K+/9/1v3/ieX+/4Pa
+        +f+N6P7/ieL8/0Vrcv8AAAD/AAAA/yU0Nf+Yysv/v/r//5vg/v91rsj/QmFx/xklLP8BAQL/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8VGx3/RFhe/4Wpsv+77Pr/vfH//6vc5/9GWl3/AAAA/wAAAP81PT3/ze3t/9f+
+        ///Z////0f7//7Pc3f8aICD/AAAA/x4jI/+539//xfv//7Py//+0+P//u/z//6/6//+p9f//pPb//5zv
+        //+h+P//n/f//5jy//+L5v//guD//3fV/v9hxvr/Ubrv/yyl3P8Hicr/Amis/wRzs/8kn+D/R7Lt/2HD
+        +f9zzf3/h+H//4zm//+Y7v//j+j8/y9PW/8AAAD/AQEB/1N4e/+z9/v/t/v//4+5u/8nNjn/AAAA/wwV
+        Gf8yUWD/UoKc/3Soxf+Rxtn/lsvd/4u6zf95nqv/V3F4/yMuMf8AAAD/Fx0d/3CNlf+47vv/x/b//42q
+        rf8OEBD/AAAA/ygsLP/R6Oj/0v3//7Pb3P8XHBz/AAAA/yAoKf+65OT/0/7//8L5//+29v//vPv//7r9
+        //+p9v//qPX//6X3//+e8v//n/b//5v1//+a9P//le3//4bj//982f7/bM7+/1jA8/88r+j/DY7Q/wJs
+        r/8FcLH/HJjX/0iy6v9gwvb/dtL9/4zl/v+Q5///m/P+/0Fkaf8AAAD/AwUG/2uhp/+p9v//p+3v/0BY
+        Wf8AAAD/KTk+/2udtP+J0fb/idP5/4bR9/+b3v3/quf+/6jk/v+06///uO3//7bt//+47P//l8LT/0db
+        X/8CAwP/JjAw/67U1P/l////vtTU/xkcHP8AAAD/LDIy/7rS0v8ZHh7/AAAA/ycuLv/C6en/2f///9/+
+        ///M/f//u/r//779//+3+f//sfn//6/5//+n+f//nvP+/5Lq/f+F4vz/kez//5bu//+J5P//h+P//2rK
+        +/9YwPX/RrTt/xiW2v8DY6X/BHa2/w+Qzf87q+b/Ysb6/27P+/9/2/7/jOX//1iNl/8AAAD/AQIC/2+o
+        rf+g8P//jdDZ/xciIv8PFBT/gqqq/6bq/v+b3v3/idL3/4/Y/P+Q2Pv/mt/+/6jk/v+w6P//sOn+/7Lp
+        //+16P7/tOT+/7Hm/v+68f//msjQ/yYxMv8JCgr/mq2t/9/+///I3Nz/FRcX/wAAAP8CAwP/AAAA/yIq
+        Kv++6en/xvz//8z9///W////z/7//7j2/v+w8///ufr//6vy/v+n9f//pPb//5Lo/v+I4/z/hOL9/4nn
+        /v+D3vr/gNv9/3nV/v9nxvz/Wr70/0O07P8Xl9r/A2ap/wR0t/8Njcn/NKXf/1W99P9lx/n/iOL//3O9
+        1f8FCAj/AAAA/1mHjf+l+P//kM7V/w4VFf8hLzH/nNvj/7j3//+h5/7/m+L+/53i/P+k5v//m9/9/5/h
+        /v+v7v//q+j+/7Tt/v+17///uO7//7rr/v+v4fz/wfH//7vt/v+97vf/UWFh/wIDA/+Oo6P/7P///7fL
+        y/8GBgb/AAAA/x0hIf+85eb/zf7//8n8///T/v//1P7//8z8//+t7/7/qOz//6Lp/f+a5fz/ou/+/6Lz
+        /v+f9f//kej+/4Dd/v9/3/3/etf5/4rn//940/z/cs38/2nK/P9Svfb/I6Pl/wN3u/8Dfcn/F5XX/0Gu
+        5/9Ywfj/as/9/4vl/v8gNj//AAAA/y1HTP+f9P7/nOTm/xIbHP8iMjb/md7w/6Dq//+s8///pOr//6Xq
+        //+j5v7/pej//6To//+f4v7/p+j+/6no/v+x7P7/t+z//7To/v+m2/3/qN78/7bs//+u4v7/vfX//9H9
+        /v9dbW3/BAQE/6e7u//n////gI+P/wAAAP8OEBD/x+jo/9n////W/v//2v///9r////S/v//tPX//5Lc
+        /f+U3f3/lOX8/6Xz//+j8/7/oPX//4Ld/f992f7/huL+/4Lb/f+H4f7/g93+/3LQ/f9sz/3/Zsn9/zis
+        7/8Hf8T/A37D/xqd3P8/tO3/Xcj7/27T/P9dnbD/AAAA/wYKC/+S3OH/pvj9/ytBQv8THR7/kdfq/5zl
+        /v+Z4Pz/p+n+/6fr//+h5/3/qev+/6np//+f5P7/pOb+/6Xm//+q5///sOv+/7jt//+26f//ue3//7Dl
+        /f+r3v3/s+f8/8n6///X/v//4f39/0lQUP8UFhb/0+fn/+f8/P8xNDT/AAAA/15sbP/Z////2f///97/
+        ///h////0v7//7P1//+K2/v/kt39/53s/v+i8///ofX//5Dm/f941vj/hN/+/4zl//+D3/7/iuX//3/b
+        /v9pyvb/Z8b6/2fI+/84ren/C3a4/wV3wP8mpOr/OrHs/1LA9P9nzPz/Gi82/wAAAP9NeH7/pPb//2qa
+        nf8BAQH/gLrE/6Ds/v+Z5P7/oOb//6rr/v+h5P7/nuD8/6Tn/v+m5v//ouT+/6Xn/v+o5///peT+/6rl
+        /v+u5v7/sef+/7zw//+16P7/rN/9/8f3///W/v//4P///+L////W7u7/GBsb/09ZWf/p////rsLC/wAA
+        AP8HCQn/x+jo/9j////o////5f///839//+l7v//f9X5/4rZ+v+V4v3/nfD//5zx//+J4fz/gtz8/4nh
+        /v+D3/7/gN7+/4Th/v981/z/Zsj4/2DE9P9Xv/n/J6Xj/whysf8EdcP/FZfa/zWw6/9Vw/j/TqHM/wAA
+        AP8FCAn/i9zs/6Lx9/8RGRr/QF5i/6jz//+b5/7/l9/9/57l/v+f4v3/mtz8/5zc/f+b4f3/puf+/5TY
+        +f+e4vv/rOz//6zq/v+m4f7/od37/6bg/P+t5v7/qeH7/7ns/v/R/v//3f7//+j////f////3////5Sm
+        pv8AAAD/ts3N/93///8zOzv/AAAA/3mLi//f////4v///9z///+++P//oOr//6Tu//+l6v7/n+v+/5vu
+        //+o+P//k+b7/4jk/f+K4/7/ftr+/4fj/v993f7/d9T8/2vN+/9fxPX/R7Pv/x6X1f8DdLT/AWq3/wuP
+        zP8jpOL/T8H5/y5cc/8AAAD/NlVX/5Pr/v9elJ7/AgQE/4/T3f+j7v//oOv//53l/f+f4/7/pef9/6Hi
+        /v+i5P7/oOL+/6nq//+q7P7/oOP+/63s//+s7P//rOn//6rk/P+u5f3/s+j+/6/k/f+88P7/zP7//9L9
+        ///h////4v///+X////g/Pz/JCkp/1BaWv/c////gpyc/wAAAP8oLy//1v///9L+///O/v//ufb//6rx
+        //+w9///sfP//6n1//+x+v//sfv//6Tz//+Y6P7/c9D3/4Lc/P931Pz/heP//4Pe/v941f3/bND8/064
+        8P8wmNf/CHu4/wFirP8EhcX/JKbk/1HB+f8TJS3/AAAA/2mmr/+O5/7/JDtB/y1GS/+g7///nuv//6nx
+        /v+k6/7/pun//6zu//+i4///oOL+/6no/v+18v//q+v+/6Tm/v+u7f//sO7//7Dt//+u5v7/s+r//7Xq
+        /v+06v//tu///838///a////5P///+r////o////5P///4CPj/8ICQn/zfLy/8/v7/8CAwP/AAAA/8Xn
+        5//S////xfz//7j1//+79///tvn//7v7//+z+P//svz//6/5//+Z6///iOD9/4Dc+f+A3v3/fdv9/5Dn
+        /v+R6///iub//3vb/P9dx/P/P6fj/xKNzf8BZq7/CIfM/yqm5v9QtOf/AAAB/wEBAv+H2+3/ht3y/wIE
+        BP9glqD/mez//6Hw//+p8v//pu3//6Dl//+s7///o+f+/6Lk/f+q6P7/tPD//6/u//+p6v//sfL//67t
+        //+89f//t+///7Ho/f+q4/3/s+v+/7nw///E+P//2////+P////k////5////+L////G5OT/AAAA/5Sy
+        sv/a////LTU1/wAAAP+Lqqr/z/7//8j8///E+///xf3//7r5//+3+///p/P//6n2//+k9f//nPD//4vl
+        /v+R6///k+/+/5Lt//+a7///kuj//43p/v9+4Pr/Wcfy/0Cn4v8cj9H/BGWt/wiKzf8xq+n/RpjB/wAA
+        AP8TICL/lO///2+yvP8AAAD/idHf/5jq//+X5v7/l+P+/5Hc/f+a4v3/qu7//6rt//+l6f7/p+T9/7Ds
+        //+x7v//tPH//7b3//+s7P//uPP//731//+z6///qeL9/6nj/f+y6P7/wvf//9P+///g////4f///97/
+        ///Z////1f///x0lJf9ieHj/1////1JmZ/8AAAD/aH9//9T////Q/v//xvz//8H7//+29f//sfj//6fy
+        /v+g7f7/qff//5nu/v+Q6v7/le/+/5Xv/v+h+f//oPj//5Tu//+O6v7/ctb5/1PC8/84pN//IJLT/wJn
+        sv8KjdD/PbPt/zx9nP8AAAD/KEJI/5ry//9bjpX/BwsM/5nr/v+b7f//muf//57r/v+Y4/7/meH9/6rr
+        //+z8f//svL//7Dw//+49f//uff//7b1//+s7P7/pOT9/7v1///F+f//v/j//7jy//+v6f//s+z//771
+        ///O/v//3P///9v////a////1v///87+//9AT1D/QFFR/8X7//9piYz/AAAA/0tbW//d////2f///8r+
+        //++9///v/v//7f3//+h5/7/ou7+/6jz//+a6/7/j+b+/47m/v+W8v7/nvf+/5/3//+T7///huP//27P
+        /P9NvfT/Najk/yCU0v8BabX/FZXb/0m59f89c4z/AAAA/zZYXv+e9v//T3p+/xgiI/+q+P//ne3//6Dt
+        //+l8P//muT+/6Dl/v+o6P7/s/D//63q/v+19P//u/X//7Tz//+z8P//tvH//7v2///B+P//xPn+/8b7
+        ///A9///uPH//7Hr//+z7v7/xPv//9X////b////2v///9L////N/v//TmVn/ys5Ov+9+f//d5yi/wAA
+        AP89SUn/3////93////R/v//v/r//7/8//+7+///qe7//6Xv//+o8/7/nu3+/43g/P+C2/r/k+7+/5jx
+        /v+d8v//n/T+/4fi/v9v0vv/Srbs/yOPzP8JbKv/AWq1/xqZ3f9HuPT/MGeE/wAAAP88YGb/n/D//0pv
+        df8fLC7/rvf//6nv//+m7///qPH//6vw//+i6f7/qev//7Lz//+z8v//su7+/7v3//+y7/7/rOz//7n1
+        //+9+P//vvb//8P7///D+v//v/b//730//+99v//uPP//8L6///J/f//0f7//9L+///K/v//xPv//1Ns
+        cv8jLjH/sez//3mgqv8AAAD/NkJC/9X////X////0f7//7z4//+9+v//vPv//7H0//+v9f//rvf//5rq
+        /v+P5v7/kur9/5Hp/v+Z8v7/p/j//6j4/v+X7/7/b9H5/0m17P8zndz/Cmus/wR4xf8no+n/Trv0/z50
+        jv8AAAD/MlJb/5Xu//9NeoD/FSAh/6Xy//+p9P//r/j//7r7//+w8///sPL//7X2//+39///t/T//63q
+        //+59v//wvz//732//+89///vPf//771///B+v//vPb//7vy///E+f//vff//7vz//+58v//te7+/6/p
+        /f+z7P7/uPH//7Xu//9JX2b/LDo9/6nk/f9qkJ//AAAA/zdISv+89v//wv3//7/5//+18P//ufT//7z5
+        //+5+f//tPX//7D2//+h8f//kOn+/5zx//+j9v//oPb//53z//+g9P7/jeb+/33c/f9YwvT/P63n/wxy
+        s/8Edcj/HJzd/1O/+P9IhqL/AAAA/yY9Q/+b8P//Y5ea/wUICP+r9vz/rvn//7v7///B+///vv3//7j5
+        ///A/f//v/z//8D6//+69v//wPj//8H7///A+f//vvr//7r3//+69P//u/f+/7v4//+u7P//uPX//7j1
+        //+48f//r+j+/6jm/v+m5P7/peP+/6jm/v+z7v7/NEZK/zxPVv+r5/7/V3iH/wAAAP9CV1//se7//7X3
+        //+3+P//sO/+/7Du/v+8+v//t/b//7Xz//+5+P//qvT//5/v/v+f8P7/ofX+/6T4//+d9P//m/L+/5Ps
+        /v942fz/WcL2/zGg3f8Jd7v/AmS0/xmW1/9UvPL/XqjI/wAAAP8RGx3/mO///3e5w/8AAAD/k9LX/7L6
+        //+4+///u/r//7v6///C/f//yv7//8P8///C+///wfz//8X8///D+f//xPv//8L6//+99///u/j//774
+        //+t7f//qev//6nr/v+39f//u/b//7Ds/v+q6P//pOP+/6Tk//+v7f//tvD//xQbHf9aeH7/sez//0FY
+        Yf8AAAD/XX2F/7jz//+28///uvj//7b3//+y8///vfr//7z6//+49f//tfX//7Hz//+p7/7/o/H//570
+        //+f9f//ofb//5fv//+K5/7/ac76/0O08P8und3/F4LH/wRvuv8fldP/W7/s/33S8f8CAwP/AAAA/4rY
+        5v+T6ff/BQgI/2ORlf+0+v//t/f//7r5//+19///uvr//8T8///L/v//xv3//775///B+v//yv7//8P6
+        //+59P//ufb//8D6//+w8/7/nub+/6Lk/v+n6/7/rvL//6ru/v+q6f7/qej+/5vf+/+h4v7/qej//5rR
+        2f8AAAD/iLS8/7Lw//8dKCz/AAAA/32psv+x8P//tfX//7r7//+4+f//tfX//7r4//+8+f//uff//7r4
+        //+59v7/s/T+/6Pv//+d8v//o/b//6Dy//+Y7///f97+/13G+v84r+v/JJPX/x+DzP8MdsD/N6nf/3TU
+        9/+M4v3/HjA2/wAAAP9imaT/p/v//zFMTf8oPD7/r/n//7H5//+4+v//tvn//7n2///C/P//zf7//87+
+        ///B+v//yPz//8v+///F/f//sO3+/7Lx//+69///tff//6Hs/v+h6P//our+/63y//+n7f//qOn+/6/w
+        //+s7///ru7//7Tx//9dfYL/DBAQ/67q9/+l3ef/AAAB/wECAv+j3u7/r/P//7j4//+8/P//tff//7r7
+        ///A/P//wP3//8T9///C/f//xv7//776//+x9f//pvL//6Lx//+h8f//kOj//3TY/v9TvvX/Labi/x6Q
+        0/8RecL/FGyz/zqn2P931/P/kOb7/1J6f/8AAAD/K0RK/6L1//9xqa3/AAAA/4rIz/+1+P//s/b//6zx
+        //+08v7/xP3//8b7///F+v//v/n//8j+///J/v//wPr//736//+++///uPf//7L3//+t9///q/D//5jh
+        /v+b4v7/oeb//6vt//+z9f//vvr//8D7//+38/j/FRwc/01maf+28v//Y4WO/wAAAP8oNzv/rO///63y
+        //+19///u/v//7T3//+19f//vfv//779///A+///vvv//8P8//+59f7/tPT+/6ny/v+d6/7/luX+/4zi
+        /v931v7/V8H2/yef3v8ejM7/E3zE/xBZmv83pNP/d9fz/47m+f+Ey9n/AAAA/wIEBP+X3eL/o/X8/xsn
+        J/8zS07/sff//6v0//+v9f//sPL//7f4//+09P//u/f//7f1///B/P//v/r//7/7//+39v//tff//7n4
+        //+29v//rfP//5/n/v+X3/3/nOD+/6Dj/v+v8v//uvn//7r4//+7+///a4+S/wIDA/+Xztz/re39/x4q
+        LP8AAAD/ZYyY/6fo//+p7v//rPD//6/y//+v8f//sPH//7f1//+19///tfX//7P0//+3+P7/sPX+/6jx
+        //+f7v7/nez+/5jk/f+N4f7/f9j9/0678f8noN3/JpPV/xmFz/8KUZn/KpnS/2zQ+P+O5/7/ken+/ylB
+        R/8AAAD/Rmhr/5rx//90rLP/AAAA/3morf+t9v//rvP//6zw//+n7f//rPD//6/y//+t8v//rvH//6rv
+        //+r7v7/p+z//7H2//+s8v//tvj//6jx//+h6f7/nuT+/6nv//+Y4vz/qe/+/7D0//+x9f//mtjh/wsP
+        D/9IZm//p+n//3Cer/8AAAD/Cw8Q/5rc8f+d5f7/nuT+/57n/v+n7f//qO7//63w//+y9P//tfb//670
+        /v+n8v//pPL//6b2//+i8/7/j+X9/5Xq/v+b6v7/kOL//3nW/P9MvPL/IZ3Z/x6N0f8Pf8j/BkuY/xeI
+        zv9UvfX/etj+/43n//9ws8L/AAAA/wIEBP+BydL/p/b//0BaW/8LEBD/ldHb/6Xs/f+r8/7/qPL//6bv
+        /v+n7f7/o+z//57n/v+i7P7/nuf+/6Pr//+h6v7/qvX+/7H5//+t9///oev//6jw//+t8v//qO7+/6jx
+        //+t8///rPD3/yc3Of8YIiX/nuHy/5re9/8XICT/AAAA/1J1fv+l7P7/q+///57m/v+b5///pu///6vy
+        //+z9v//uPn//7X5//+p8///nO3+/5jv/v+f+P//oPf9/5Pu/f+R6f//mOz//4vi/v9uz/v/Q7Xt/y+o
+        5f8ZkNX/CHi//wVfrf8Mh9L/Oazu/3DU/v+P7f//mvL//zFPVP8AAAD/IjQ2/6z2+v+v7/L/IC0v/xcg
+        Iv+P0OH/qvT//6jx//+h7f//pfP//53o/v+e6P3/qPX//6Tv//+p8f//qvP//6r1//+u+f//rvn//6n0
+        //+m8///qfP//6Tt//+h6/7/o+74/zRMT/8JDQ3/jcfQ/6fu//9Ka3X/AAAA/xIbHP+f5PL/q/L//6/1
+        //+m7P//oOn//6fu//+u9f//sPj//7b6//+x9v//oez+/47j/f+T7P7/lvH+/5/2//+b8/7/kur+/4/l
+        /v+G3v3/a878/0y58/85re3/IZjb/xKFz/8DZ7r/E5vm/0S19v9z1P7/geH//5Ps//+G1uT/CxES/wAA
+        AP9ObnH/qvX+/5nd5v8aJif/ERsd/4nGzP+Y6f3/len+/6Dv//+d7P7/nuv+/6v0//+i7v//n+7+/6Hx
+        //+h8P//oe7+/633//+b5/3/l+b+/57r//+l8f//md/q/yk+Qv8HCwv/e7S//6Pu//92qrP/AAEB/wAA
+        AP93qrL/q/L//6Xu//+o9P//pO///6Ds//+l8f//qPT//6nz//+y+v//r/X//6Ht/v+H3fr/lOz+/5bw
+        /v+l9///rPn//5zv/v+V6f7/gNv9/2PK9/9MvPH/NKro/yKb4f8Ri9n/AWvB3w+R3/9Ds/T/cdb//33f
+        //+M6P//kuz//2mnsf8AAQH/AAAA/16Ijv+h7/7/l+Hq/yc6O/8EBgf/TnqG/5Pk+P+b7f7/ovL//6T1
+        //+h8f7/juL8/5jr/v+W6v7/kuT+/5Xm/v+a6v7/kOP+/4vd/f+G3Pz/Ypyv/w8YG/8NFRn/ernG/6Hy
+        //+AwMf/BgoL/wAAAP9Jam7/o/H//6Dv//+i7///pvX//57r//+l8P//ou7//6jy//+f7P//rPj//6nz
+        //+h8v7/nO7//5/x/v+e8v7/oPX//6b2/v+V6v7/hd79/3bS/P9kyfn/Tr/z/zWv5/8jm9z/FpHd3wB0
+        zJwYmun/Oaz0/1nC/f9uz/7/guD//4Xh/v+V8f//UYKK/wAAAP8AAAD/U3+E/6X3/v+e8vr/T3d8/wMF
+        Bv8THh//WYqS/5vm7f+k9v//n/H//5Ll/v+S6P7/m+/+/5Pr//+A1/r/gtz8/4vg+f9kn6//HzM6/wAA
+        AP8rR1D/fc3n/5Pp/v93tbv/CAwN/wAAAP8zSkr/qfX6/6Tz//+j9P//nO///5jr//+d7v//mun//6Tw
+        //+p9v//pPP//6Pz//+l9v//n+/+/6Lx//+l9P//qPb//6Hz/v+Z8P7/j+j+/3TQ+/9z0P3/Y8f7/065
+        8f81qOH/LZ/f/xqS35sAdMZICYPR/x6Z3v9Jtvb/Zcj8/4He//+N5///le7+/5vy/v9Ldn7/AAAA/wAA
+        AP83VFf/kuTw/5Lq/v9+yNn/Nldd/wIEBf8EBgf/K0FC/1B4fP9imaL/bau0/2qruP9hn6n/R3iH/ytH
+        Uv8IDhH/AAAA/yM3Pf9lpbj/i+T+/4/n/f9MfYn/AwQE/wAAAP8oQEX/mun0/6D0//+l9///nfL//5Dp
+        //+N5f7/mOz//6Hw//+j8///ofP//5rr//+b7v//ne7//6Lv//+b6v//pPX//6j5//+d8f//lez//43n
+        /v951fz/b838/2bL+v9TvPD/QLPn/z6u6P8xp+9DAAAAAABtuuQOhsv/OKnt/13D9/992v3/iuP//5ju
+        /v+T6/7/ler+/1aJlv8DBAX/AAAA/xAaHP9loKn/m/L+/572//+Y5Or/XJCW/zNPUf8THR7/AAEB/wAA
+        AP8AAAD/AAAA/woSE/8gOEH/SXeC/2+91v+N4v//htr+/2WsyP8eMTr/AAAA/wAAAP81VF3/i+D5/5Pr
+        //+Z7///oPL//5rv//+M5v7/juf+/5fv//+e8///nu///6P2//+e8f//pPf//5vu//+Z7///nvL//6X2
+        //+j9v//ku3//4Th/f+D4fv/bdD5/1/D9P9ixvr/Y8f4/0u57f89sO7fAAAAAAAAAAAEdLtyB3y+/y2g
+        4v9cwfT/d9L7/3za/P962Pv/g939/4Ha+/+J4fz/d7rI/xUiJP8AAAD/AAAA/yExMv9onaP/oOz0/5vw
+        //+k9///qv3//53w9/+U4+f/kd7k/5Lk8/+P5/7/heH+/4ri/v+J4/z/aam8/y1JUv8AAQH/AAAA/wcL
+        Df9XjJz/juP//4DY/v+J4P7/k+j//5Xs//+S6v//mPD//5Xv//+V7P//mO///6P2//+h8///mu7//5ft
+        //+X7P//lev+/43l//+Q5f//j+f//4Df/v932fz/bdP4/1nE9v9SvfT/Vb/y/1/G9/9NvPT/MaXqcgAA
+        AAAAAAAAAAAAAAN6vcAlm9v/Vbvv/3bS+f940vn/cMv7/3HM+/961v7/h+H+/5Pq/v+S5/b/SXSA/wcL
+        DP8AAAD/AAAA/wgMDf81T1H/Y46P/4C5u/+Q2N3/lOXu/5Hk8f+D0OL/d7rG/1OKnf80V2L/DRcc/wAA
+        AP8AAAD/AQIC/y1LWf+Ay+T/hNr+/4Tb/v+K4v//i+f//4De/v9/2///gNz+/4no//+A5P//f97//4vp
+        //+T7P//mPH//4fh//+G3f//eNT4/33b/v+A3P7/f9z+/37e/P9qzfj/cNX7/2TN+v9aw/j/VcL3/1/I
+        +v9gx/n/VcH5wAAAAAAAAAAAAAAAAAAAAAAAhMwZJJjZ302z6v9kwe//b833/2nI+P9w0Pz/cND8/4Ld
+        +/+T6vz/jOb8/43l/v+H2O3/RXGC/xIfI/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8GDRD/L1Rn/16t0/9qyfv/ctD9/3PQ/v9kw/j/asn8/27Q/f9q0Pz/Zcn8/2vN
+        /P9s0v//btH+/3HW/v932f//fdv//4Df//9rzPr/a8z6/16+8v9z0f3/d9f//2zO/f9cxfj/Trzv/1XB
+        8f9kzPn/Zcr7/2LK+v9pzPz/Ysb731vM/xkAAAAAAAAAAAAAAAAAAAAAAAAAACmU1R9WuOnfVLLj/1S3
+        6P9Tu+z/XcL1/1/I+P9s0vb/ddX4/3jX+v921vr/dtb7/3bT+/993fv/aLPJ/0J2h/8kQk3/ER8l/wMF
+        Bv8AAAD/AAAA/wECAv8LFhv/GzRB/zJedP9IjrD/Z8H0/3LQ/f9szPz/W8D2/13C9f9hxPb/WL3y/1e9
+        9P9ex/z/VMH4/1O/9/9QwPj/Rrz1/0259P9dxfn/WcL4/2vO/f9my/3/Y8r9/17E/P9dwvr/Y8X8/2jK
+        /f9fxPr/ULr3/0m48f9Muu7/X8f0/2nQ+v911/z/dtb9327U/x4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAcNb0GVO47MA3pN7/N6rk/zyr5f89tOj/RLTs/0u87f9FuOr/Rbbr/0W26/9HuO3/U8Dy/1jC
+        9/9YwfX/Ubzx/1O98f9PuO3/W8Dw/1q/7/9RwPL/T7rs/1C37v9VuvH/YMH2/2nK/P9nyf3/V733/0i1
+        7f9Nue7/Qa7l/zWm3v89qeP/QrTs/z2x7P83sOz/JKbk/x+k4f8ho93/JqTg/zWs6f9FtPH/RLXz/0Gz
+        8f9Cse//RLDx/0e09f9Ru/r/Pq7u/y2i4f8rod7/QK/s/zus5/9UwPL/YMj4wGbW/xkAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKJ7dchuT1eQfltj/H5zY/ymh3/8knNv/JJrY/yWV
+        1v8fktT/IZXW/ySZ2v8nm9v/I5jY/yyi4/8mnt3/KJjZ/y6d2/8qoeL/H5PV/yKPz/8ijsr/HY7O/y+l
+        4/9Bse7/OrLw/yqm5/8dmdr/H5jb/xSV0v8Li8r/DIrN/xmd3f8Zmd3/H57k/w6T1v8Dg8f/A4LK/wWE
+        x/8Gi9D/DY/U/w+Q0/8fneT/Gpvd/xWR2P8YkNj/GpXd/xiW3v8Mhs3/BX29/wh7wP8NhczkIaDmcQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJpjbSCma
+        1ZsajM3fDn3E/xSAyf8Zgcj/EXvB/xR5wP8XfMP/D3i+/wZvtv8Kcbj/CG60/wxusP8biMz/FIPI/xB3
+        v/8Ndbf/CG6s/wRqrf8Meb3/D37D/wmMzf8DeLz/A3Gy/wNsrv8EdbX/AnG0/wF1v/8DfMP/Ani9/wJy
+        vP8Db73/AWGo/wFeq/8BXaj/A2Ou/wNiq/8BaLL/A2az/wZ2x/8EY7T/Al2u/wFquf8BYbH/AVSd3wFQ
+        lZsAWJ9IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAA//wAAAAAAAA/8AAAAAAA
+        AA/gAAAAAAAAB8AAAAAAAAADwAAAAAAAAAOAAAAAAAAAAYAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgAAAAAAAAAGAAAAAAAAAAcAAAAAAAAADwAAAAAAAAAPgAAAAAAAAB/AAAAAAAAAP/AAAAAAA
+        AD//AAAAAAAA/ygAAABgAAAAwAAAAAEAIAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFimMQJfu30DV7PIA1Wm7wNB
+        kP8CS5n/AkOS/wJAjv8ERJP/BT2M/wNKnP8DQ5j/A0OV/wJJl/8BVKz/Almr/wNZpf8DYKf/A2ix/wJv
+        uv8Bbbv/AWGn/wJSlf8CX6D/A1SV/wFZnv8CWp//AVua/wF3uf8Debz/A2yu/wNopv8CaKP/Alua/wFy
+        tv8Dbq3/CIPB/w2Iyf8TjdD/EY7P/xaY2f8Zk9L/FJDQ/wRln/8FZ5//BGWn/wVho/8Daq7/DHe6/xCB
+        x/8akdX/HY7R/wt+xf8Lf8j/EIPL/xKFz/8Nfsf/CHS9/wV1vf8Lfcn/DX7N/xeO3f8Vjdf/Cn7K/w2M
+        2v8Qjt3/C33F7wV6xMgEfM59BXe7MQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/PEABy
+        vmsFcLvJAWy3/QJ2w/8Iitb/CHzJ/wN4w/8BdMD/AXLB/wFyu/8Ec7z/BWu0/wRnsv8BbbX/AWyy/wFx
+        uP8Becj/AnzJ/wmByP8Kh8n/BX/G/waFzv8Eecb/AXe7/wOBwv8GiMj/Bna3/wd8wf8FfsL/BoHC/wWL
+        0P8Oltv/GJnZ/xaW1/8Yndv/C4vJ/wqOzP8XlM//HJnU/zCp5/9Br+7/O6zq/0K07/9Lv/j/Nazk/xqI
+        v/8Wh8D/Kp3a/xyNy/8Rf7//Kpra/z6r7f9Is/T/SrPx/zOi4f8zod//QKvp/z2s7/86pub/JJbX/xmR
+        0/8vn+H/Nqbr/y6f6P86qvD/J5ji/zmo8f8+r/r/PbH3/zGm7/8dkd7/DorP/RqU28k0outrP6//EAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAYnuKHEZnf9AyM1P8Sj9j/BoTO/wmP2P8Qldv/HJ/j/xOY2v8FiM3/B4vW/wSG
+        zP8EhM3/BYDJ/wGDxv8Bf8L/AX7A/wOCw/8IkNX/DpLZ/ySi6f8Smtr/DZfX/wyV2P8Egsf/BIbE/wSH
+        xv8Lk9L/DpLR/x2d3/8YmNr/HZ/h/ymp6f8+s/P/P63w/0a08f80ref/KKXf/yOi2v84qOH/RK/p/1fA
+        +v9gx/n/Ysf5/2rO/P9v1f3/ZMf7/0iw5/9cvfH/YMH1/1y+8f9Os+f/UrXt/1q/+f9jyPz/Vrz2/1C3
+        7/9RuO7/VLrw/1m89P9Msev/Q6rm/z+o6P9Bqub/PKfj/zii4v89pev/OZ7m/0Cm7v9MrPD/T7Lx/zqj
+        6P8olNv/GYfU/yaV4f88pe3/OqTu9CeZ5ocAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIqXcJSag4Msqo+P/NKrr/zKo7f80p+v/IZvh/zKq
+        7v8pouX/Mqnm/y2q5/8squj/Navs/yWl5v8Rltj/DJLU/wqP0v8Kk9X/BZDR/wuX1/8cpeT/La7v/zWu
+        8v8yqOj/M63n/zGr5P8lm9X/IqHa/x2c1f80p+L/Pazp/0ez8P83q+f/Qbfz/1G79f9fxfz/YMX8/27N
+        /v9lyvz/YMb5/1/A9v9fwPb/YcX6/2vS/v9y3P7/f+H//4Ph//+J5v//bcz2/1y+6v9nxvX/btH5/2vN
+        +v9x0vv/a8v7/2vN/f9y0/7/a8v7/3HP+v9z0f7/bcj9/2nD+f9dvfT/W73y/1q78f9St/P/P6jj/0Go
+        4f9Er+v/SbDw/0Ws7P9Nr+f/RK7p/0av7f9JsO3/RbDv/z2s7P86rOn/Q6/p/0206/9Wt+jLUrPcJQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDtOZIOLDk8Tqr
+        5f88rOb/QLLs/zmt7P82rez/PLLv/z+09P9Et/b/Q7Tw/0G18f9BtPL/P7Hy/z2w7P88sO3/Oq7u/ziv
+        7v8lpOf/J6nq/x6i4P8ipOL/Ma/t/zSu7P8/tvH/Q7rz/0O48P87q+b/MKXe/z6t5/9Jsev/S7fu/0Wz
+        7f9NufT/Vbn0/2HA+f9py/3/aM39/2nK+/9hwfT/ZsX4/2rF+P9qyvn/dNX9/4Lf/v+F5v//huP//4zn
+        //992/3/YMHu/4fk/f972P7/a8z4/4Tg//992v//dtT+/3vX/v992v//dNX+/3zW//9+2f7/e9X+/27J
+        +/9tyvz/bsn8/2C97/9ivfX/UKzk/z+PwP9UtfH/VbX1/1m69P9KsOz/Pqzq/0W18v9HtvH/RbTv/z6u
+        6/84rer/PrLt/0Cx6v9JruL/S7Dk8VjG7UgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAFjD80VSvfD3Srjr/1e+8/9PuO7/S7rv/0W17f9IuPP/S7v1/0G18v9FtvP/Trr0/0u5
+        8v9QvPT/WML2/1zG+v9KuPT/V8L8/0y69f9HtvT/RLf0/0C39f9Nvvn/Tbv3/0689P9KvPb/WMb7/1TD
+        +/9Pu/P/Trnu/2DH+v9hxvr/WsD0/2TK+f9XvfP/bMr9/3LO/v9y0P7/a8z+/2nH+v9kxPT/dtT7/3XR
+        /P931vz/g+H+/4/p//+V7f//nPL//5bt//+P6/7/huL+/5nw//+V6P7/jOP9/5ju//+P5v//j+X//5Dn
+        //+O5///ddL7/43n//+D2/7/hNz+/4Lb/v950f3/e9L+/2/J+f9qvu3/EyYw/wAAAP8UKzr/WrLm/1e6
+        9P9Mtu7/R7Tv/0678P9TwPP/S7vy/0S18f89tPH/ObLw/zSt6/8yot//O6rh/0W36Pc3sehFAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVbTpSFW77PdcwPH/Vbzu/2TI9/9dwvX/WL7y/1zC
+        9f9UvvX/VsD5/1K/9v9Itu//QrPr/0q57v9RwvP/VsP2/2HM+v9gy/n/WcX7/2fS/v9kyv7/a8/+/13J
+        /v9Xwvr/XMf7/1W99f9byPv/YMf9/13E+v9iyfv/U7zw/2DG9/9qzf3/asv6/2TF+P9jw/f/acf6/3TQ
+        /v9yz/7/bcv8/2bG9/9oyPj/cdH8/3jW/f9/2/3/gtv9/5Ts//+X6v//mu///5zy//+T6v//jeX//5bs
+        //+t/f//nvL//5Hm//+d8P//n/X//5z1//+e8///hdv9/4LZ/P+T6P//kOP//4PZ//+A2P7/fdP+/3fO
+        +v8kPUn/AAAA/wAAAP8AAAD/EiQt/1u03v9bwvX/WL/1/1nA8f9Zw/P/V8j3/1jG+f9Ovvj/O7Lw/zWr
+        6v83puP/Oafk/z237f81sez3LqrtSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLs+olUrrr8VG7
+        7f9Uu+z/Urvu/2TI+P9jx/j/ZMj4/2LH+f9Zwvj/Ur/1/0q58f9JufH/P7Tt/zy06v9Jv+//VcX1/2LO
+        +P9p0vr/bNb8/2rS/f9nzv//a9H//2nP//9r0f3/Y8n8/2zO/v9v1f3/dNP+/3DP/f9ly/z/Ycf3/2PH
+        +v9uz/3/eNb//3jV/v9syfz/cM37/27L+f910v3/dtT9/2rN+f9qzPz/c9P8/27L9v971vz/iuP//5Xt
+        //+S6f//mPD//5Xu//+W7v//lOz//53y//+s/P//pvf//5zy//+k9///pfn//6H2//+l+P//mOj//5Tp
+        //+a7v//lOf//4rg/f+A2fz/etT5/zZdcv8AAAD/AAAA/wAAAP8AAAD/AAAA/w8dI/9dtNj/ZMn3/2bK
+        9v9r0Pj/aND6/2nQ/f9Wwvj/SLj0/0S27/9Lt/D/R7Lt/0O38v8+tfL/ObHx8Tez8SUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA/rePMRLLk/0297P9bxPD/Y8r3/1/F9f9ny/j/adD5/2nP+/9jyfr/ZMv7/1nD
+        +f9OvfX/S7/z/0m+8P9OwfH/Wcn1/2XP9v923Pv/bNL9/3Ta/v923v//gub//3ra//922f//ddn//3HW
+        //993v//g9///4vl//+F4v//huT//3rY/v982P3/heL//4Df//9/3v7/dtH9/3TT+/+K5f//g97+/3ze
+        //9+3f7/etf+/4Pe/v9+2/7/j+v//5fv//+T6///kuv//531//+Z8v//off//6/9//+y/P//tv7//6P3
+        //+k+P//ovP//6H1//+n+P//qPf//57x//+Y7P//juP+/47j/v+L3/7/VYmd/wABAf8AAAD/AAAA/xUk
+        KP8AAAD/AAAA/wAAAP8MFxz/ZrTO/3fU9/941/r/fN3+/3XY/f9kzPv/XMf7/1jF9/9WwPX/XcX3/17F
+        +/9hyfz/Tr36/0Cy78sAAAAAAAAAAAAAAAAAAAAAAAAAAEGu5og+sub/Oq/h/0266/9exPP/acz4/2TL
+        9f9q0Pr/cNP7/3XY/f9v0/3/adD9/2XO+/9jyfv/Zs37/1/L/P9pz/3/b9T9/3LV+f994P3/fuD+/33e
+        //+J6f//lPL//4rl//9/4v//etv//4fn//962///g+D//4Le//900v7/g9z+/4Tf//+F4v//jeb//4Xg
+        //992v7/e93+/4Lg//+E4P//ieL//4/q//+E3/7/gt3+/3fW/P+G5P//h+T//4vm//+O6f//le7//533
+        //+c9v//pPn//5vw//+q+///qPn//6Hz//+l9f//pPX//673//+w9v//pPP//6Tx//+d7P//kuX//4zd
+        //9qp7//BAcH/wAAAP8AAAD/HjA1/4LW8/9Of5D/AgMD/wAAAP8AAAD/ChIT/26ywv+I4vr/h+f+/4Lk
+        //902fr/YMXv/2DI+P9hyfj/atH7/2XL/f9hyP3/XMX8/0i38f8flNWIAAAAAAAAAAAAAAAAUb/1HEy3
+        7/Q9r+X/RrTq/1K47v9ZwfP/XsX1/2XM9/9r0Pn/cdX7/3bb/P902Pz/bdT8/3HW/f9x1f//ctX//3DU
+        /v9u0vv/ddn8/4Dg/P+C4/3/i+f+/5Lt//+M6///jez//5Lw//+Q7P//kuz//47o//+J5f//jOb+/3vU
+        /P981/7/iuX//4rl//+I4v//j+r//43o//+E3v7/huX+/4fp/v+A4f3/iOX+/4fj/v+H5f//heL//4bm
+        /v+B2v7/jOb+/5bs//+Y7///pfr//639//+r+///pfn//6X6//+q/f//pPj//6L2//+Z7///nfP//6j4
+        //+j8///pPT//6f4//+Y7f7/ken//3fD3f8MFBb/AAAA/wAAAP8TGxv/i9Pg/5Pn//+a7/7/X5Ge/wMF
+        Bv8AAAD/AAAA/wgNDf9zsbv/l+/+/5Dr//+R6/3/gOD5/3fZ+v902Pv/ctj8/2bP/f9y2f3/WsP2/0Sz
+        6v8fktH0D2+/EAAAAAAAAAAAX8X8a1a+9P9OuO3/X8X3/2DE+P9dwvT/Y8r3/2XL9v9s0ff/cdb5/3XZ
+        +f973fz/e979/3ve/v943P7/fd/+/3/e/v+G5P7/guD+/4bj//+Q7v//juz//43s//+M6v3/j+v+/4fh
+        /f+J5v//iuf//5j0//+Q7f//i+b//43p//+E4v7/jOf//4vl//+a8///l+3//5bv//+J5P//bcry/3PS
+        9v941vz/gNv9/4Ti/v+A3v7/hOP+/4Xg/v941Pz/edf9/3vc/f+M5v//nvb//6H4//+m+///mvL//5/3
+        //+g9///nfb//5/1//+b8v//nPT//6T5//+g9P//nvT//5/z//+Q5v7/idzx/x0tMP8AAAD/AAAA/wQH
+        CP+Cv8b/nu7//5/u//+n+P//qPX+/3Wprf8FBwf/AAAA/wAAAP8GCgr/b6mu/57z//+Z8P//k+z9/4fl
+        +v+A4f3/ed39/3jb/f953vz/W8bz/zyu5/8Zj87/C3K1awAAAAAAAAAAWsD51WbK/P9awfP/Y8n4/2vO
+        /f9rzPr/btD6/3HU+f901vr/cdX6/3jZ+f+G5Pz/f9z+/4bj//+O6v//kOr+/4zl//+N6f//jOn//5Pv
+        //+V8f//i+r//4fn/v921vz/gd/+/4jl//+X8v//lvL//5Xw//+T7v//m/b//43p//+P7P//lPD//5jx
+        //+Y7///nvj//5Hu//+J5v7/h+P+/37d/P+H5P7/i+X//4zp//9/3v//d9b+/4nh//9+2Pz/gt78/3/e
+        /f+S6///nvj//574//+g+f//n/b//53y//+W7P//lu///57z//+d8v//pff//53u//+d8P//k+n//5Xn
+        //+V5vr/LUhQ/wAAAP8AAAD/AQIC/2mZov+j7///ou7//6f1//+m9f//pfT//6j1//+Burv/CQ4P/wAA
+        AP8AAAD/AwUF/22dnv+g9f//nPL+/4fh/v+K6f7/eNn+/3LW/f9r0/z/Tr3u/ziv6P8Vj9P/CG6yyQAA
+        AABTu/QxV7zy/WfL/P9hxvX/asz7/3XU/v9+2///gNz+/33c/v9+3P7/gN79/4Le+/+N5/7/mOz+/5jq
+        //+c7v//nPD//57x//+a8f7/ku3//5bw//+V8P//lvL//5Px//+N6P//jen+/4bj/v+S7P//n/f//5v0
+        //+c9f//oPn//5Hr//+Q6///mfP//5fw//+e9///l/X//4Xk/f+H5/7/heT9/4He/f+D3/3/hOH//4Td
+        /v+I4///h+L+/3vU+/+C3Pz/e9b4/4vk/f+V7P//lvD//5Xu/v+W7f//nvL//5ns//+g9P//oPX//6P2
+        //+p9///qfT//6Xz//+Y6P//leX+/5ro/v9Ncnn/AAAA/wAAAP8AAAD/Vnd4/7z8/v+7/f//p+3+/6/y
+        //+k6///rPP//7H5//+u+P//gr3G/w0UFf8AAAD/AAAA/wECAv9UiZH/i+n9/4nl//+E4v7/dNb+/2/T
+        /f9t0v3/T7zz/zqy7v8YmN7/A3O6/QBYpjFOtup+Zsf1/3bV/f+D4f//etj9/4Ld/f+K5P//i+X//4rk
+        //+H4fz/ieL9/5Pq/v+Z7f7/o/D+/6z2//+u9///q/f//6r1/v+j8/7/nfH//5Ls//+Q6f7/l+/+/5fv
+        //+U6f7/mPD//5Xx//+f9v//mfD//6D2//+l+v//ovr//5z1//+Q6v7/mfL//572//+d9v//l/L//4Hg
+        +/9/3vn/e938/4He/f992fz/gN39/4Tg//+M5v//gNn8/5Xt//991/v/ccvz/4Te+/+S6f//k+z//5Tt
+        //+U6P//k+f+/5Hi/v+e7///pPf//6X0//+u+P//rPP//6Hs//+k7///o+7+/2iapP8AAQH/AAAA/wAA
+        AP89UFD/wvn6/8j+///C/v//s/X+/6vw//+19///rvL//673//+n9f//qPf//4LJ0v8OFxn/AAAA/wAA
+        AP8BAQH/RXWB/3fX/v931f//btH+/2zR/v9hx/3/S7f1/z6z8/8eoOX/BH7G/wJbr31RuPPIZ8r7/3HQ
+        /f+H3///hd///4nj//+Q5///le7//5Lo//+T6v//kun+/5bq//+j8///qfT//6zz//+z9///svj//6z0
+        /f+m8/3/nO7//4/o//+X8f//kuj//5Po/v+T5/7/lOj//5ry//+X7v//mu///5zw//+i9v//mfL//6P7
+        //+U8P//pfr//6H4//+e9///p/r//47p/f+B3fr/jOf//4rn//951vz/etf5/3rW+/+B2/v/hd38/5Dm
+        //+W6P7/hNn5/4zk/f+Q6f//k+3//5Hp/v+V6P3/juL+/5Hi/f+l8v//pfX//6X0//+l8f//pez+/6Ts
+        /v+u9v//gLjF/wYICf8AAAD/AAAA/yEtLv+98vL/0v///9b////A/P//u/n//6Tt/v+w9///rfL//672
+        //+d7v7/n/L//53z//+Gzdz/FyQl/wAAAP8AAAD/AAAA/zZgb/982vz/ctT//2/U//9sz/7/WcH9/0O3
+        +f8Xmd3/A3zG/wFfrshAqurvYsb8/3bU/v+J4f//jub//5jv//+e8v//nfL//53v//+X7v//mfD//6P0
+        //+m9P//r/b//7L2//+1+P//t/n//7b3/v+u8v3/nO7//5Tt//+S6v7/mu7+/4/i/f+L3/z/ofD//6Dy
+        //+b7///nO7//6Dw//+g8f7/pPf//6j6//+f9P//nvT//6T4//+h8v//nPH9/5Hp/P+O5P3/lOz9/4/p
+        //+L5/7/iej9/3/Z+/991/r/fdf2/5Ho/v+Z6///ne///4/g/v+K3v3/lev//5Xs//+W7P7/j+T+/47f
+        /f+o7f//q/f//6Pw//+o8///r/P//632//+N0OD/ERkb/wAAAP8AAAD/DxYY/5XR3P/G/v//2v///9b/
+        ///A+///uPn//7P1/v+t9P//sfP//7Dz//+v9P//rPn//6P3//+c7v//iNPj/xwsLv8AAAD/AAAA/wAA
+        AP8uVWL/asf2/3TW/v9iyf7/Trv6/0Gy8v8Ykdr/BW+5/wNOou82oN7/X8P5/3PS/v+A2v7/juj//6P1
+        //+j8///o/P//6f2//+i8v//oPP//6Tz//+q9v//r/f//7D0//+09///tvf//7n4//+q6vr/mOT9/5jp
+        //+U7P//l+3+/4/l/v+K3vz/oej+/6fy//+f7/7/ovL//53q/v+f7///l+n+/6b1//+k8///pfP//5rr
+        //+i8///mvD//6P5//+U6f//nOz//6b4//+l9f//ne///5Xq/v+M3v3/keH8/6Ht/v+t+P//oO///57r
+        //+d7v//n/D//6Dv//+d6f//muj//6Pu//+w8v//r/j//6Hq//+p8f//q/X//6Hl9f8jMjT/AAAA/wAA
+        AP8FBwf/hLbA/7b2///Q/v//2v///9H+///Q////wP3//7n8//+6+///rvH//7P1//+4+///rPf//6X3
+        //+h8v//me7//4jb6/8dMTf/AAAA/wAAAP8AAAD/LVhu/2zT/v9Uwfv/R7n2/yeg4/8RjdX/BnC6/wNI
+        mf8gldX/ULft/2jH9v+A2v7/jeX+/6Hx//+u+f//rPf//6j1/v+g8P7/oPP//6X3//+s9///r/f//6/1
+        //+t8P7/ufr//7b5//+z9P7/pvD//6Ty//+g7///ner//5nn//+h8P//qOz//7D4//+h7v//ou///6Pw
+        //+h8P//oO7//5/w//+k9///qvr//6Hy//+m9f//qfr//6f6//+j9///ovT+/6Dy//+v+///pPb//6b3
+        //+k9P//oPH//636//+y/f//rfj//676//+m9P//qfn//636//+t9P//qvH//6vz//+s9f//r/X//6Ln
+        /v+l6///qu37/z1TV/8AAAD/AAAA/wAAAP9tlJ3/vPn//8D7///P////0f///9H////G/f//wf7//7f6
+        //+3+v//uv3//7r7//+3+P//p/T//6f3//+n+f//n/T//5Ts//9blaP/AAEB/wAAAP8AAAD/EiYx/1S+
+        +f9Qvfj/R7n3/zCp7f8OkNj/BXS+/wQ+jP8IgcH/NaDX/2TE9P+E3f7/jeP+/57w//+l8///qvf//6j1
+        /v+i8P3/ofL//6Dz//+l9P//svn//630//+w9v//tfj//7b5//+2+f//sfn//6r3//+s+v//rPX//630
+        //+m7///rPX//671//+g6P7/neb+/6Tr/v+o7/7/oOr9/57r/v+W6P7/pvX+/6n3//+h8v7/qPn//6T1
+        //+j9P//n/D+/6Hy/v+b7P//o/L//6P0//+k9f//oPH+/6n3//+r9v//tvz//7T7//+r+f//rPf//6nx
+        //+t8///pOv//6nw//+u9v//sfT//6Dk/f+m6f7/VHeA/wAAAP8AAAD/AAAA/1Nucf+++v7/tvP//8L8
+        ///P////0P7//8X+//+6+///tPj//7b4//+5/P//svn//6/2//+y+f//pPj//6j5//+j9v//mO39/1iL
+        lf8CBAT/AAAA/wAAAP8EBwj/RY+q/1/G+v9Tvvr/R7r6/yql6v8KkNb/BY7U/wVQo/8Pg77/Qave/3LP
+        +/+D3v7/mez//5js/v+b7f7/ovT//6r3//+p8/7/qPX//5zv//+e8P//qPP//631//+v9v//rvP//6/x
+        //+0+P//rfT//7L7//+q8v//rvT//6nv//+n7v//rfb//7D1//+k6f3/pOj+/6fr//+m6v//pev+/57p
+        /v+j8P//n+v//676//+p9v7/rfv//676//+v+v//qfX//53s/f+i8f//rfj//57u//+g8P7/m+v9/6Du
+        //+1/f//svn//7n9//+v+v//rPb//6Ts//+m7P7/pu7//6bt//+t8v//q+///67w//9xnan/AgMD/wAA
+        AP8AAAD/OEpK/7/4+f/B/f//wfv//776///M/v//x/3//777//+7+v//rPL//6X0/v+u9f//tPr//6/8
+        //+o+v//oPP//5zx//+U7fz/RnB4/wABAf8AAAD/AAAA/wgOEP9bnb3/ctT7/1K67v9Yxfz/TL34/zOn
+        5v8inuP/BYnS/wNdr/8UhcH/Urfr/3fU/P991/v/id/9/53v//+b8f7/p/f//7H7//+l8v7/ovb//5Pu
+        //+k8///ovH//6/3//+z+P//uPv//7X7//+7/f//tvv//7P4//+t8f//q+7//6/z//+n7f//rPL//6vw
+        //+r7v//q+z//67v//+i4/7/p+z9/6Lq/f+o8f7/p/T//7D8//+t9///q/f//633//+f6///pfP//5jo
+        //+e7P7/oe7//6Dw//+b6v//luX9/6Dt//+s9f//tfz//7D0//+y9///rfT//6ju//+g5v//ouf//63y
+        //+q7v//s/X//5PHy/8HCgr/AAAA/wAAAP8fKiv/r+ju/8T9///E/v//wvz//7v2///I/v//v/v//7j4
+        //+q7v//puz//6P0//+p9f//rvj//6j3//+f8P7/luj+/5Xn+P83V13/AAAA/wAAAP8AAAD/FB8g/37I
+        0/+D4P//a8z7/2fM+/9cxvz/Srr4/zOr6v8hn+X/An7H/wRJmP8Rgbz/P6fa/3XQ+f9/2fn/kuj+/6L0
+        //+f9f//pPb//635//+v/P//q/z//5nw//+h8///mer//6r1//+u9///sfb//7T6//+4+///tvn//7L1
+        //+w8///ru///63v//+u8f//qe3//7L2//+09v//tPT//7T1//+19f7/puj8/6Pq/f+j7/7/rvn//7H7
+        //+u+f//sfn//7f8//+5+///u/r//5Ti+v+F1fb/luT+/5fl/f+K2vn/lOX+/5zq/v+o7P//vPv//8D8
+        //+4+v//uvv//7j6//+v8f//se///735//+4+f//pN3k/xceH/8AAAD/AAAA/w4SE/+k1tr/yv3//8v+
+        ///E/f//xfv//8P8///A+///wv3//776//+s8v//p+7+/5/w/v+h8///pvb//6n5//+j8/7/kt3v/yxE
+        SP8AAAD/AAAA/wAAAP8gMjP/jNjj/5rz//+R7///iOX//3rb//9exPr/Srr2/zOu7/8Ki9T/AXS9/wJO
+        nP8IcKb/O6nc/1e66P+K4/z/mvH+/5vv//+W7f//o/X//6f4//+i8///p/f//6L2//+k9v//mer+/5bm
+        /v+d6///m+f+/670//+z9///rPH//6zw//+5+v//t/j//7b0//+++P//ufj//7j3//+7+P//u/b//7bz
+        //+z8f//r/D//6/y//+z+f//t/n//7z9//+//v//tPj//7j5//+8+///tPb//6bq/v+a4v7/i9P8/5He
+        /f+L1/n/jNf5/6Lw//+v8///ufj//8L7//+8/f//vPz//7z8//++9///w/v//8j+//+/9PX/LDo6/wAA
+        AP8AAAD/BAYG/464uv/I/f//zf///8/+//+/+v//vvj//7z1///A+f//xv7//8D9//+n7v7/muf+/5Hi
+        /v+U5/7/mez//5rt//+K2Ob/HjA1/wAAAP8AAAD/AAAA/yY/Q/+N5PD/nPX//5/3//+R8///hOP//3HV
+        //9x0///TLv5/zSw8f8Ljtf/AXS//wNRof8uo9r/SrPi/3HR+/9rzfD/gdz4/5Dm//+V7P//k+r//6H4
+        //+h+P//pPn//6L2//+j9///nOv+/5jq/v+Q5P7/o/H//6nv//+m7v//nOX+/6ru//+r7f//tPT//8T8
+        ///D+///xPv//8L7///E+///wvr//7z4//+59v//svP//7b2//+t8P//sfX//7n6//+//f//v/r//779
+        //+z9v//sPX//6Hp/v+V4P7/fcz3/4ja/P9xx/L/jNz8/57r//+v9P//uvz//7b3//+9+v//xPz//7Xz
+        ///E/P//yP7//839/f9JW1v/AAAA/wAAAP8AAQH/aI6W/7v4///L/v//0P7//8z+///J/f//vvn//7v2
+        ///G/v//wP7//7z8//+p8v7/l+b//5Di//+Q5f//kub+/4PL2P8THyL/AAAA/wAAAP8AAAD/N1hd/5Xs
+        +P+P6v//nvr//5Ds//+M7P//geT//27W//9lz/7/Rrf1/zCt7P8Fhs7/AXW+/wNBj/8vq+X/W8b6/3vb
+        /v+E4v3/g+L9/5To/v+Y7f7/mO///531//+g9v//pPr//6L7//+e+P//luz+/5Tq/v+S5f3/nuz//6vz
+        //+s9P//rvX//6bt//+q7v//tPT//8X9///E+///v/j//7fz//+79v//vvr//7n3//+7+v//uvr//7b3
+        //+19v//sfP+/63w/v+7+v//vvz//7n7//+0+P//nOP+/5Th/v+U4P7/ld/9/43c/v+P4P3/lOX+/5/y
+        //+r9v//svj//7j4///D/P//xf3//8j8///I/P//wvn+/3CHh/8AAAD/AAAA/wAAAP9PaGv/t/D9/7/4
+        ///G/f//zv7//83+///K/f//zP3//8P8//+/+///vfz//7b5//+a5v7/keL9/37V+/9/1vv/bK/D/wwU
+        F/8AAAD/AAAA/wABAf8/aXb/kef7/5fx//+S7v//kvD//5Lu//+N7f//fOH//2rV//9Zxfv/P7Lw/yGf
+        3/8Dic//AXW+/wJMmf8yren/V7/3/3vZ/v+K5v//i+j+/5fr/v+h9f7/lOv//6L6//+m+v//rPz//6P6
+        //+X8v//n/X//5Lp//+U6f//n+///6/4//+x+f//q/P//6Pt//+x9f//vPr//7v4//++9v//w/z//7f1
+        //+08///vvr//7b1//+7+v//t/f//7n5//+x8f//o+b+/6Hl/f+q7P3/pe3//6nv//+l6/7/n+X+/5Xg
+        /v+d6P//rfX//5np//+U5f//keH+/4/d/v+j7v//tPb//7n4///E/P//wfv//8L6//+48f//h62v/wME
+        BP8AAAD/AAAA/zJCQ/+89fn/vvf//8P7///L/v//yP7//8n9///C+P//yv3//7v3//+49v//t/X//67x
+        //+c6f7/jN77/3LL8/9Ukq3/BQoM/wAAAP8AAAD/AQID/0x/jv+N6v7/kun//4zp//+N7f//i+j//4vp
+        //9z2P7/cdj//2DL/v9Vwfz/Rrb0/xyZ2v8Dh87/AXnC/wRFl/8qn9//TrXv/3bU/f+D3v//kOr+/6H0
+        /v+X7f//mPH//5Pp//+g9P//qPr//6H4//+a9f//nfP//5zy//+T6f//oPH//6v2//+x+f//rPb//6Pv
+        //+1+P//ufj//7v3//+99///wfz//7T0//+49v//tvb//7n3//+59///u/j//67v//+t7f//l9z3/5vg
+        +f+R2Pr/j9v7/4rV9v+X3/z/oOT9/47Y/P+i7P//rPb//6Hs/v+S4fz/hdX0/4fV+P+X4v3/nub+/7n5
+        ///F/f//v/r//7Pw//+OwM//Cw4O/wAAAP8AAAD/Hicn/7jq6//D/f//xfv//8X8///L/v//xvv//8v+
+        ///N/v//zv3//8f8//+8+f//svb//63z//+09///k+P8/0h/lf8BAgP/AAAA/wAAAP8FCAn/WZao/4jp
+        /v+L7P//j+3//4Pm//+J7P//k/D//4Xj//932v7/b9X+/2bN/v9Yw/z/PrLy/wuP1P8Dgsj/AWex/wNP
+        nP8pn9z/Ubfx/2fP/v9+5P//j+j//572//+U5///l+7//5Xq//+a7v//mOv//5fu//+U7P7/mu/+/5Hn
+        //+U6P//nez//6/5//+r9P//r/v//673//+w8v//v/z//7Pz//+09P//u/n//7b3//+z9P//s/T//7f2
+        //+29v//rvD//6/v//+s7P//per+/4vS9P+AyOv/kdv7/3LA5P+Z4fv/ouP9/5vk/v+q8f//rfT//63y
+        //+e6v7/kuD+/5Xf/v+W4f//per//8b9///C/P//xv3//7Xn6P8ZICH/AAAA/wAAAP8OEhL/pdHU/775
+        //+8+f//x/z//8X9///D+///yPz//8f7///T/f//zv3//8T5//+18///svT//6Tq/v+g5vz/S3SE/wEC
+        Av8AAAD/AAAA/woQEP9wsL3/juj+/5r3//+J5f7/huT+/3bY/f+B4v7/jOj//4zm//973v7/bdP+/2nN
+        /v9Kt/b/Lqjo/xOZ2v8ChMv/AWy2/wJRn/8al9T/Srfy/2PK/f942/7/iuT//5Xt//+U7f//lu3//5bs
+        //+T6f//kOX+/4Tg/v+I4v//keb+/5Dm/f+T5f//leX//6fy//+0+f//tPz//7P4//+19f//vvv//7X1
+        //+y9P//qu///6/0//+t8P//u/n//7Hz//+r6/7/t/j//63u//+q7P//qur//5ze/f+S1/z/l9v8/3/I
+        7v+X2/r/pOT9/7Hr/v+9+P//tvX//7T6//+X4f3/nub+/53n//+c4///ufj//8n+///K/f//wvb3/zI/
+        P/8AAAD/AAAA/wIDA/+Ms7b/vvn//8n+///E/f//x/v//8r////K////zf7//9X+///M/f//xfn//8j9
+        //+s6f7/svD+/5/j/P9JZm7/AAAA/wAAAP8AAAD/ERoc/3q+0P+V6v7/l+///5Lt//+O6f//huT//3bX
+        /f+K6v//ke3//5Xu//+E5f//atD//2nL//9Jt/f/Lqvr/weS0f8BfMH/AW20/wJGmf8LjMn/Nafh/1a9
+        8/9szvv/f9v+/4ni/v+E3/3/j+j//5Ps//+K5P//ieL+/37Y/P+K5P7/e9T5/37V+P+T5fz/oO7//675
+        //+y9///tv3//7P5//+5+v//t/f//7j6//+v9P//qfL//6Xr/f+U4f3/ouv+/7P3//+4+f//tff//6zu
+        //+i5v7/q+r+/5XX+f+M0vf/jtX4/4PO8f+U3Pz/nN78/67p/v+89v//uPf//7T2//+q7v//per+/5ve
+        /v+4+f//zP7//7Pv/v/G+v3/TGJi/wAAAP8AAAD/AAEB/3GPj//H/P//y/7//8j9//+8+f//yv7//83/
+        ///K////yv///8v+///I/f//xvr//7/5//+u7P7/o+L1/zpRWf8AAAD/AAAA/wAAAP8YJiv/g83f/5Hl
+        //+P4v7/lOT//47r//+M7P//guL+/4Pk/v942Pr/kO7//43r//+C5f//b9T//2jQ/v9BufX/Iqfl/xCZ
+        2f8Cgb//AW+6/wNKmf8Igr3/KZzU/1C07P9mxfn/bsz5/4Xi/v941Pv/gNr9/4bg//+F4///edf9/3nV
+        +/+J3/7/fdj7/47i/f+b6v//pfH//7X9//+w+///q/j//7H7//+u8f//rO///7H2//+n8P//kuT//5Lh
+        /f+Q3Pz/k97+/5fj/v+p8P//rvD//6Ln//+d4f7/mNn6/5bZ+P+R2Pr/idP1/5Ha+v+P1/n/jtL1/6vp
+        /v+w7v//ufj//774//+49P//uPX//7Xu//+//P//xP7//8b7/v9piY3/AAEB/wAAAP8AAAD/UGVl/8r8
+        /f/I/f//vfr//7j3//+7+f//xfz//8n+///P////yf///8b+///A9///yv3//7z2//+r5e//MUJH/wAA
+        AP8AAAD/AAAA/yAzOf+P2Or/j+P9/5Pq/v+Z6/7/lur+/5Tu//+b9f//i+b//5Ds//+K5///juv//4fk
+        //942P//bNH+/1rE+v9Mvvn/IaPj/x+j4/8HjdL/A3rG/wNVp/8Dgb7/GJfR/0Wx6v9ox/r/a8f3/3rU
+        /f910vv/dc/6/4Tg//981/3/jOT+/4jh/v+K3/7/g939/5Xs//+R5v//nu/+/6f0//+w/P//pvL//6Xu
+        //+m7v//pu7//6Xs//+f5///k+H9/4vV+P+H1/r/ktv+/5Pb/f+Y4Pz/kM3l/3y0zv9wpL3/bp+1/26h
+        uf90qMP/g7zV/5zc9/+U1vj/peT9/67o/v+07///vPj//8H4///G/P//tvL//6/o/v+/9///0P7//5G1
+        tv8DBAT/AAAA/wAAAP8wPz//w/b2/773///D+f//vPf//7v4//+49f//xPz//8r+///K/f//wvr//8b7
+        ///J/P//yvv//7Lm7v8oNzr/AAAA/wAAAP8AAAD/KEBK/4jV7/+O3Pz/iNr6/5rw//+c7///luz//5Dp
+        //+X7///oPb//5jz//+L5v//k+///4De//993P//bNH8/1zG+v9Mvfj/M63t/ySo5/8Mktv/BYTO/wNf
+        sf8DdbL/D5HM/0y48P9jwvf/cs/6/3nW/P9z0fz/etX9/37Z//+G4P//j+f//4Db/f+C2///h9/+/4ne
+        /v+R5f//i9r5/5/t//+o8///p/P//6Dr//+f6f//nuj+/5Da+/+R2/3/j9z+/3/C4P9QhZ7/OVZl/yAv
+        Nf8HCw3/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wECA/8XISX/NklO/2ODi/+WxMz/vvT4/7v0
+        //+/9///sez//6zo/v+17v//nczT/w0QEP8AAAD/AAAA/xshIf+46er/xPz//8j9///I/f//w/v//8T8
+        ///F/P//z/7//9X////M/f//yP3//83+///N/f//tOLk/yQuL/8AAAD/AAAA/wAAAP87VmH/ktr3/47f
+        /P+M2vr/jt39/5fo//+b7P//nO///5nx//+d9P//n/f//5v0//+U7f//kev//4nl//942f7/as39/1fC
+        +v9Nvfj/N67t/zex8v8hn+j/BYXL/wNbq/8Jgr//G6Dd/1W/9v9nx/r/XL7u/2fH+P9pyPr/ctL9/4bg
+        //+K5f//h+H//4Hd/v+D3///jeL//5Pn//+L3fz/j979/5zr/v+r9///qvj//6Py//+b5///lN/8/3nB
+        4v9Ec43/HC43/wIEBP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/Exka/1Bqbv+Ww8v/quP7/6Te/f+h1+r/HCQm/wAAAP8AAAD/DA8P/6HM
+        z//R/v//0////8/+///F+///xfz//8j8///A9v//zv7//9H////O/v//yfz//83///+x3Nz/Hycn/wAA
+        AP8AAAD/AAAA/09sb/+n6fv/m+H+/4/i/f+Y5/7/juD9/5vu/v+V6P//m/D//53y//+m+f//nPT//5Pu
+        //+Y8v//kOn//4bg//983v7/bdX+/1XC9/9MvfX/O7Lu/zGr7P8eneb/BY3T/wJjrf8HgMH/KKPk/1fC
+        +f9nyfz/a8n7/2bC9/9syfj/d9n9/4fj//+P6v//gt///4nl//+N4f7/iuD//4/i/v+I3fv/j+P+/6Ty
+        /v+v9///qPX//6bx//+O0Nv/O1pm/wUJCv8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wYI
+        Cf8SGRz/FyEm/xUdIP8MEBH/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAH/KDQ4/26W
+        rP8sPUP/AAAA/wAAAP8CAwP/ia2v/87+///V////2////9P+///M/P//y/3//8r+///G/P//zf7//8v+
+        ///P////0v///6fV1v8WHBz/AAAA/wAAAP8AAAD/W3t9/6rr/f+l6f7/ldz6/4rc/P+W5P7/jd37/5fq
+        /v+R5f7/pvn//530//+j+f//nPf//5jz//+H5P//jOj//4Tg//932P//cdT+/1zG+v9Tw/j/Qbfy/zKu
+        6/8Qltr/BH/G/wJstv8Hh8j/H53g/1K/+P9hxvr/cc/+/2fF+/971/3/dNP9/4nj//+H3/7/jOT//4Xe
+        /v+N5P//h9/+/4La+/+J4Pv/mu3+/6v5//+q9P//o+Xo/0NgZP8CAwP/AAAA/wAAAP8AAAD/AAAA/wAB
+        Af8WISX/QVxh/2WOnP+Atcf/nNvu/6Xo//+r6v//q+n//6vm//+07P//q975/5DB1v9xma7/U216/yw5
+        O/8HCQr/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9mhon/xfz//9T+///M/f//0P///879
+        ///L/f//1f///9D////K/v//wvj//8j9///R////psfH/xAVFf8AAAD/AAAA/wECAv9qjY//ufr+/7Dy
+        //+q8P7/m+P8/4/h/f+Q3/v/jt/6/5vr/v+k8v//pPf//532//+a9///l/L//5Ht//+M6v//ddX8/4Lg
+        //+P7v//ftv+/2TK/P9bxvv/Rbjy/zCs5f8Vn9v/Bo/W/wFrt/8Gjc7/JaPm/1C/+f9mzP7/a8z9/2/O
+        /v920v7/etf+/43m//+G3f7/id///4Pb/v+K5P3/hd/+/3/W/f+L4P//n/L//7D5/P9sl5r/DhUV/wAA
+        AP8AAAD/AAAA/wAAAP8QGBz/Q2Zz/3G0z/+T4Pv/oej//6fp//+l5v//n+H+/6Xq//+w8P//tPD//7Tu
+        //+u5/7/sej//6/o//+w6f//sef//7bs/v+g0+r/aouZ/yk2O/8CAwP/AAAA/wAAAP8AAAD/AAAA/xIY
+        Gf+s4+f/yv7//9D////S////zf7//839///G/f//1P7//9H+///Q/v//1P7//9H+//+dv7//DQ8P/wAA
+        AP8AAAD/BAUF/3ianP+++/7/s/f//6zx//+u9f//mej+/5vo//+Y6v//kub//6Dy//+k9P//pvf//5vz
+        //+V7v7/kOn+/5bs//+N5f7/fNj+/3XW/v+D4///a838/2PI/P9PuPT/R7Pw/y2f3f8NjNH/An7J/wFu
+        vv8DhcX/FZjZ/0S08f9Xvvb/Y8X9/3TQ/v910f3/bsz5/4Pc/f+K4///i+f+/3jU+f+L5v3/iOH+/4zf
+        //+X6v//k+Lt/zhTVP8AAAD/AAAA/wAAAP8AAAD/HCco/2mVn/+R1/b/i9r9/4fU+P+G0vz/mN3+/5rd
+        /v+U1vj/frnX/3GiuP92n6n/c5ac/3Wao/99pbH/i7nK/6Xc7/+x6f//r+P//7Ts//+y6f//t+v//7Tr
+        /v+Xw83/PU9W/wICAv8AAAD/AAAA/wAAAP8VHBz/mL2+/9D+///W////zf7//838///R/P//z/7//9L+
+        ///Q/v//0v///5q9vf8JCwv/AAAA/wAAAP8HCAj/kqqq/8T7//+08///ufr//7H0//+v9P//r/b//57s
+        //+b6///mOr//6r6//+m9v//n/P//6D1//+V6/7/l+7+/5Xu//+O6f//gt7//3bU/v+G5v//Ysf6/1vB
+        9v9Tu/P/NKXf/yuj3f8Jisz/Anu//wJnsv8Caqv/C5HT/zSu7f9Nuvb/X8D5/2vM/v9ryPr/edH9/37X
+        /f+K5v7/hN74/4LY+f+O6f7/hN/9/4vj/v9+ws//FB8g/wAAAP8AAAD/AAAA/wsQEP9ukJD/u/f6/7v5
+        //+i5v//jdf9/4zS8/9uorz/Q2N1/xspMv8CBAT/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8UGxz/RFdb/3KSnv+w3+r/uu7//7/w//+77///uO7//5O/y/8qNjf/AAAA/wAAAP8AAAD/AwQE/3SG
+        hv/Z/v7/2P///9D9///c////zv3//9H+///P/v//lLS0/wgJCf8AAAD/AAAA/wkLC/+cuLj/yf3//8H5
+        //+29f//rfD//7T3//+8/f//uvv//6v6//+o9P//qPj//6T1//+a6v//ovf//6b6//+i+f//nPP//5jy
+        //+L5///iOX//33b//992///Zcn7/1vB+P9UvPD/OKnh/yaj2v8Hisv/A3+//wJgp/8Dbq//C47P/yaj
+        4/9EtO//V7r2/2DB+v9nxPn/fNP+/4Xf/v+A3P3/jOb+/5Po//+R7P//ieT+/2uuwP8KEBH/AAAA/wAA
+        AP8AAAD/NkpL/5/c4v+z+P//xv7//7z4//+W0eb/TXB8/xQdIP8AAAD/AAAA/wAAAP8CAwT/ChAU/x8t
+        M/8sPUP/OExR/zJDSf8oNjv/Fx4h/wYJCf8AAAD/AAAA/wAAAP8ICgv/O0xT/5W7wf++8P3/wfb//8D4
+        //+/8fn/a4iQ/wcJCf8AAAD/AAAA/wAAAP9lcHD/4Pr6/+X////U/v//1f7//9X///+MrK7/BwkJ/wAA
+        AP8AAAD/DA8P/569vf/W////0f7//8P5//+08f//tvj//7z9///B/v//sPn//6v7//+t+P//o/P//6L0
+        //+d8P//mvH//535//+e9///mfT//5bx//+T7v//ieP//4Pj//981/7/asz9/23Q/f9lzPz/RrTr/yyl
+        3f8Nj9D/BovL/wJboP8Caqv/EozP/y2k5P9KtvH/TbTt/2nK/f9wy/3/hd///4bf//+O5v//le3//5zy
+        //+V7///YKO5/wUJCv8AAAD/AAAA/wIEBP9diIv/r/b7/7T7//+3/f//uO/w/1l0df8JDA3/AAAA/wAA
+        AP8IDxL/MlJg/1OHof90uNv/hc32/5na/f+q6f//rOn//6vn//+r5f7/quL8/67i7v+Qu8T/X3uD/ycy
+        Nf8AAAD/AAAA/wABAf8xPUH/l7/K/7bt///H9///y/r//67MzP8gJSX/AAAA/wAAAP8AAAD/WGFh/+D8
+        /P/Y/v//yfv//42wsv8FBgb/AAAA/wAAAP8OEhL/msLE/9L+///T////yv3//734//+29v//u/v//7n5
+        //+6+///sPv//6j0//+s9///pvf//6T2//+e8f//nfL//6T6//+a9P//m/f//5z1//+Y7///jeX//4bi
+        //+C3///ctL+/2nN/f9bwvT/RrPo/zuv6v8QktT/A3u8/wJnq/8DZab/CoTF/yKc2v9Gsuv/Ubft/2XG
+        +P910f3/iOH+/43m//+P5v//lu7//571//98wMj/CA0O/wAAAP8AAAD/BwsM/3Wusv+q+P//sPv//7T9
+        //98qqz/Exob/wAAAP8AAQH/JjY9/2SVrf+Iz/P/jdX7/4TP9v9+y/T/iNH6/6Pj/v+r6P//o+D9/63o
+        //+37v//tur//7zx//+37v//ue///7js//+YxNb/TWRs/wkLDP8AAAD/AgMD/1Rpav/B8vL/4f///+T/
+        ///Q6ur/NDo6/wAAAP8AAAD/AAAA/2RwcP/i/v7/m7Ky/wYICP8AAAD/AAAA/xIWFv+tzs7/1////9j/
+        ///d////1v7//8X8//+6+v//v/3//8D+//+5+v//svn//7L7//+z+v//qPf//6n6//+j9///kOb6/5vy
+        //+M6P7/ief+/5jx//+Y7v//kOn//4bh//+J5f//fNr//2XG+f9lyvv/T7rx/0Gy7P8em9//BYTG/wRY
+        mf8Dc7T/C43N/xyZ1/9Bref/Urrw/2rL/P9x0Pz/dtP9/4rk//+O5///kur//4nW3/8NFRb/AAAA/wAA
+        AP8JDhD/d7fD/6b3//+o9f//oOn1/0xsbf8BAQH/AAAA/yMuL/+Asr3/oeb8/4/V+P+Hz/X/jNT6/4nU
+        +v+K1fn/ltv9/6Lj/v+w7P7/ot38/63m/v+x6/7/ruP+/7Tq//+37f//s+n//7bl/v+46///ue3+/6/c
+        5P9OYmb/AwQE/wAAAP8jLCz/vNHR/+P////g/v//2fHx/z9HR/8AAAD/AAAA/wAAAP9WYWH/CQoL/wAA
+        AP8AAAD/ERQU/7DOzv/S////yvv//9n+///h////2/7//8z9//+49v//uvv//7j7//+19///vPz//6Ht
+        /v+z/P//p/b//6b4//+a8P7/jej+/4Xe+/972fj/h+X+/47o//+W7v//jOb//4Pe/v+K4///dM/+/2fG
+        +/9Uu/L/QK7m/0Gv6P8im+L/BIDE/wJdnf8CbKz/B4fF/w+PzP8zp+L/Srbv/2LE+v9szfv/cM/7/4Xg
+        //+H4v//i+D4/yI3PP8AAAD/AAAA/wQGBv96uLv/oPP//57u//+b5u//Kz9B/wAAAP8DBAT/Y4KC/732
+        9/+n6///nuT//53e/f+I0fb/lNr9/5DZ+/+R2f3/k9r8/5zf/v+n5f7/reb+/7Dp//+x6///r+j//7Pq
+        //+x5v7/uuf//7Lj//+t4f7/sOj//7ny//+99v//jbnD/xsiIv8AAAD/DQ8P/6S6uv/b////5v///97y
+        8v8xNTX/AAAA/wAAAP8AAAD/AAAA/wAAAP8OEhL/o8nJ/83+///A/P//xP3//87+///V////0////8v+
+        //+9+f//re7+/6/x//+6+v//vPr//6nz//+m9f//nvD//6X1//+V6P7/iOP8/4/s/v+I5f7/iOj//4Xi
+        /v930/X/ieP9/3zV/f9xz/3/b8/+/2nH/P9kxPn/Vr31/0K17v8foeH/BYPG/wNanf8FbrD/BH+8/xKU
+        z/8wp+D/QKrl/1O88/9bvvT/eNb+/47m//+O5P//RW53/wAAAP8AAAD/AQEC/2ugo/+m+v//qPf//6Hl
+        6/8hMDD/AAAA/w8WF/+Eu8D/vf3//7f2//+j6v//nOX+/5nf//+U2vv/pen+/6Pm//+d4P7/l9z8/6Dj
+        //+s7P//r+r+/6vo/v+17v//run+/7bw//+68v//u+3//77w//+o2vv/vvH//8Lx///B8///vO///7np
+        7/9CT0//AAAA/wUGBv+Vr6//5f///+7////P6en/HyIi/wAAAP8AAAD/AAAA/w0QEP+nx8f/y/3//8r+
+        ///A+v//z/3//9H+///W/v//0v7//8f6//+y8///pen+/6/z//+q8v//rvH//57q//+o8///ovH+/6T1
+        /v+j9///mfD//5Hr/v+A3f7/f9/+/4Hf/f9sx/T/ju3//4vm//910vv/a8j5/3PP/f9vzv3/Wb/3/0y5
+        9P8uquv/BYjM/wNnq/8CdMH/BH/F/xKMzP83puH/Ra7n/2DH+/9ly/z/edn+/4nj//9jq8z/AwUG/wAA
+        AP8AAAD/PF5n/5vv/v+l9v//oOrx/yg5O/8AAAD/FyEj/4/N1/+i7P//sfj//6zy//+c5P7/puv//5zi
+        /v+l5/7/n+P+/6Xo//+h5v//m+H+/6Hi//+v7f//r+3+/6fm/v+07f//sOv//73y//+y5/7/reH+/67h
+        /v+n2/v/vvL//7nv//+v4f7/ue7//8L3///Q+fn/VWZm/wAAAP8JCgr/qby8/+f////p////s8TE/wYH
+        B/8AAAD/AAAA/1FeXv/Q/f//1v///9P////R/v//2f///9j////X////1////8n9//+y9f//oOf+/57l
+        /v+a4/7/f83w/5Lj/v+c7P7/l+f+/6f3//+k+f//jeT+/4Tb/f+A3P3/e9r9/4Lg/f972P7/h+b+/4Tg
+        //+L5P7/eNP9/3TQ/v9y0f//X8T8/2HG/P8+s/T/EJfb/wKCxf8DfMf/BovR/ySh4f87rOX/Ur31/17G
+        /P9kzPv/heL+/4nj/f8eMjn/AAAA/wAAAP8ZKCr/lOXz/6T6//+t+vz/OVNT/wAAAP8QGRz/jMzd/5zl
+        /v+c5v//p+///6zz//+m6///qO7//6bs//+j5v7/o+b//6jq//+j6P//oub//6Hh//+m6P//pOP+/6zr
+        /v+x7v7/ser//7bq//+47P7/r+P+/6Ta/f+k2vz/sOb+/7Xq//+r3v3/ter//771///O/v//0vz8/1dj
+        Y/8AAAD/DxIS/8LZ2f/m////5v///3WEhP8AAAD/AAAA/wMDA/+0zc3/2////9r////U/v//2v///9v/
+        ///a////2f///9L///+/+v//n+b+/4fU+/+R2f3/luL+/5rt//+o9v//pPL//6f3//+e9P//l/D+/33b
+        /P982f3/gN7+/4rl//+A2f3/ieD+/4fh/v+I4P7/b878/3HR/f9uz/3/bdL+/2HE/P9Br/H/GJfd/wR0
+        uf8CesD/BYvL/yWm4f88suv/UMH5/2bN/f9q0fz/gN7+/1uYp/8AAAD/AAAA/wAAAf96ub3/pfv//6L4
+        //9cio3/AAAA/wgLDP+AwdL/nOX+/5vj/v+Z4fz/ouj+/6Lk/v+m6v//pOz+/6Hm/f+p7f//qev//6fq
+        //+g5f//n+T+/6Xm//+l5///pOP//63r//+v7f7/tez//7ru//+57P//t+r//7vx//+37P//pNn8/7Hj
+        /v+q3fr/wPL//8f6///W/v//1////+D7+/9CSUn/AAAA/y4xMf/i9vb/6P///+b6+v8nKyv/AAAA/wAA
+        AP86QkL/3P39/9X////X////3v///9z////e////3f///87///+8+v//nef+/4HT9/+T3f3/nOf+/5/w
+        //+d7v//pPb//6D0//+a8P//hN78/23O8/+D3/7/h+H+/47o//+D3/7/heH+/4nk//+H4f7/c9T8/2XG
+        8/9nxvn/Zsb8/2jI+/9It/L/HprZ/wRkqf8Dd77/EZLZ/x6b3/83rez/Rrnu/1rG+f9iyvv/edv6/xgr
+        Mf8AAAD/AAAA/zRSWP+j9f7/qPn//5TU2f8FCAj/AAEB/2qaoP+l8v//nun//5vm/v+Z4fv/pef+/67u
+        //+o6v//puj+/6Dl/v+k5v7/su///6no//+k5v//n+T+/6vr//+n5v//puT//6rk/v+p4f7/r+j//7Pq
+        //+x5v//tef//7zw//+67///ntT6/6ve/f+57f7/yfr//9T9///d////4f///+T////T6Oj/HB8f/wAA
+        AP9ve3v/5/7+/+j///+uu7v/AgIC/wAAAP8BAQH/qsPD/9v////Z////2////+T////o////3////8r9
+        //+w9P//mef+/4XZ+v+I1vn/jNj6/5np/v+g8///nPH//6b5//+K4Pz/ftn5/4Dd/P+H4f//hN3//4nl
+        //+C4P//huT//4zo/v9/2v3/aMn3/23L+v9oyPn/XsH2/2PJ/P83rur/GZrY/wVrrf8DbLf/F5Xe/y2o
+        7f80rur/Rrrx/1bC9v9fxvn/Upez/wAAAP8AAAD/AwUF/4TM1v+k9///qPX8/zFHSP8AAAD/N1BV/6Xw
+        /v+i7f//lOD+/5jj/v+f5f//o+X+/6zu//+f4f7/oOH+/5na+f+g5f7/o+T+/6Lj//+i4/7/nOD9/6jo
+        /v+q6f//p+j+/6Ph/f+r6f7/ruj//6zj/v+t4/3/t/H+/73w//++8P//q939/6/j/v/F9f//2P7//9X/
+        ///f////4f///+P////k////prm5/wEBAf8ICQn/wdXV/+r////l/v7/OURE/wAAAP8AAAD/Qk1N/9n/
+        ///a////3P///+z////l////4P///8P8//+m7f//k+T+/3vS+P+I2Pn/meP+/5Xj/f+Y7P//ovb//5jt
+        //+R5/7/gt36/4Td/f+I4f7/j+f//3rY/v993P3/hOH//4Hd/v+B2/3/cND7/2TH9/9hxfX/WsH2/1K9
+        +P8wqef/D5PS/wNdnf8Db77/B4XQ/x+f4v80sOz/Qrjw/2LL/f9dxfv/ID9O/wAAAP8AAAD/N1VY/5Xs
+        //+k+P//f7e6/wAAAP8KDg//l9ri/6bx//+j7v//kt39/5Pc/P+k7f//nOD9/6Hk/v+Z3fz/n+D+/53e
+        /f+c4/7/m9/+/6jp/v+d3/3/g8zz/6rr/v+s7f//r+7//6vn//+j3f7/puP+/5/b/P+f2fr/r+j+/63o
+        //+v6f7/o9r5/73v///O/f//2P///+b////m////6f///97////c////4P7+/1BZWf8AAAD/TFRU/+D/
+        ///h////pL6+/wAAAP8AAAD/BQYG/8Th4f/e////4f///+r////j////2P///7n4//+f5///oO7//6Ps
+        //+i6f7/nub+/6Dv/v+a7f//oPP//6j5//+R5Pz/g9v6/4bk/f+O5/7/e9b9/4Hc/v+H4///iuj//3vb
+        /v972Pz/a8v5/2vN+/9ozPj/Trfu/0Ov7f8knNr/CIjH/wFrrP8BZ7r/BIfL/xac2/8op+X/ObLt/17I
+        /f9VsuT/BAgJ/wAAAP8AAAD/cbO9/5fv//+h9f3/KT5B/wAAAP9Ocnj/pfD//6f0//+d6v//leD+/6Dn
+        /v+Y3/7/md/9/5ze/P+Y2fv/n+D+/53e/f+a3/7/pOf//6bo/v+o6v7/htD0/6bo//+n5///rO7//6fm
+        /v+o4/7/qef+/6Da+f+n4P3/rOX+/67k/v+q4fv/reP8/8T2///O/f//zf3//9L+///h////4v///9j/
+        ///f////4////77a2v8DBAT/BQUF/73T0//f////1Pr6/yIoKP8AAAD/AAAA/3iKiv/a////2////9T/
+        ///U////yv3//7Ly//+k7P//p/T//6nw//+x8///pOn//6Hw//+q9v//o/L//6/7//+p+P//nO///47k
+        /v+I4v3/gNv+/3zX/f941fv/gt/+/3vc/v992f3/ddH8/3LR/P9my/v/WsH2/0Kw7v8rmNb/GI3L/wNs
+        rP8BX6v/An/B/wqOy/8Yndv/NLHu/1LE+v9AfZj/AAAA/wAAAP8UHyH/mO/5/4vh/v93wNL/AQID/wUJ
+        Cf+S2uf/pfH//6Tv//+h7P//neb9/6Do/v+j6P7/o+X+/6vs/v+l5v7/nuD+/6Ll/v+k5P7/o+T+/6zs
+        //+w8f//pOT+/6Tm//+u7P//svL//6zr//+w7f//rur//6zj/P+t4v3/uPD+/7Tm/v+z5v7/sOb+/8D1
+        ///L/f//0P3//9n////m////4////+n////m////6v///+L///9PWFj/AAAA/2Bubv/c////1////2yB
+        gf8AAAD/AAAA/ykyMv/V////0////9D+///M/v//x/3//7Xy//+s8f//rfb//7P5//+19v//r/P//6n4
+        //+w+f//s/z//7L8//+o9v//mOr//5fn/f9wzff/c9H2/4ji/v941Pz/gd3+/4bk//+I4///gt3+/3XT
+        /f9x0/z/ZMn6/0q07P84ndz/HI7L/wJ6t/8BW6X/AXi7/waKyf8eo+D/N7Px/1nI+/8lRlT/AAAA/wAA
+        AP9GcHb/mvP//4nh/v9Dbnf/AAAA/zVTWv+d7P//n+z//53p//+o8f//nuX9/6bt/v+m6v//qOv//6/v
+        //+j5P//nd7+/6Di/v+l5f7/rez//7Px//+u7f//ouL+/6jp//+t6///qur//7Hw//+x7///su3+/63k
+        /v+z6f//t+///7bq//+16v//sej//7jx///J+///2P///9z////l////5////+v////n////5f///+T/
+        //+swMD/AAAA/xMWFv/V+vr/1v///7/c3P8AAAD/AAAA/wEBAf/K6+v/1f///9H////G/P//v/r//7Xz
+        ///A+///tvf//7j7//+8+v//v/3//6/2//+z+///t/7//6v3//+e7///muv//4Lc/P930fX/gt78/3nb
+        /P911vz/lOv//4vk/v+W8f//iub//4bj//+B4P3/bM/5/1fB8v9Ap+P/J5jW/wqMy/8CWqb/A3rA/wWH
+        yf8dod//Oa7w/17E+/8IEBT/AAAA/wAAAP9rq7j/mPH//4Lf/v8TICX/AAAA/3Gttv+g8f//nu3//6Tx
+        //+x+P//qe3//6vz//+j5///qOv//6nq//+n5v//nuH+/6Hh/v+l5v7/t/T//7nz//+w7v//oef+/6Xn
+        //+x8v//s/H//7Du//+x7///sur+/7Do/v+s5f3/sur//63l/v+y6v//u/L//7bw///E+P//1P7//93/
+        ///i////5////+b////p////6P///+L////f+vr/HiIi/wAAAP+fvr7/3P///+D+/v8bICD/AAAA/wAA
+        AP+Qq6v/1v///87+///K/f//wvz//7z3//+8+P//uvf//7T1//+5/P//tPr//6j1//+v+///q/r//6j3
+        //+X6v//htv+/47o/v+Q6v//juj+/4Th/f993P7/kOn//5Dl//+P5f//k+z//47q//+D4/z/bdT4/1bD
+        8f9Ms+n/OJ/e/xCKzP8BYar/BHe8/wqL0P8fn+D/R7j1/1Gr1f8AAAD/AAAA/wIEBP+G3vP/mPP//3zN
+        4v8AAAD/CA0O/4/i8v+W7P//lur//6Pz//+q9f//ouz//6Hp//+c4v//qO3//6/y//+p6///nuf9/6jk
+        /P+r5///se///7Ds//+z7///re3//6zs//+v8f//sPH//63s//+69P//wPf//7nx//+y6v3/sej9/6fg
+        /f+r5f7/vPP//7nw//+98///0/7//9v////h////5P///+P////l////5////9/////e////WGho/wAA
+        AP9lfHz/1f///9f///9QX1//AAAA/wAAAP9ecnL/0P///87+///K/v//wvn//8X8///G/f//wPr//7z7
+        //+5/P//sfn//6Du//+k8f//rPn//5/z//+h9P//kef+/47p/v+N5///lvL//5n2//+U8P//oPb//5rv
+        //+Q5v//kuz//4vn/v+E5fv/aNH1/1XE8P9DquT/MJfX/xGIyv8DWaL/BHm9/wmM0P8joeH/UcH5/0SM
+        r/8AAAD/AAAA/xcmKv+V8P//ku///2Kdpf8AAAD/KT9E/5/z//+U5v//kOP+/5zr/v+V4f7/luH//4/Z
+        /P+X3v3/rfP//6ns//+r7f//our//6np/v+r5/7/q+f+/7Pw//+w7v//se7//7Xz//+8+v//sPD//6vr
+        //+38f//wPf//731//+37///sOf//6Ha/P+j3P3/rOL9/7Tq/v+/9P//yfz//9b////h////4////+T/
+        ///h////3f///9n////V////iqqq/wAAAP80Pz//1f7//9n///9ykJH/AAAA/wAAAP88SUn/0v///9H/
+        ///P////yv7//8X7///B+///wP3//7T1//+w9///rvj//6j2//+i7///ofD//6r6//+b7/7/kez+/4zn
+        /v+V8f//le/+/5v0//+c9f//qP7//5z1//+Y8P//jur//5Ds/v993fv/Ycv1/1C/8v89qeP/MpjZ/xWN
+        zv8FYav/BYDF/wmO0v8tqej/Rbjx/zRrh/8AAAD/AAAA/y9MUv+U7///mPH//0p2fP8AAAD/Q2hz/5vs
+        //+g8///mun+/5nn/v+b6P7/leP+/5Ld/f+T3Pz/oOb//6vv//+v8P//svH//6bq/f+o5f7/quX9/7Dt
+        //+19P//t/T//7Tz//+v8P//p+v9/6zu/v+x7///vPb//7nx//+27///tO///7Hr//+x7P//sOv//7Tq
+        ///E9///zf3//9L////d////3v///9r////c////2v///9b////W////tNra/wAAAP8VGxv/x/j6/9H+
+        //+SuLj/AAAA/wAAAP8dJCT/zvz8/9v////X////0P///8X8//+99v//vPj//7f1//+39///rPX//57n
+        /v+c6P7/pfD//6n0//+d7v7/mO/+/5bu/v+M5f7/kez+/5f1//+f+f//qPv//5v2//+W8f//iuj//4nl
+        /v910/v/XMf2/07B9P89rub/L5zb/xuU0f8BWab/AoPM/xCU1v8+tOz/Ub71/y9XaP8AAAD/AAAA/0Bq
+        dP+Y8f//ovf//zFQV/8AAAD/W42b/5zv//+V5///ne///5rn//+g7P7/ou7//5fi//+T2v3/pun+/63t
+        //+x7///tPD//7L0//+w8P//tvb//775//+49f//uvf//7Tz//+w7v//oeH9/6jm//+/+P//xPn//8v9
+        ///B+v//vfn//7fx//+v6f//r+r//7Ts//+38P//xfv//87+///a////3P///9z////b////1////9P/
+        ///O////wPLz/woNDf8DBAT/uOrs/8D4//+g0tr/AAEB/wAAAP8LDg7/zvPz/+L////d////1f///8f+
+        //+++P//v/r//8H9//+8+f//qO7//6Dm//+l8f//o+7//6z3//+b6f//lOf+/4ng/f+M5f7/k+z+/5fy
+        /v+a9f7/ovj//572//+Y8v//jOr//4Ph//900/7/WMP5/0e68f83qeT/K5zc/xmRz/8BW6j/AoDL/x+d
+        4P9Ft/P/VcH5/yhJVv8AAAD/AAAA/01/iP+e9///oPf//yg/Qv8AAAD/ea+x/6T1//+b7P//ne3//6Lu
+        //+l8P//ou3//5Xf/v+h5v//oOL9/67u//+w7P//tPH//6vo/v+59///s/D//733//+18///tPT//7Pv
+        //+07///u/f//7v1///C+v//v/b+/8f8///F+v//w/r//7ny//+48f//sev//7Dq//+07v7/uvT//8f9
+        ///Y////2////9z////b////1f///9P////Q////w/j7/xUcHP8AAAD/pNfa/7z4//+s4uj/BQYG/wAA
+        AP8CAgL/yu3t/+P////h////2f///8r+///C/P//wfv//738///B/f//rvP//6jt//+j7v//pfH//6Xv
+        /v+h7///lOX9/4/i/f+A2vr/jef8/5Lt/v+Q7P7/n/b//5jt//+f9f//juj+/4Lf/v9w0/3/XMT1/0Cu
+        6P8tmdX/EHm1/wlwsf8BZ7P/An/J/xua3v9Ft/T/Xsb9/yE9S/8AAAD/AAAA/1uQlv+Z8f//oPT//yEz
+        NP8AAAD/hL3A/676//+r9v//n+z//6Hs//+m8P//o+7//6Dn/v+h5v//ouX+/6fn//+z8P//tfP//67q
+        /v+08v//ufT//7v1//+38///rOv+/7Hu//+18f//uvb//7v2//+99v//wPj//8T5///J/P//xPv//8L4
+        //+89P//t+///7jy//+v6/7/uvX//8f9///O////0v///9n////c////0f7//9D+///N/v//wvn+/x0l
+        J/8AAAD/lMXN/7by//+u5PH/CAsL/wAAAP8AAAD/w+Tk/97////c////3f///9H////A+///uvn//7/8
+        //+9/f//tPj//6bt//+q8v//rvX//6v2//+h7///mOn//4bd+/+B2vj/k+r9/5Ds/f+Z8/7/qPr//6j2
+        //+t+f//nPH+/5Lq/v942Pv/Zsv2/0Gu6P8qltT/EXu8/wNdnP8BYKz/CYfO/yai5P8/su7/U8L8/x47
+        Sf8AAAD/AAAA/1qPmf+f8f//o/D//x0tMP8AAAD/icDE/6v0//+n7v//per//6rz//+u9f//pvD//6/y
+        //+n7v7/oeb+/6zu//+x8v//s/T//7P0//+z7f//se3+/734//+28///ruz+/6vr//+69///vPf//7z3
+        //+99f//w/r//8X7///D+f//vvf//8D2///B9///vfT//7/5//+99v//u/T//8T8///H/f//yv3//879
+        ///P/v//y/7//8n+///D+v//vfT//x8pK/8AAAD/jbrJ/7Hs//+t5fP/CAsM/wAAAP8AAAD/t+Li/9H/
+        ///T////0////8z+//+++f//tfL//8D7//+/+///tvf//7L3//+w9f//r/b//6/5//+d6///it/+/5Hq
+        //+V7P//luv+/5Hp/v+V7v7/nvX//6X3//+q+f7/nfT+/5Xs/f931/z/U7vx/0q47v9Bqej/H4rL/wdk
+        pv8Cbrz/EI/a/y6n6/9FtO//ZMz9/yZEU/8AAAD/AAAA/05/jf+Q6v//k+z//yU7Pv8AAAD/d6+1/6Tx
+        //+l7///qvT//675//+5+v//s/X//6zx//+t8P//rvD//7P1//+29v//t/X//7Pw//+u6///s/D//7z4
+        ///C/P//vvj//7z2//+69f//vvj//7n1//+99f//vfT//8P7//+/+P//t+///73z///F+v//vvb//7z2
+        ///A+P//uvL//7z1//+68///uPL//7fv//+68f7/tu7//7z0//+48P//sur8/xYdH/8AAAD/mcjX/63m
+        /v+h1+v/BQcI/wAAAP8AAAD/seXr/8D6///F/f//wvz//776//+18f//tvL//7v3//+++v//tfb//7r7
+        //+z9P//s/b//631//+o9f//j+T+/5Dq//+W7P//ofT//6P3//+f9f//ovj//57z//+n+P7/lu3+/4Xh
+        /v+F4f3/aM76/1C+8f9Kte//JpXU/wZmp/8DccL/EZrg/ySg4/9It/P/Y8n9/y5TYv8AAAD/AAAA/0Nt
+        e/+e9f//ofj//zNOT/8AAAD/a56k/6f0//+w/P//r/j//7b6//+6+v//vfr//7n7//+29///tvf//7z7
+        //+7+v//vPn//775//+v7f//svD//734///F/f//w/3//772//+++P//t/X//775//+89f//wfn//7/8
+        //+9+f//tvH//7v2///B+P//vfb//774//+48P//sez//63n/v+s5v3/peT+/5/e/P+l4/7/sev//6zn
+        /v+x6/7/suf2/w4SE/8AAAH/n9Ln/5zd+/+Kw9z/AQIC/wAAAP8HCQr/qeHx/7fy//+59///v/v//732
+        //+38P7/q+b+/7ny/v+++P//ufr//7f3//+19P//tvX//7b5//+o9P//mO3+/5Xs/v+g9P//n/H+/6f5
+        //+h9f//nvX//5v0//+c8///mu79/5Dq/v+A4P7/b9P5/1rC9P9Js+z/D4C+/wdws/8DacD/BojO/ymk
+        5f9OvPj/Zsr8/ztpfP8AAAD/AAAA/zdVXf+Y7f//nPH//0pwcf8AAAD/VHp//676//+t+P//sfn//8H8
+        ///G/f//w/v//779//+6+v//vfv//8H9//+//f//v/v//8P7//+++f//uPT//8b7///C+v//wPv//7/4
+        ///B/P//vfv//7r3///A+f//rOn+/8D8//+9+v//sfD//6nn//+29f//uPb//7f0//+79P//uPD//6zn
+        /v+o5v//qef+/6Xk/v+h4P7/qOb//6no/v+w7v//odfk/wABAf8OEhP/rOT2/6/s//+Br8P/AAAA/wAA
+        AP8SGRv/q+b6/7Dv//+z9v//tPf//7T4//+x8v7/rO3+/7Py/v+8+v//uPj//7n2//+08v//tvb//7r4
+        //+u8///qPX//6Py/v+d7P7/oPP//6L4//+l+P//ovf//5zz//+a8v7/l/H9/5Hq/v9+3P3/X8b3/1S/
+        9f8xo9//H47P/wh1uf8CXa//CIPM/yGZ2f9MtvD/b9H9/06KpP8AAAD/AAAA/yAzNf+T6///nPP//1mN
+        mP8AAAD/OlJU/675//+v+P//sPj//7X5//+7+///v/v//7j5///C/f//xPz//8n+///B/P//wfz//7/6
+        //++/P//xPz//8f9///C9///xPr//8P7///B+v//uvX//7z4//+8+f//tvX//8P7//+x7v//quz//6vt
+        //+q7P7/tPT//7bz//+99v//uvP//6ro/v+q6P//rej+/6Pi/f+m5f//n+H//7Pv//+18P//ha+6/wAA
+        AP8jLzL/su3+/7Hs//9njZv/AAAA/wAAAP8rOj7/s+///7v2//+08v//uvj//7n2//+3+P//rvH//7T1
+        //+7+f//vPr//7z6//+39f//tPH//7b2//+x8///rPL+/6Xu/v+i7///oPH//5/3//+i+P//pPn//5/2
+        //+Z8P//k+3//4jk/v9w0vr/V8P3/z+x7f8youH/J5HU/w17v/8CXaz/Bn3E/ySd3f9Ot+v/ZMX0/2ix
+        zP8AAAD/AAAA/wcLDf+Y7fv/nfP//4HJz/8AAAD/ERka/6fz+v+5/f//u/3//8L8//+5+P//wfz//7b4
+        ///B/v//xf3//8n+///M/v//yP7//8T8///A/P//wfv//8L6///F+///xvz//8P7///G/f//wvr//734
+        //+9+P//v/n//7j2//+i6f//o+j//6Xo//+n6P7/r/H//7T2//+19v//su///6/r//+s6P//mNz9/6Xp
+        /v+k5f7/p+f+/7Tx//+28///WHd8/wAAAP9OZmn/ufP//67s//9LZ3D/AAAA/wAAAP9IYWb/tvT//7Tw
+        //+18P//vPv//7n5//+8/P//s/b//7Hx//+7+P//vvz//7z3//+99///uvf//7X0//+19P//tPP+/6zw
+        /v+k8P//nfD//5rz//+U7P//ovb//53y//+d9P//jen//4Pi//9v0Pz/U8H4/zat7P8omdv/KpHX/xmH
+        zv8Ebbr/DILI/yib1P9Tueb/edX8/4bb9/8EBwj/AAAA/wAAAP92usv/mvH//5Xs/f8LEhT/AAEB/4jG
+        zf+x+v//sfb//7T1//+6+f//tfj//7L1//+09v//vPr//8b+///I/v//y////8X9//+++P//v/n//8L7
+        ///L/v//yP3//8L6//+28v//svD//7r2///C/P//u/j//6Xv/v+h6P//neL9/6Lk/v+d4/3/rvT//6zw
+        //+q8P//oOH+/6zr//+s6P//oOT8/5re/P+g4/7/puX+/6bl//+09P7/JjU2/wAAAP95oar/tvP//7Lx
+        //8iLzL/AAAA/wAAAP9rkJj/sfD//7Dv//+y8///ufr//7r6//+4+f//t/f//7j2//+49f//vfz//7z5
+        //+49///uPb//7z6//+69///ufb//7H0//+j7v//p/T//5vx//+m+P//p/f//6Hy//+c8f//h+P+/3na
+        /v9exPr/Tr/2/y2m5f8hlNj/JYXM/xt/yP8HbLj/GZfZ/zyr3v9qzPP/hN39/47j/v8kOkL/AAAA/wAA
+        AP9RgIr/oPX//6b7//88W17/AAAA/0twdP+u+f//sPr//7H6//+5+///uPn//7j7//+29P//vPr//8T+
+        ///N/v//zf7//8/+///D/P//w/r//8z+///M/v//y/7//8T8//+08P7/re3+/6vp//+79///t/b//7f6
+        //+k7v//nOT+/6Xq//+e6P7/p+3+/7T5//+q8f//pen+/6jo//+v7v//qu7//6ns//+q7P//rev//7Px
+        //+Wy9b/AgMD/wUHCP+n4e//tPP//6vk7v8BAgL/AAAA/wAAAP+Vy9v/ru7//7Hz//+x8///vv3//7v7
+        //+09v//ufr//7z6///A/P//vv3//8L8///F/f//vvz//8X+///H/v//w/3//8D8//+09///q/P//6Dv
+        //+j8v//pPH//6Dx//+X7f//guL+/3LX/v9Ywfb/Rbfv/yWh3/8gldf/H4LI/w58xf8NZLL/H5XT/0az
+        4f9y0/T/ieL9/4/l/P9Md4L/AAAA/wAAAP8gMzj/me79/6r6//94trn/AAAA/xEZGv+n8fj/s/r//7P1
+        //+6/P//sfT//63y//+49v7/u/f//8X+///O////y/3//83+///B+v//wfj//8r+///L////xv3//8P7
+        //+38/7/uvf+/7/8//+//P//svT//7H1//+m8v//pfD//6Tt//+i6v//o+j//6bs//+j5///p+r//6jq
+        //+y9P//tPb//7f2//+7+P//u/b//7fz//9ceXn/AAAA/z1SVP+29P//tfP//2+Unf8AAAD/AAAA/xQb
+        Hf+v7v7/rvH//67z//+7+f//vfz//7z8//+3+P//tPj//7n6///B/P//vfz//8L9///F/f//wvz//8D9
+        ///I/v//wfz//7X0//+y8v//sfT//6jz//+h7/7/nuv+/5vs//+P5f//ftz+/23R/f9fxvr/QLHq/yaf
+        3f8dltb/GH/G/whxu/8QXaf/IY/K/0Kt2v9u0e7/hN73/5Xp/P+Jy9H/AgMD/wAAAP8BAgL/gMfV/6f3
+        //+j8/j/FyMk/wAAAP9olpv/rfb//7X5//+w9f//rvP//63z//+w8f7/vPr//8X+///F+///u/f//8b7
+        //+89v//xP3//8r////K/v//xf3//735///A/P//ufj//777//+5+P//svT//7L5//+w+P//rvT//6nt
+        //+Q2f7/nOb//5Pb/v+c4///pen//7L0//+u8///uvj//8P9///B/P//wPv//7Hs8f8MEBH/AAAA/4Sw
+        tv+08f//su7+/ys7QP8AAAD/AAAA/0pmb/+r7v//rfL//6vx//+v9P//ufn//7v7//+z9///sfL//7b1
+        //+7+f//vPz//739//+8+v//vvr//737///C/P//wPr+/7b0/v+29f7/sPT+/6by/v+f7f7/mef+/5Ti
+        /v+Q4/7/g9z+/3jY/v9fxvr/NKnk/ySc3P8gi83/HoPJ/w5/x/8OUpb/HYG7/0Gt1/9u0ez/hOD5/5Dn
+        +f+b7fz/ITE1/wAAAP8AAAD/UHZ3/6r5//+n+P//Z5aY/wAAAP8YIyT/oej1/7D2//+q8v//qvL//671
+        //+19///svT//7n5//+49f//r/H//8P6//+08P//v/r//8P8///B+v//wfz//8P+//+9+f//tfb//7j3
+        //+6+P//t/X//7X1//+y9///p+///5ri/f+V3f7/muD+/5rd/v+k5f//p+n//7T1//+6+f//vPj//7z4
+        //+9+///vf3//15+gf8AAAD/JTM1/6/t/P+w7///l87Z/wIEBP8AAAD/AQIC/4q9y/+p6v//quz//6nt
+        //+v8v//r/P//7X2//+z9P//rO///7Hx//+79v//tfn//7b5//+39///t/b//7f3//+6+f7/ufj+/7H1
+        /v+u9f//pfD//5/u/v+e7v7/ner+/5Tf/P+O4f7/iuH+/3jT/P9XwPT/Nq3n/yef3f8jk9X/KIzQ/xOC
+        zf8LSIz/F3aw/z6w3/9v0fX/juX9/5Dl+v+Q5fz/WoqU/wAAAP8AAAD/DRMT/57o7P+Y8v//oez1/xcj
+        Jf8AAAD/XICC/7X6//+r9///rfX//7L2//+s7///qe3//7H0//+v8P//sPP//7j4//+y9P//u/r//7b0
+        //+29P//ufn//7Hy//+q7P//t/f//7D2//+z+P//tff//7r5//+s8f//pez//5/n/v+c4/3/m+H9/6Po
+        //+b4f3/l975/7L0//+3+v//uvv//6/z//+0+v//m9Xc/wkMDP8AAQH/daWy/6jn//+p6v//Ql1n/wAA
+        AP8AAAD/Hiov/6Hm/f+f5f7/nuX+/6Xt//+k6f//qOz//6rv//+o7f//rfH//67w//+x8f//tPX//7T1
+        //+y9f//qOz//630//+s9P//rvX//6Ty//+j8P//m+r+/5Xn/f+Z6/7/nev+/5nn/v+P4v//iuD+/3nT
+        /P9XwfT/M63l/xyW1P8klNX/I4rR/w+Fz/8ITZn/Dmmt/zSn3/9iyPf/gN79/47o/v+N6P7/jt/x/w0W
+        F/8AAAD/AAAA/1J9gf+Z8///oPL//3Sts/8AAAD/BwoK/4/Izv+u9v//r/T//6zx//+s8f//qfD//6bs
+        //+s8f//rO///67x//+n7///sfX//6nv//+q8f//p+z//6Xp/v+i5///p+///7T4//+p8P//rvL//7b4
+        //+p9P//pO3//6Do/v+e5f7/qO7+/6rx//+e6f7/muT+/6rw//+t8v//sPT//7H1//+p7vr/L0FE/wAA
+        AP80SU//o+b9/6nr//+Kxd3/BgkK/wAAAP8AAAD/aZWi/6Lo//+h6f//neP+/5vh/v+Y4/7/our//6bt
+        //+k7P//rvL//63x//+x9v//tvb//7T1//+v9v7/pe/+/6Xz//+j8v//pfb//6T2//+m+P//lev+/47m
+        /f+R5/7/mu3//5vq/v+T5f//h9/9/3LT/P9Pv/P/M63n/yCc1/8cjtD/GobO/wl5wv8HRJL/B2Gr/x+W
+        2f9Ru/P/cdH8/33a/v+I4v//kej//0x7hP8AAAD/AAAA/wYKCv+K2N7/m+///7D7//8+WVv/AAAA/xkk
+        Jv+j5fD/rfH//5/n/P+r8/7/qvL//6bv//+i6v7/q/H+/6ft/v+j7P//pOz//5/o/v+m7///nef//6Hp
+        //+j7P//neP//6Ls/v+o8v7/sPj//7D4//+t+P//pO7//6Ls//+i6f//q/H//6rv//+r8f//ouv+/6ny
+        //+u8///rfP//7T4//9XeX7/AAAA/wwREv+V1OL/o+f//5zi/v8zSVD/AAAA/wAAAP8YIiX/oub4/6bu
+        /v+p7v//p+3//5ri/f+Z5f//oOr//6fw//+o7///sfX//7L1//+3+f//uvv//7P4//+t9v//o+/+/5vs
+        /v+b8P//m/T//6D3//+m+v7/lvD8/5Hr/f+O5///mOz//5rt//+P5P//fdj9/2nM+/9Mu/L/M6vl/yqi
+        4P8bk9f/C4DH/wVzuf8GQpH/BG23/xmS2v84qen/XcX8/3vb//+P6f//mfH//5Lk8P8QGRr/AAAA/wAA
+        AP8xTFD/me79/637//+t7u7/HCco/wAAAP8vQ0f/pOn1/6bu/v+n8v//rPb//6rz//+o8v//qfL+/6jy
+        /v+j7P//kt76/5/p/v+i7f7/o+///5zl/v+n8P//p+z//6Pt//+u+P//r/r//7L9//+s9v//qPH//6Hr
+        //+q9f//q/P//7H4//+q7v//n+j+/6r0//+o8P//rPX+/26cof8BAgL/AgMD/3Wmr/+k6v//o+r//3Gi
+        tP8AAAD/AAAA/wAAAP9nlKT/qO///6jv/v+x9P//qu///53k//+Z5P//pvD//6fu//+t9P//r/b//7X4
+        //+7+///tfn//7H1//+o8v7/mur+/5Xq//+T6/7/mvb+/6H5/v+k+f7/mPP+/5bw//+P6v//ler+/5Tp
+        /v+N4/7/etj8/2zP/f9Qu/X/Oq/q/y+o6v8jm9//G4/U/wh4wv8GXq3/BHrI/w+N2P8tpOr/VcD9/3vc
+        //+L7P//k+z//5ny//9fmaX/AAAA/wAAAP8AAAD/aZmc/7T8//+5+v7/k87T/w4UFP8AAAD/Nk1T/5rh
+        9v+r9f//q/T//6fv//+b5///o/H//6Px//+c6f//nuj+/6Dr//+p9f//rPf//6Pt//+r9P//rPX//631
+        //+m8f//qvb//6r2//+x/P//sfz//6n0//+j8f//q/j//6bw//+n8P//oev//5/q/v+m9P//cKOp/wQH
+        B/8AAAD/VXuD/672/v+s8///ltfn/xEZG/8AAAD/AAAA/yo9Qf+n7/3/qO///63z//+v9f//r/b//6Xr
+        //+f6P//pe3//6fv//+r8///r/n//7D3//+2+v//tvn//7D1//+k7v7/mOf9/4fg/P+T6/3/lfD+/5Dr
+        /v+f9///nfP//5ry//+R6v//kOb+/47k/f+K4fz/dNP7/2jN/P9QvPT/RLXw/zer7P8imt3/IJHY/wp/
+        zP8DW67/BYLR/xuj7f85sfj/Ycj+/3vb//983P//ieT//5Xv//+R6f3/LEVJ/wAAAP8AAAD/CAsM/5LM
+        0f+q9v7/rPT+/4jDyf8JDQ7/AAAA/yg8Qv+h5+v/pfL+/5Xm/P+V6v7/n+7+/6Du//+e7f//leL+/6Ht
+        //+u9///p+///6Dq//+g7f//pfT//57v//+i8///nu3+/6nz//+y+///qPL//6Dr/v+c6/7/ner+/6Pu
+        //+q8///q/X//6fy/v9biJL/AgMD/wAAAP9LbHL/o+39/6fw//+n7vr/MEVI/wAAAP8AAAD/BwoL/4/L
+        1P+u9P//rvT//6Pt//+q9v//qPT//6Tx//+e6v//oe7//6Pw//+k8///rPf//6z0//+z+///uPn//670
+        //+n8f7/j+D7/4HY+P+R6f3/k+7+/5v0/v+l+P//n/D//6/8//+b7/7/mOv+/5To//+G3/3/ctL7/2DH
+        +P9Qv/P/QLPt/zOo6P8knuP/H5Te/wmG1f8CZLjvAoXU/xWY4/8uo+3/Zcr+/3jX//+C5f//i+n//5Lr
+        //+Y8P//iNfk/w8YGf8AAAD/AAAA/xUfIP+V2uT/q/T//6Lv/v+Avcj/DxYX/wAAAP8WISL/e7nE/5Xn
+        /f+Q5f3/muv+/6Px//+j8P//ne7+/6b1//+q9///muj9/5Xp/f+Y6/7/oO///57u//+a6f7/kt///5/u
+        //+f6///ou///4nX+v+P4P7/i979/5Tm/v+X6P7/j9rv/zpXXP8AAAD/AAEB/0pvd/+i7f3/ofD//6Lw
+        /f9FZ2z/AAAA/wAAAP8AAAD/ZI+W/6n0//+l8P//pe///6bu//+m9P//o/D//53n//+m7v//p/L//6bw
+        //+r8f//oOv//6bx//+v+f//rfb//6jy//+i8P//mOv+/5Tq/f+Y7f7/kOj+/5jw/v+l+f//qvn//6v5
+        /v+f8v7/m+7+/4vh/v9+2fz/bc/6/17H9v9SwfT/Qrbu/yyl4v8hmdz/IZbe/xCQ3u8AZrzIAn3P/xeX
+        5P84q/D/Ysn+/3Xb//942v//hOL//43o//+R7P//lO3//2ytuf8BAgL/AAAA/wAAAP8fLjD/mN/s/5vt
+        //+k9v//jNDW/x0rLP8AAAD/BAYG/z9kcf+Q3vL/m+/+/5Xn/v+k8///oPT//6b3//+k8///mer+/43i
+        /f+O4/3/ne/+/5Po//+T5/7/k+b//5Dh/P+c7v//kOT+/47j/v+M3f3/it7+/3/X+v9emK7/Eh0h/wAA
+        AP8DBgf/VYSV/57v/P+g8///pPX+/1R+hP8AAAD/AAAA/wAAAP88Vlf/oez8/5/x//+e8P//nu///53t
+        //+m9f//pPP//5zq//+k8P//oO7//6Pw//+r9v//ou7//5zq//+q+P//rPj//6nz//+j8/7/nPD//5/w
+        //+k9P7/o/P//6D0//+g9f//o/X+/6b1/v+T6P3/ieH+/3/a/f920vz/a8v6/2bL+v9RwfX/Qbfr/zOv
+        5v8loN//Ipfd/wyH18gAacJ+B4jc/x+g7v85rPb/RrX2/2DF//9tz/7/f93//4Hf//+F4v7/jOf+/5r1
+        //9XjJT/AQEB/wAAAP8AAAD/HCss/4zX4P+k9v//pfn//5rs9f9CYWT/AQID/wAAAP8NFBX/T3uE/5He
+        6/+k9f//pPb//6f4//+l9f//k+j+/5Pk/v+S5/7/juf+/57x//+S5///kOn+/3vR+P+C2/z/lez+/4rg
+        /v+Q5Pv/ZaG0/x0yOv8AAAD/AAAA/xYlKf9yucz/h938/5vx//+f8vv/TnN2/wAAAP8AAAD/AAAA/yg6
+        Ov+m8PT/q/j//6Lz//+h8v//oPL//5zw//+c7v//nfD//5/v//+Z6f//n+z//6Tx//+p9v//pvX//6Px
+        //+h8P//qPj//6b0//+h8f7/nu///6Dw//+k8v//p/b//6j3//+j9f//me7+/5vw/v+W7P7/f9n9/3LP
+        +/900f3/bc38/1zB+P9TvvX/RLLp/zCm4f8rnt3/JJjf/wyG2H0AbcoxAYDT/RuZ5v8poen/Oazx/13E
+        /f9gxP3/eNf+/4bj//+B3f7/kev+/5Lu/v+X8P7/THd//wAAAP8AAAD/AAAA/xMdH/+DxMv/ofb+/5z0
+        //+X6/3/crK//xssMP8AAAD/AAAA/wgMDf86V1n/cauw/5nj6/+f7/7/mO7//5zv//+V6f7/mfD//5nv
+        //+X8v//jej+/33W+f91zPD/bbPL/0Nufv8VIiT/AAAA/wAAAP8HDA7/RXOD/4LY9P+N5v7/hd/9/4ne
+        8v86WVz/AAAA/wAAAP8AAAD/Gykt/53n6v+n9///pPX//6b2//+j9P//l+z//5Tp//+U6v//ler//53v
+        //+c6///nuv//6Xy//+o9///p/f//6Ly//+e7///n/D//6T0//+j8P7/oO3//6Xz//+m9f//pfX//6f1
+        //+l9f//nfL//5bv//+N6P//iuT9/3rT/f920v7/b8/9/1/E+/9OuO3/RbTr/zar4f82puD/Mqbp/R+c
+        5DEAAAAAAXTE1QiCzf8altv/KqHn/025+P9fxPr/dNT+/4Le//+P6f//k+3//5bv//+a8v7/mvD8/015
+        gv8AAAD/AAAA/wAAAP8GCQn/V4iQ/5rx/f+S6/7/k+v//5Dm+v9in6r/HzEz/wAAAP8AAAD/AAAA/wUI
+        CP8fLzH/OFZa/0lzfP9VhYz/XZGa/1OIkv9OfYP/N15q/yQ7Qv8MExb/AAAA/wAAAP8AAAD/ChAR/0Vu
+        ef+F0uf/h+D8/4zl//+R6P//d7/R/xgoLf8AAAD/AAAA/wAAAP8eLzP/iNPl/6P2//+g9P//n/P//6X4
+        //+j9///lez//5Lt//+J4v7/kOf+/5br//+h8f//ovL//6b2//+g8v//m+z//5Tm//+b7///nvD//5nr
+        //+g8P//muj//5rq//+k9f//pfb//6z6//+f8v//luz//5Pp//+K5P7/iOH9/27N+v9vz/z/asz7/2TK
+        +f9YvvP/S7nt/z6w5f9CsOf/Oq3uyQAAAAAAAAAAAGi3awFvu/8Hf8X/JZ3k/0Kw8/9Yvvb/cdH8/4Hc
+        /v+J4///juj+/53y/v+T6/7/mPD+/5fs//9Yi5f/AwUG/wAAAP8AAAD/AAAA/yU7P/96xNH/mfH//5rz
+        //+d9///n/T+/4jN0f9JcXX/Gysu/wIEBP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/DBUZ/zBPVf9Xl6v/id/3/43j//+F2P7/gtn7/3HD5/9AaXv/BAYH/wAAAP8AAAD/AAAA/yg+
+        Rf+N3vH/kur//5nw//+V6///oPX//5zu//+Y7f//j+b+/4Tf/f+L4/7/jeT+/5fv//+d8///nO///5zs
+        //+j9f//nfL//57y//+l+P//pvj//5Xp//+f9f//j+b//5/0//+o+v//o/T//6T4//+Y8f//jOf//4Xh
+        /f+E4fz/gd37/2zP+v9hxvT/YMP3/2TI+/9ixPj/WMLz/0a26/9Csu3/Oa3zawAAAAAAAAAAAGStHANy
+        vPQJfcD/GJHW/zmn6f9UvPL/bc36/3/Z/f+E3/3/iuP+/4/o//+K5P7/jeX+/4nf+/+Q5v7/bq6//xIc
+        Hv8AAAD/AAAA/wAAAP8EBgf/SGts/4vX3/+f9f//qvn//6r6//+Z8f//nvP9/5Lf5f94tbb/X46Q/0lu
+        cP8+XmD/OFNT/zxaWv9BZWn/SXeB/2Cbp/9ptNL/ht74/5Hr//+F4f//iuP//43j//+G1/b/V4+f/xIe
+        Iv8AAAD/AAAA/wAAAP8CAwT/RG15/47h9/+E3P//gdr+/43l/v+W7f//mu///6Dy//+d8f//mfD//5jy
+        //+Y8P//mfH//5jw//+Y8P//ovf//6X5//+h8///pPT//57v//+e8v//n+7//53w//+c8P//mfD//6H0
+        //+h8f//nO3//57z//+K5f//g+L+/3/f/P9/4Pv/b9T6/1zE9v9ew/b/Wr/0/13C9v9oy/j/Urzu/1G9
+        8/89rvD0L6/vEAAAAAAAAAAAAAAAAAN2u4gDdbf/E4zP/zWl5v9UvPH/cc77/3jU+v962vz/dNP8/3PS
+        +f+B3v3/gNf9/3/Y+/+C2/v/kef+/4vY6P8vTFH/AAAA/wAAAP8AAAD/AAAA/wUICP87WV7/eLS8/6Hy
+        /P+b8P//ofP//6X3//+t/f//ovX//5/3//+i+f//ovj//531//+b8f//ler//4ni/v+K6P//fNj+/4zi
+        //+I4///f87f/0ZzhP8RHSP/AAAA/wAAAP8AAAD/AAAA/xAbHv9ko7f/kOL+/4ri//981f7/hNr//47j
+        //+P5P//lez//5Dp//+M5v//k+z//5ry//+W8f//j+f//5Tq//+Y7///nfL//6D0//+j9v//nvT//5Pq
+        //+S7P//luv//5Pp//+R5/7/jOT//4nh//+H4P//jub//4fi//9/3v//eNn+/3TW+/9r0Pf/Ysr2/1TA
+        9f9NuvL/Ubzy/1S+8v9exfj/WML2/0u89/8nm+aIAAAAAAAAAAAAAAAAAAAAAAAAAAADdbrMDYfJ/y+j
+        4v9OuOz/a8z1/3nU+/+A2fz/b8n3/3HL+/9uyPn/d9D9/3nV/v+D3v7/kOj9/5Pq/v+Y7/7/aqez/xQh
+        JP8AAAD/AAAA/wAAAP8AAAD/AAAA/xMdHf9FaGv/baaq/6Dg4f+q9/v/rvv//6L5//+g+P//ovf//5Ts
+        //+T6v//kef//5zy/v9+0e3/aa3D/0VzhP8fND7/AAEC/wAAAP8AAAD/AAAA/wAAAP8EBwf/QWd1/4nY
+        8/+K3///htz//4rh//+O5v//jOX//43p//982/7/h+L//4Dd//+D3///h+P//5Lw//+F6P//heX//4Dd
+        //+M6///k+3//5Xt//+b8///le///4jg//+F2///iuL//3nY+/952Pz/hd/+/4Pe/v9+2///iuT+/4Hh
+        /f9x0vz/bND6/3LW/P9o0fv/XMX4/1K/9P9Uwvf/WMT5/13G+f9gxvn/WsT3/1G++8sAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAfMAlCoPG8S2g3/9Ot+7/YMHw/3DM9f961fr/aMfz/2rI+/9wzvz/dtT9/3rX
+        /f+E3vz/keb8/5ft/f+U7v3/ken+/43g9f9Yi5b/FiIk/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wME
+        BP8OFBT/Jzc3/zNPUv89X2X/P2Rv/0Bkaf81VFr/KEBF/xMeIf8ECAn/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AwcJ/yxSY/9js9n/gdn+/4bf//960/7/ccv8/3bP/f950/7/fNb9/4Dg//963P//dtf//3TT
+        /v972P7/c9T+/3jb//901/7/eNr+/33e/v983f//ieX//4vm//+O6f//hOP//3TR/v+C3v7/Z8Pr/2fG
+        9P9z0v7/etf+/3fX//901P7/cdL7/2vT+f9exvL/YMf0/2zR+v9hyvr/Z878/2PI+/9XwPb/W8f7/2jM
+        /P9hx/v/Ycr88VLA/yUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoPJSC6e3fdIr+n/WLfo/2XC
+        7/9syvX/a8r4/2vL+/9tzPv/ctP9/27P+/972vr/iuX7/5Ho/P+M5v3/ht/9/4vk//+P5///hNn3/1mT
+        qf8nQkr/AwQE/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/w8dJf88aoL/Z7jg/23L+f9kxfn/a8r9/27N/f9vzf7/cM78/12+
+        9f9oyfv/aMj7/2nN/f9ky/3/X8b6/2LG/P9kyPv/aM7+/2nR//9pzf7/cNT+/2vP/f9w1P//edr//3nZ
+        //973P//eNn//2LD9P9ixff/X8L3/2TE+f910f3/e9j+/3TW//9tzv3/Ysb6/1S/9/9Mu/D/Rbbs/0+9
+        7/9izPf/aM76/2PI+/9ny/z/aM77/27N/P9gxfr3Y8n/SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACyb2kVOs+f3Wbfm/1Wy5P9Yuuv/XcLw/17E9P9hxfX/Y8n6/2TL+v9s0vf/e9v4/3nW
+        +v9/2/3/gd/8/3za/P972/v/g9/8/3nU+/+A3vz/gtXn/1WOnv8uUFz/EB0g/wECAv8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/BgwP/x83Qf8zZH3/VJ7H/2rF+v90z/z/dNH//27O
+        /f9gxPj/ZMj7/2LF+f9lx/n/bM79/1S58P9fxPr/XcH6/2fO/v9Yw/j/VL/3/17H/P9bx/z/UcD6/1LD
+        +v9Vv/n/WMH4/2PK/f9exvv/bM/+/3TU//9u0f7/ac39/2nN/v9hxfv/W8L7/2PF/P9nxv3/cdH+/2zN
+        /v9myf3/Ycf7/1G6+P9OuvL/Srnu/0267v9aw/P/a9H4/2vS+/9x1f3/d9n9/3nY/Pdy1v9FAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABjwvBIYsLu8Uyv4/9Ap9//Pq3i/0Wy
+        6P9Ot+7/UL3y/1C/8v9XwvH/Xcfx/2DJ8/9cxfD/X8bz/2HH9v9ex/T/XsT2/2HH9/9o0Pr/b9P7/3DT
+        /P9s0Pv/b9H3/1q24f9MmL3/SYSa/y1iff8sW3P/L1ts/y5bb/8wZHj/NnGJ/0OMq/9SptD/YLzt/2XG
+        +P9gwvL/Z8f5/2zM/v9x0f//Zcb7/13B9v9WvfT/SLHp/1G67v9NtOb/ULbs/z+p4f9DrOT/T7jz/06+
+        +P9Ju/P/RLfw/0G07v82sOv/M7Dq/zOy7P85ren/QrLs/1C89P9MufL/Srfx/1K99v9WwPn/Trz6/1XA
+        +/9aw/z/Ubr3/1rE+v9Su/n/WL78/1y++f9PtvL/R7Px/zer6/8+sez/QLHo/0248f9Wv/L/V8H0/2jO
+        +f912Pv/btL98XTU/0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAYMfxJVK47cs3otz/KqHd/zSo4v8yo9//OrDm/zSt4/86rOj/R7nv/0S46/9Btuv/PLHm/zqv
+        5/88sOn/PLLm/0Cz6v9Ht+z/T7z0/1G+9P9UvvT/Ub3z/0m27f9Gtez/Urzw/0Gu5/9Ywvf/X8n6/1XC
+        9/9LvvT/Sbnv/0ay6P9Hsen/T7fw/0+17f9bvfT/a8v7/2bG+/9nyf3/X8L7/1O8+P9Ds+3/TLft/0q3
+        7f9CsOj/MKTf/zao4f86qeL/Pajj/zuy6f84ruf/Oq7r/zOv7f8jpeT/Fp3c/xig3f8Vntf/GZ7a/xSY
+        1/8ppeL/Oa3s/0W08v9BtPL/O7Dv/zuu7f86q+n/PKzu/zim6v9BsPP/QrL2/1K+/P87re3/NKrq/yac
+        2v8lnNr/L6Pi/z2s6v8ypeP/N6rh/1XB9f9UwfTLWcD4JQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvot6HIZna9BuU1f8eldj/IJ3a/x2e
+        2f8qoOD/L6fk/yaf3P8ln9r/KZza/ySW1/8jmdv/IZXV/ySe3f8mnd3/J53d/yyh3/8kmdn/M6np/zas
+        6v8upeL/J5vZ/zKg3/82peH/MqXh/zKp6f8jmtz/JZnZ/yaY1/8omNP/I5HQ/yma2f88rOn/RbXx/1C9
+        9/9FufX/PrLx/zOs6/8joeH/LZ7h/yCX2v8emdj/C47I/w2Ozf8Pjs//GpjY/yKl4P8bmtz/KaDn/yGg
+        5f8Um9z/Co7Q/wOHzP8ChMv/B4vQ/waJy/8FjdH/C5DW/xOX2/8Xmdn/G5rh/ymk6v8gnN3/Gprc/xmU
+        2v8el+D/JZvi/yag6v8nouz/GJff/w+J0v8Gg8T/B4jI/wuFyv8Rkdf/EY3S9C+t84cAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAEojRHBeOz2sik9jUJ57b/SSW0f8imdT/G5DQ/xiP1P8ejNL/IY3O/yGKzf8Xgcb/FH3D/xqK
+        zv8ahsr/HYnO/xiIy/8PgMP/DoLG/xSM0f8Xj9X/D4DE/xaDxf8hi8//GovR/xeM0f8UfcP/GHy//xR3
+        t/8TeLb/D3u7/wh1uf8TjtD/H5jc/yCZ3f8bn97/FJrc/wqP0f8Iicn/DIbJ/wqIy/8JiMn/CYzK/wR/
+        v/8CfcD/BYTO/weQ1f8IiM3/D5PZ/weH0P8GiND/BHzD/wF0tv8BdL7/AXG6/wFwt/8FhMn/BX7G/wR8
+        w/8Be8H/BH7I/wqI0f8Qlt3/CorT/wh+yf8FeMT/AXO9/waFzv8FgMj/AXS9/wFprf8DYaT/A1+j/QFg
+        qdQCa7VrAHa/HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKZbVMSiW2H0Zis7IDHvC7wt4
+        wf8Ne8b/FYTM/xN6w/8QfsT/DXO5/xd5wv8XfMb/Ena8/wp2vf8Gb7f/CGOq/wZrs/8HaK//BVqd/w90
+        t/8Yh8r/GYvO/xN+wv8PesP/C3S5/wp4uv8Eaaj/BGmq/wNkp/8Haa3/B3O2/wh0uP8HhMX/BITJ/wJo
+        rP8DaKr/Ammr/wNipP8CcLD/A2en/wJss/8BcLv/AXbC/wJ1uv8CdLn/AW+1/wJotv8Dabb/Al6q/wJZ
+        of8BVqX/AVqn/wJUoP8CVqX/AVag/wJXoP8CY67/Aluo/wNcrP8Ca7//BmK3/wNWqf8CT6H/Al6w/wJj
+        tP8CW63/AU2h7wFLksgCT5R9AE6RMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/+AAAAAAAAAAAH///wAAAAAAAAAAAA///gAAAAAAAAAAAAf/+AAAAAAAAAAAA
+        AH/8AAAAAAAAAAAAAD/4AAAAAAAAAAAAAB/wAAAAAAAAAAAAAA/gAAAAAAAAAAAAAAfgAAAAAAAAAAAA
+        AAfAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA
+        AAGAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAfgAAAAAAAAAAAA
+        AAfwAAAAAAAAAAAAAA/4AAAAAAAAAAAAAB/8AAAAAAAAAAAAAD/+AAAAAAAAAAAAAH//gAAAAAAAAAAA
+        Af//wAAAAAAAAAAAA///+AAAAAAAAAAAH/8=
+</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 13</value>
+  </data>
+  <data name="gbCredits.Text" xml:space="preserve">
+    <value>Credits</value>
+    <comment>Credits groupbox title</comment>
+  </data>
+  <data name="&gt;&gt;gbCredits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>v0.0.0.000</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="&gt;&gt;picLogo.Name" xml:space="preserve">
+    <value>picLogo</value>
+  </data>
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="picLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 70</value>
+  </data>
+  <data name="lblCopyright.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="lnkEmail.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;lnkHomepage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblKBytesHead.Text" xml:space="preserve">
+    <value>Data downloaded
+  This session:
+  Total:</value>
+    <comment>Note: Preserve line breaks, indentation</comment>
+  </data>
+  <data name="&gt;&gt;tabAbout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCredits.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="picLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 117</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Battleground Europe Game Monitor</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 83</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lblKBytesValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 199</value>
+  </data>
+  <data name="lblKBytesHead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 186</value>
+  </data>
+  <data name="picLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="txtLog.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Name" xml:space="preserve">
+    <value>tabLog</value>
+  </data>
+  <data name="lnkBEHomepage.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lnkBEHomepage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;picLogo.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="lnkEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="gbCredits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 80</value>
+  </data>
+  <data name="&gt;&gt;lblKBytesHead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblKBytesValues.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCredits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblDisclaimer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+</root>

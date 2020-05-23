@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E397E79A-6856-4891-AD12-8FF8BC663920}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Xiperware.WiretapAPI</RootNamespace>
+    <AssemblyName>Xiperware.WiretapAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;SL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Xiperware.WiretapAPI.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Mac|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;MAC</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Frontline|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;DEBUG_FRONTLINE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release Mac|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>MAC</DefineConstants>
+    <DocumentationFile>bin\Release\Xiperware.WiretapAPI.xml</DocumentationFile>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameState.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="Frontline.cs" />
+    <Compile Include="GameClasses.cs" />
+    <Compile Include="GameEvent.cs" />
+    <Compile Include="Language.de.Designer.cs">
+      <DependentUpon>Language.de.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language.Designer.cs">
+      <DependentUpon>Language.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language.en-US.Designer.cs">
+      <DependentUpon>Language.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language.es.Designer.cs">
+      <DependentUpon>Language.es.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language.fr.Designer.cs">
+      <DependentUpon>Language.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Log.cs" />
+    <Compile Include="MapMetrics.cs" />
+    <Compile Include="Misc.cs" />
+    <Compile Include="NetManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Third Party\ObservableDictionary.cs" />
+    <Compile Include="Third Party\SecureCredentialsLibrary.cs" />
+    <Compile Include="Wiretap.cs" />
+    <Compile Include="XLib\StringExt.cs" />
+    <Compile Include="XmlFile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Language.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.de.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.en-US.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.es.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.fr.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\border_belgium.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\border_france.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\border_germany.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\border_luxembourg.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\border_netherlands.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\border_uk.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ranklist.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_country_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_country_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_country_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_brigade_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_brigade_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_brigade_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facility_airbase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facility_armybase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facility_city.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facility_depot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facility_factory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facility_firebase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facility_navalbase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledgraph0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledgraph1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledgraph2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledgraph3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledgraph4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contested.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spawnable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_ao_placed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_ao_placed_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_ao_withdrawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_ao_withdrawn_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_chokepointcapture_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_chokepointcapture_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_chokepointcapture_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_controlchanged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_controlchanged_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_controlchanged_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_controlchanged_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_facilitycapture_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_facilitycapture_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_facilitycapture_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_factory_damaged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_factory_destroyed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_factory_healthy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_factory_rdpoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_factory_rdpon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_firebase_blown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_hcunit_deployed_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_hcunit_deployed_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_hcunit_deployed_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_hcunit_moved_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_hcunit_moved_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_hcunit_moved_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_hcunit_routed_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_hcunit_routed_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_hcunit_routed_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_regained.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_regained_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_regained_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_regained_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_spawnablecapture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_spawnablecapture_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_spawnablecapture_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_spawnablecapture_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_underattack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_underattack_british.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_underattack_french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_underattack_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_country_usa.png" />
+    <None Include="Resources\flag_brigade_usa.png" />
+    <None Include="Resources\event_facilitycapture_usa.png" />
+    <None Include="Resources\event_spawnablecapture_usa.png" />
+    <None Include="Resources\event_hcunit_moved_usa.png" />
+    <None Include="Resources\event_hcunit_deployed_usa.png" />
+    <None Include="Resources\event_regained_usa.png" />
+    <None Include="Resources\event_underattack_usa.png" />
+    <None Include="Resources\event_hcunit_routed_usa.png" />
+    <None Include="Resources\event_controlchanged_usa.png" />
+    <None Include="Resources\event_chokepointcapture_usa.png" />
+    <Content Include="Resources\flag_country_nf.png" />
+    <Content Include="Resources\flag_country_nh.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

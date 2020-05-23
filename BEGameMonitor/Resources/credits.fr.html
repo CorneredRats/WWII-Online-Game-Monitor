@@ -1,0 +1,233 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+  <title>Credits</title>
+  <style type="text/css">
+    body, table {
+      font: 8.25pt Microsoft Sans Serif;
+      text-align: center;
+      border: 0;
+    }
+    body {
+      margin-top: 60px;
+      margin-bottom: 65px;
+    }
+    div {
+      font-weight: bold;
+      padding-top: 20px;
+      padding-bottom: 5px;
+      padding-right: 10px;
+    }
+    td.lh {
+      text-align: right;
+      padding-top: 5px;
+      padding-right: 5px;
+      width: 105px;
+      vertical-align: top;
+      color: #006633;
+    }
+    td.l {
+      text-align: right;
+      padding-top: 5px;
+      padding-right: 5px;
+      width: 105px;
+      vertical-align: top;
+    }
+    td.r {
+      text-align: left;
+      padding-top: 5px;
+      padding-left: 5px;
+      width: 105px;
+      vertical-align: top;
+    }
+    td.c {
+      text-align: center;
+      vertical-align: top;
+      padding-bottom: 5px;
+    }
+    td.ch {
+      text-align: center;
+      padding-top: 5px;
+      vertical-align: top;
+      color: #006633;
+      padding-bottom: 5px;
+    }
+    a:link, a:visited {
+      color: #0000FF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <script type="text/javascript">
+    var timer;
+    
+    function init()
+    {
+      for( var i = 0; i < document.anchors.length; i++ )
+      {
+        document.anchors[i].onmouseover = function( e ) { stop(); }; 
+        document.anchors[i].onmouseout  = function( e ) { start(); }; 
+      }
+      
+      start();
+    }
+    function start()
+    {
+      timer = setInterval( 'scroll()', 40 );
+    }
+    function stop()
+    {
+      clearInterval( timer );
+    }
+    function scroll()
+    {
+      if( document.body.scrollHeight - document.body.scrollTop <= document.body.clientHeight )
+        scrollTo( 0, 0 );
+      else
+        scrollBy( 0, 1 );
+    }
+  </script>
+</head>
+
+<body onload="init()">
+
+  <div>Traducteurs</div>
+  
+  <table>
+    <tr>
+      <td class="lh">French</td>
+      <td class="r">soloje<br />touffe</td>
+    </tr>
+    <tr>
+      <td class="lh">German</td>
+      <td class="r">parasit<br />pene<br />rote1<br />rote7</td>
+    </tr>
+    <tr>
+      <td class="lh">Spanish</td>
+      <td class="r">cid250</td>
+    </tr>
+  </table>
+  
+  
+  <div>Remerciements &agrave;</div>
+  
+  <table>
+    <tr>
+      <td class="lh">Wiretap</td>
+      <td class="r">KFS1</td>
+    </tr>
+    <tr>
+      <td class="lh">Testing</td>
+      <td class="r">gdaqua<br>mangydog</td>
+    </tr>
+    <tr>
+      <td class="ch" colspan="2">Bug Reporting</td>
+    </tr>
+    <tr>
+      <td class="l">
+        aeropaus<br />
+        bloo<br />
+        casur<br />
+        daren<br />
+        derheld<br />
+        eigenman<br />
+        gilmour<br />
+        herodawg<br />
+        infinity<br />
+        jalik<br />
+        kfsone<br />
+        lonnie<br />
+        marty<br />
+        pico<br />
+        shotduck<br />
+        sres<br />
+        w1sp3r<br />
+      </td>
+      <td class="r">
+        andjan<br />
+        bluesomebody<br />
+        danvm<br />
+        degrunne<br />
+        dillon<br />
+        enigma<br />
+        grisspy<br />
+        hog<br />
+        jaguart<br />
+        jane<br />
+        lahvancz<br />
+        mangydog<br />
+        mrweed<br />
+        sam<br />
+        spartann<br />
+        three<br />
+        zype<br />
+      </td>
+    </tr>
+  </table>
+  
+  
+  <div>Donn&eacute;es suppl&eacute;mentaires</div>
+  
+  <table>
+    <tr>
+      <td class="lh">Altitudes</td>
+      <td class="r">fogaban</td>
+    </tr>
+    <tr>
+      <td class="c" colspan="2"><a name="a" href="http://www.battlegroundtools.com/" target="_blank">www.battlegroundtools.com</a></td>
+    </tr>
+  </table>
+  
+  
+  <div>Third Party Code</div>
+  
+  <table>
+    <tr>
+      <td class="lh">Advanced TreeView Control</td>
+      <td class="r">Andrey Gliznetsov</td>
+    </tr>
+    <tr>
+      <td class="c" colspan="2"><a name="a" href="http://www.codeproject.com/KB/tree/treeviewadv.aspx" target="_blank">www.codeproject.com/...</a></td>
+    </tr>
+    <tr>
+      <td class="lh">Credential Management API Wrapper</td>
+      <td class="r">Alan Dean</td>
+    </tr>
+    <tr>
+      <td class="c" colspan="2"><a name="a" href="http://www.developerfusion.co.uk/show/4693/" target="_blank">www.developerfusion.co.uk/...</a></td>
+    </tr>
+    <tr>
+      <td class="lh">Enhanced TrackBar Control</td>
+      <td class="r">Mick Doherty</td>
+    </tr>
+    <tr>
+      <td class="c" colspan="2"><a name="a" href="http://www.dotnetrix.co.uk/controls.html" target="_blank">www.dotnetrix.co.uk/...</a></td>
+    </tr>
+    <tr>
+      <td class="lh">ImageMap Control</td>
+      <td class="r">Ryan LaNeve</td>
+    </tr>
+    <tr>
+      <td class="c" colspan="2"><a name="a" href="http://www.codeproject.com/KB/miscctrl/imagemapcontrol.aspx" target="_blank">www.codeproject.com/...</a></td>
+    </tr>
+    <tr>
+      <td class="lh">Picture Viewer Control</td>
+      <td class="r">Mohammed Abd Alla</td>
+    </tr>
+    <tr>
+      <td class="c" colspan="2"><a name="a" href="http://www.codeproject.com/KB/miscctrl/Picture_Viewer.aspx" target="_blank">www.codeproject.com/...</a></td>
+    </tr>
+    <tr>
+      <td class="lh">XP Explorer Bar Control</td>
+      <td class="r">Mathew Hall</td>
+    </tr>
+    <tr>
+      <td class="c" colspan="2"><a name="a" href="http://www.codeproject.com/KB/miscctrl/XPTaskBar.aspx" target="_blank">www.codeproject.com/...</a></td>
+    </tr>
+  </table>
+
+</body>
+</html>

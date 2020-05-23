@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tskFactory.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFactoryData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmrReveal.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="&gt;&gt;picGerman.Name" xml:space="preserve">
+    <value>picGerman</value>
+  </data>
+  <data name="cbAlwaysLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="picGerman.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 30</value>
+  </data>
+  <data name="&gt;&gt;picBritish.Parent" xml:space="preserve">
+    <value>expBritish</value>
+  </data>
+  <data name="&gt;&gt;lblAlwaysLoad.Name" xml:space="preserve">
+    <value>lblAlwaysLoad</value>
+  </data>
+  <data name="&gt;&gt;pnlLoadFactoryData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tskFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tmrReveal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;expFrench.Parent" xml:space="preserve">
+    <value>tskFactory</value>
+  </data>
+  <data name="&gt;&gt;expGerman.Name" xml:space="preserve">
+    <value>expGerman</value>
+  </data>
+  <data name="&gt;&gt;expFrench.Type" xml:space="preserve">
+    <value>XPExplorerBar.Expando, BEGameMonitor, Version=1.1.1.0, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;expBritish.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picGerman.Parent" xml:space="preserve">
+    <value>expGerman</value>
+  </data>
+  <data name="picSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 115</value>
+  </data>
+  <data name="expGerman.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 136</value>
+  </data>
+  <data name="btnLoadFactoryData.Text" xml:space="preserve">
+    <value>Load Factory Data</value>
+    <comment>Load button</comment>
+  </data>
+  <data name="cbAlwaysLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="expGerman.Text" xml:space="preserve">
+    <value>GERMAN</value>
+    <comment>German section title</comment>
+  </data>
+  <data name="expBritish.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picGerman.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picBritish.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblAlwaysLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 13</value>
+  </data>
+  <data name="btnLoadFactoryData.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="expFrench.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 74</value>
+  </data>
+  <data name="&gt;&gt;picFrench.Parent" xml:space="preserve">
+    <value>expFrench</value>
+  </data>
+  <data name="&gt;&gt;picSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="expBritish.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tskFactory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;pnlLoadFactoryData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tskFactory.Type" xml:space="preserve">
+    <value>XPExplorerBar.TaskPane, BEGameMonitor, Version=1.1.1.0, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="tskFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 200</value>
+  </data>
+  <data name="&gt;&gt;expBritish.Name" xml:space="preserve">
+    <value>expBritish</value>
+  </data>
+  <data name="tskFactory.Text" xml:space="preserve">
+    <value>tskFactory</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="expBritish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 50</value>
+  </data>
+  <data name="&gt;&gt;cbAlwaysLoad.Name" xml:space="preserve">
+    <value>cbAlwaysLoad</value>
+  </data>
+  <data name="expBritish.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFactoryData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picBritish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 30</value>
+  </data>
+  <data name="expBritish.Text" xml:space="preserve">
+    <value>BRITISH</value>
+    <comment>British section title</comment>
+  </data>
+  <data name="picGerman.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 19</value>
+  </data>
+  <data name="&gt;&gt;pnlLoadFactoryData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlLoadFactoryData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="expBritish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="expGerman.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="picBritish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 19</value>
+  </data>
+  <data name="picFrench.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 19</value>
+  </data>
+  <data name="picFrench.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblAlwaysLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 75</value>
+  </data>
+  <data name="cbAlwaysLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 57</value>
+  </data>
+  <data name="&gt;&gt;picFrench.Type" xml:space="preserve">
+    <value>ImageMap.ImageMap, BEGameMonitor, Version=1.1.1.0, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;picBritish.Type" xml:space="preserve">
+    <value>ImageMap.ImageMap, BEGameMonitor, Version=1.1.1.0, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="btnLoadFactoryData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="picFrench.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FactoryStatus</value>
+  </data>
+  <data name="lblAlwaysLoad.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="picGerman.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="picBritish.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;expBritish.Type" xml:space="preserve">
+    <value>XPExplorerBar.Expando, BEGameMonitor, Version=1.1.1.0, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="btnLoadFactoryData.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="picFrench.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 30</value>
+  </data>
+  <data name="expFrench.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 50</value>
+  </data>
+  <data name="picSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnLoadFactoryData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 18</value>
+  </data>
+  <data name="&gt;&gt;lblAlwaysLoad.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbAlwaysLoad.Text" xml:space="preserve">
+    <value>Always load on startup</value>
+    <comment>Always load checkbox</comment>
+  </data>
+  <data name="&gt;&gt;tskFactory.Name" xml:space="preserve">
+    <value>tskFactory</value>
+  </data>
+  <data name="&gt;&gt;expGerman.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tskFactory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblAlwaysLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 315</value>
+  </data>
+  <data name="expGerman.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 50</value>
+  </data>
+  <data name="&gt;&gt;expGerman.Type" xml:space="preserve">
+    <value>XPExplorerBar.Expando, BEGameMonitor, Version=1.1.1.0, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picBritish.Name" xml:space="preserve">
+    <value>picBritish</value>
+  </data>
+  <data name="pnlLoadFactoryData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="picGerman.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cbAlwaysLoad.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="picSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;picSummary.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbAlwaysLoad.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;tmrReveal.Name" xml:space="preserve">
+    <value>tmrReveal</value>
+  </data>
+  <data name="expFrench.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;pnlLoadFactoryData.Name" xml:space="preserve">
+    <value>pnlLoadFactoryData</value>
+  </data>
+  <data name="expFrench.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFactoryData.Parent" xml:space="preserve">
+    <value>pnlLoadFactoryData</value>
+  </data>
+  <data name="&gt;&gt;picFrench.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="expGerman.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="pnlLoadFactoryData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 100</value>
+  </data>
+  <data name="&gt;&gt;cbAlwaysLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbAlwaysLoad.Parent" xml:space="preserve">
+    <value>pnlLoadFactoryData</value>
+  </data>
+  <data name="cbAlwaysLoad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;expGerman.Parent" xml:space="preserve">
+    <value>tskFactory</value>
+  </data>
+  <data name="&gt;&gt;picSummary.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picSummary.Name" xml:space="preserve">
+    <value>picSummary</value>
+  </data>
+  <data name="expGerman.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tskFactory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="tskFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 115</value>
+  </data>
+  <data name="&gt;&gt;picGerman.Type" xml:space="preserve">
+    <value>ImageMap.ImageMap, BEGameMonitor, Version=1.1.1.0, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;expFrench.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="expFrench.Text" xml:space="preserve">
+    <value>FRENCH</value>
+    <comment>French section title</comment>
+  </data>
+  <data name="&gt;&gt;picBritish.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;expBritish.Parent" xml:space="preserve">
+    <value>tskFactory</value>
+  </data>
+  <data name="lblAlwaysLoad.Text" xml:space="preserve">
+    <value>(requires +138kb download)</value>
+    <comment>Always load checkbox info</comment>
+  </data>
+  <data name="&gt;&gt;lblAlwaysLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picFrench.Name" xml:space="preserve">
+    <value>picFrench</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFactoryData.Name" xml:space="preserve">
+    <value>btnLoadFactoryData</value>
+  </data>
+  <data name="&gt;&gt;expFrench.Name" xml:space="preserve">
+    <value>expFrench</value>
+  </data>
+  <data name="expFrench.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblAlwaysLoad.Parent" xml:space="preserve">
+    <value>pnlLoadFactoryData</value>
+  </data>
+</root>

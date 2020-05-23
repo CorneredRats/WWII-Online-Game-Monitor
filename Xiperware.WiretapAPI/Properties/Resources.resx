@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="border_belgium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\border_belgium.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="border_france" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\border_france.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="border_germany" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\border_germany.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="border_luxembourg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\border_luxembourg.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="border_netherlands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\border_netherlands.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="border_uk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\border_uk.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="contested" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contested.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_ao_placed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_ao_placed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_ao_placed_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_ao_placed_small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_ao_withdrawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_ao_withdrawn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_ao_withdrawn_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_ao_withdrawn_small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_chokepointcapture_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_chokepointcapture_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_chokepointcapture_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_chokepointcapture_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_chokepointcapture_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_chokepointcapture_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_chokepointcapture_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_chokepointcapture_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_controlchanged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_controlchanged.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_controlchanged_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_controlchanged_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_controlchanged_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_controlchanged_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_controlchanged_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_controlchanged_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_controlchanged_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_controlchanged_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_facilitycapture_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_facilitycapture_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_facilitycapture_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_facilitycapture_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_facilitycapture_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_facilitycapture_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_facilitycapture_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_facilitycapture_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_factory_damaged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_factory_damaged.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_factory_destroyed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_factory_destroyed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_factory_healthy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_factory_healthy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_factory_rdpoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_factory_rdpoff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_factory_rdpon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_factory_rdpon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_firebase_blown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_firebase_blown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_deployed_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_deployed_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_deployed_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_deployed_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_deployed_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_deployed_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_deployed_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_deployed_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_moved_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_moved_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_moved_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_moved_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_moved_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_moved_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_moved_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_moved_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_routed_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_routed_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_routed_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_routed_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_routed_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_routed_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_hcunit_routed_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_hcunit_routed_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_regained" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_regained.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_regained_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_regained_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_regained_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_regained_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_regained_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_regained_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_regained_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_regained_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_spawnablecapture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_spawnablecapture.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_spawnablecapture_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_spawnablecapture_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_spawnablecapture_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_spawnablecapture_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_spawnablecapture_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_spawnablecapture_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_spawnablecapture_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_spawnablecapture_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_underattack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_underattack.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_underattack_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_underattack_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_underattack_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_underattack_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_underattack_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_underattack_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event_underattack_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event_underattack_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facility_airbase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facility_airbase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facility_armybase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facility_armybase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facility_city" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facility_city.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facility_depot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facility_depot.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facility_factory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facility_factory.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facility_firebase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facility_firebase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facility_navalbase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facility_navalbase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_brigade_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_brigade_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_brigade_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_brigade_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_brigade_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_brigade_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_brigade_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_brigade_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_country_british" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_country_british.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_country_french" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_country_french.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_country_german" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_country_german.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_country_nf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_country_nf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_country_nh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_country_nh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_country_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_country_usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ledgraph0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ledgraph0.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ledgraph1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ledgraph1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ledgraph2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ledgraph2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ledgraph3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ledgraph3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ledgraph4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ledgraph4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ranklist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ranklist.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="spawnable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spawnable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCheckEvents.Text" xml:space="preserve">
+    <value>Chercher nvx évènemts</value>
+  </data>
+  <data name="rbUseIEProxy.Text" xml:space="preserve">
+    <value>Utiliser les options proxy d'IE</value>
+  </data>
+  <data name="btnTestConn.Text" xml:space="preserve">
+    <value>Tester la connection</value>
+  </data>
+  <data name="tabMisc.Text" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="lblMapInfo.Text" xml:space="preserve">
+    <value>Si vous avez assez de ressources vous pouvez choisir d'agrandir la taille de la carte pour un zoom additionel.</value>
+  </data>
+  <data name="lblWallUpdate.Text" xml:space="preserve">
+    <value>Mise à jour tous les:</value>
+  </data>
+  <data name="gbFreeMem.Text" xml:space="preserve">
+    <value>Mémoire libre</value>
+  </data>
+  <data name="btnApplyWallpaper.Text" xml:space="preserve">
+    <value>Appliquer</value>
+  </data>
+  <data name="itmChokePointSelectAll.Text" xml:space="preserve">
+    <value>Tout sélectionner</value>
+  </data>
+  <data name="rbUseCustomProxy.Text" xml:space="preserve">
+    <value>Serveur proxy:</value>
+  </data>
+  <data name="cbCheckVersion.Text" xml:space="preserve">
+    <value>Chercher une version plus récente</value>
+  </data>
+  <data name="lblGameStatusDisplay.Text" xml:space="preserve">
+    <value>Montrer la fenêtre de statut de jeu:</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="cbAlwaysAlertChokePointCaptured.Text" xml:space="preserve">
+    <value>Une ville a été capturée</value>
+  </data>
+  <data name="cbWallRemove.Text" xml:space="preserve">
+    <value>Enlever le fond d'écran en quittant</value>
+  </data>
+  <data name="cbAlertFilters.Text" xml:space="preserve">
+    <value>Editer filtres</value>
+  </data>
+  <data name="gbFilterBy.Text" xml:space="preserve">
+    <value>Filtrer les alertes par</value>
+  </data>
+  <data name="btnResetAllData.Text" xml:space="preserve">
+    <value>Réinitialiser toutes données</value>
+  </data>
+  <data name="cbShowAlerts.Text" xml:space="preserve">
+    <value>Montrer les alertes</value>
+  </data>
+  <data name="cbWallOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="rbMapSize60.Text" xml:space="preserve">
+    <value>Moyen (60%)</value>
+  </data>
+  <data name="cbRunOnStartup.Text" xml:space="preserve">
+    <value>Lancer au démarrage</value>
+  </data>
+  <data name="cbFilterChokePoint.Text" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="lblWallZoomMax.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="lblCheckEvents.Text" xml:space="preserve">
+    <value>Battleground Europe Game Monitor fouille le serveur Wiretap pour de nouveaux évènements toutes les 1-15 minutes, selon le type d'évènement.
+
+Utiliser ceci pour forcer une recherche manuelle immédiate pour de nouveaux évènements.</value>
+  </data>
+  <data name="lblMapSize.Text" xml:space="preserve">
+    <value>Taille de la carte:</value>
+  </data>
+  <data name="rbPositionBottom.Text" xml:space="preserve">
+    <value>En bas à droite</value>
+  </data>
+  <data name="lblWallZoom.Text" xml:space="preserve">
+    <value>Zoom:</value>
+  </data>
+  <data name="cbDockWindow.Text" xml:space="preserve">
+    <value>Fenêtre du statut de jeu:</value>
+  </data>
+  <data name="tabMap.Text" xml:space="preserve">
+    <value>Carte</value>
+  </data>
+  <data name="gbCheckEvents.Text" xml:space="preserve">
+    <value>Chercher nouv. évènements</value>
+  </data>
+  <data name="cbWakeAfterPlay.Text" xml:space="preserve">
+    <value>Automatiquement sortir de la veille</value>
+  </data>
+  <data name="lblForceNoProxy.Text" xml:space="preserve">
+    <value>(laisser vide pour ne pas utiliser de proxy)</value>
+  </data>
+  <data name="btnTestAlert.Text" xml:space="preserve">
+    <value>Tester Alertes</value>
+  </data>
+  <data name="rbMapSize100.Text" xml:space="preserve">
+    <value>Maximum (100%)</value>
+  </data>
+  <data name="lblAutoNext.Text" xml:space="preserve">
+    <value>Montrer le prochain évènement après:</value>
+  </data>
+  <data name="gbSleepMode.Text" xml:space="preserve">
+    <value>Mode Veille</value>
+  </data>
+  <data name="lblWallZoomMin.Text" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="rbMapSize80.Text" xml:space="preserve">
+    <value>Grand (80%)</value>
+  </data>
+  <data name="lblEventSort.Text" xml:space="preserve">
+    <value>Liste des Evenements classée par:</value>
+  </data>
+  <data name="btnDefaults.Text" xml:space="preserve">
+    <value>Par défaut</value>
+  </data>
+  <data name="lblWallOptions.Text" xml:space="preserve">
+    <value>Options de carte:</value>
+  </data>
+  <data name="itmChokePointClearAll.Text" xml:space="preserve">
+    <value>Tout enlever</value>
+  </data>
+  <data name="cbFilterEventType.Text" xml:space="preserve">
+    <value>Type d'évènement</value>
+  </data>
+  <data name="lblAlertPosition.Text" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rbMapSize40.Text" xml:space="preserve">
+    <value>Par défaut (40%)</value>
+  </data>
+  <data name="cbAlwaysUseDefaultMapSize.Text" xml:space="preserve">
+    <value>Utiliser la taille par défaut en jouant à BE</value>
+  </data>
+  <data name="tabStartup.Text" xml:space="preserve">
+    <value>Démarrage</value>
+  </data>
+  <data name="cbPostponeIdle.Text" xml:space="preserve">
+    <value>Inactif pendant plus de:</value>
+  </data>
+  <data name="cbStartMinimised.Text" xml:space="preserve">
+    <value>Démarrer minimisé</value>
+  </data>
+  <data name="tabAlerts.Text" xml:space="preserve">
+    <value>Alertes</value>
+  </data>
+  <data name="cbShowWallpaper.Text" xml:space="preserve">
+    <value>Mettre la carte en fond d'écran sur le bureau</value>
+  </data>
+  <data name="rbEventSortTop.Text" xml:space="preserve">
+    <value>Nouveaux évènements en haut</value>
+  </data>
+  <data name="gbResetAllData.Text" xml:space="preserve">
+    <value>Réinitialiser toutes données</value>
+  </data>
+  <data name="tabNetwork.Text" xml:space="preserve">
+    <value>Réseau</value>
+  </data>
+  <data name="lblAlertDisplay.Text" xml:space="preserve">
+    <value>Montrer les Alertes sur:</value>
+  </data>
+  <data name="cbAlwaysAlertUnderAttack.Text" xml:space="preserve">
+    <value>Une ville est attaquée pour la 1ere fois</value>
+  </data>
+  <data name="tabLanguage.Text" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="rbDockWindowLeft.Text" xml:space="preserve">
+    <value>Gauche</value>
+  </data>
+  <data name="lblPostponeAlerts.Text" xml:space="preserve">
+    <value>Remettre les Alertes lorsque:</value>
+  </data>
+  <data name="cbSleepWhenIdle.Text" xml:space="preserve">
+    <value>Veille quand inactif pendant plus de:</value>
+  </data>
+  <data name="lblResetAllData.Text" xml:space="preserve">
+    <value>Les données de jeu sont stockées localement sur votre ordinateur et seulement mises à jour lorsqu'elle changent pour conserver votre bande passante.
+
+Cela videra le cache, nettoiera la mémoire et re-téléchargera tout.</value>
+  </data>
+  <data name="tabUpdates.Text" xml:space="preserve">
+    <value>Mises à jour</value>
+  </data>
+  <data name="rbDockWindowRight.Text" xml:space="preserve">
+    <value>Droite</value>
+  </data>
+  <data name="lblWiretapServer.Text" xml:space="preserve">
+    <value>Serveur Wiretap:</value>
+  </data>
+  <data name="rbPositionTop.Text" xml:space="preserve">
+    <value>En haut à droite</value>
+  </data>
+  <data name="cbLoadFactoryData.Text" xml:space="preserve">
+    <value>Charger les données d'usines (+138kb)</value>
+  </data>
+  <data name="rbEventSortBottom.Text" xml:space="preserve">
+    <value>Nouveaux évènements en bas</value>
+  </data>
+  <data name="cbPostponeFullscreen.Text" xml:space="preserve">
+    <value>Plein écran</value>
+  </data>
+  <data name="cbPlayAlertSound.Text" xml:space="preserve">
+    <value>Jouer son</value>
+  </data>
+  <data name="lnkMapPluginInfo.Text" xml:space="preserve">
+    <value>Télécharge et installe le Hires Map Plugin pour permettre d'agrandir la taille de la carte.</value>
+  </data>
+  <data name="lblMemUsage.Text" xml:space="preserve">
+    <value>Utilisation de la mémoire</value>
+  </data>
+  <data name="cbFilterCountry.Text" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="cbSleepWhenPlay.Text" xml:space="preserve">
+    <value>En veille lorsque Battleground Europe est lancé</value>
+  </data>
+  <data name="lblAlwaysAlert.Text" xml:space="preserve">
+    <value>Tjs montrer alertes quand:</value>
+  </data>
+</root>

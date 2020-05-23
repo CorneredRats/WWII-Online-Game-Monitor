@@ -1,0 +1,872 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40B89853-D00E-485D-9F63-A055FE9E8E67}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BEGM</RootNamespace>
+    <AssemblyName>BEGameMonitor</AssemblyName>
+    <SignManifests>false</SignManifests>
+    <ManifestCertificateThumbprint>CFEFBDA896C2BB01B239E8B08AA721CB5F4ED8C5</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Xiperware.pfx</ManifestKeyFile>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ExcludedPermissions>
+    </ExcludedPermissions>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <StartupObject>BEGM.Program</StartupObject>
+    <ManifestTimestampUrl>http://timestamp.verisign.com/scripts/timstamp.dll</ManifestTimestampUrl>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/BEGameMonitor/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Frontline|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;DEBUG_FRONTLINE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release Internal|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;INTERNAL_BUILD</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Mac|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;MAC</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release Mac|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>MAC</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlertWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlertWindow.Designer.cs">
+      <DependentUpon>AlertWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawOverlayParams.cs" />
+    <Compile Include="MapViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BegmMisc.cs" />
+    <Compile Include="Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameStatus.Designer.cs">
+      <DependentUpon>GameStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.de.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.es.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.fr.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlertWindow.de.resx">
+      <DependentUpon>AlertWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlertWindow.es.resx">
+      <DependentUpon>AlertWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlertWindow.fr.resx">
+      <DependentUpon>AlertWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlertWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AlertWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameStatus.de.resx">
+      <DependentUpon>GameStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameStatus.en-US.resx">
+      <DependentUpon>GameStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameStatus.es.resx">
+      <DependentUpon>GameStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameStatus.fr.resx">
+      <DependentUpon>GameStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.de.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.en-US.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.es.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GameStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.fr.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.fr.resx">
+      <LastGenOutput>Resources.fr.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Third Party\XPExplorerBar\Expando.resx">
+      <DependentUpon>Expando.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Third Party\XPExplorerBar\TaskItem.resx">
+      <DependentUpon>TaskItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Third Party\XPExplorerBar\TaskPane.resx">
+      <DependentUpon>TaskPane.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehicles.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Vehicles.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\BrigadeStatus.de.resx">
+      <DependentUpon>BrigadeStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\BrigadeStatus.fr.resx">
+      <DependentUpon>BrigadeStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\CurrentAttacks.de.resx">
+      <DependentUpon>CurrentAttacks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\CurrentAttacks.es.resx">
+      <DependentUpon>CurrentAttacks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\CurrentAttacks.fr.resx">
+      <DependentUpon>CurrentAttacks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\CurrentAttacks.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CurrentAttacks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\Equipment.de.resx">
+      <DependentUpon>Equipment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\Equipment.fr.resx">
+      <DependentUpon>Equipment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\Equipment.resx">
+      <DependentUpon>Equipment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\FactoryStatus.de.resx">
+      <DependentUpon>FactoryStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\FactoryStatus.es.resx">
+      <DependentUpon>FactoryStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\FactoryStatus.fr.resx">
+      <DependentUpon>FactoryStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\FactoryStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FactoryStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\GameMap.de.resx">
+      <DependentUpon>GameMap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\GameMap.es.resx">
+      <DependentUpon>GameMap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\GameMap.fr.resx">
+      <DependentUpon>GameMap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\GameMap.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GameMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\BrigadeStatus.resx">
+      <DependentUpon>BrigadeStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\OrderOfBattle.de.resx">
+      <DependentUpon>OrderOfBattle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\OrderOfBattle.es.resx">
+      <DependentUpon>OrderOfBattle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\OrderOfBattle.fr.resx">
+      <DependentUpon>OrderOfBattle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\OrderOfBattle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OrderOfBattle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\RecentEvents.de.resx">
+      <DependentUpon>RecentEvents.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\RecentEvents.es.resx">
+      <DependentUpon>RecentEvents.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\RecentEvents.fr.resx">
+      <DependentUpon>RecentEvents.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\RecentEvents.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecentEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\ServerStatus.de.resx">
+      <DependentUpon>ServerStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\ServerStatus.es.resx">
+      <DependentUpon>ServerStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\ServerStatus.fr.resx">
+      <DependentUpon>ServerStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\ServerStatus.resx">
+      <DependentUpon>ServerStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\TownStatus.de.resx">
+      <DependentUpon>TownStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\TownStatus.es.resx">
+      <DependentUpon>TownStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\TownStatus.fr.resx">
+      <DependentUpon>TownStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\TownStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TownStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <Compile Include="SleepTrayIcon.cs" />
+    <Compile Include="Third Party\ImageMap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Third Party\TrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\BitmapHelper.cs" />
+    <Compile Include="Third Party\TreeViewAdv\TextHelper.cs" />
+    <Compile Include="Third Party\TreeViewAdv\TimeCounter.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\AutoRowHeightLayout.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Column.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\ColumnCollection.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\DrawContext.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\DropPosition.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\EditorContext.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Enums.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\FixedRowHeightLayout.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\IncrementalSearch.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Input\ClickColumnState.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Input\ColumnState.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Input\InputState.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Input\InputWithControl.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Input\InputWithShift.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Input\NormalInputState.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Input\ReorderColumnState.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Input\ResizeColumnState.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\IRowLayout.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\IToolTipProvider.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\ITreeModel.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\Node.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControlInfo.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\BaseTextControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\BindableControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\DrawEventArgs.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\EditableControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeControlsCollection.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeControlValueEventArgs.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeEventArgs.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodePlusMinus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeStateIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\NodeControls\NodeTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\SortedTreeModel.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeColumnCollection.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeColumnEventArgs.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeListAdapter.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeModel.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeModelBase.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeModelEventArgs.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeNodeAdv.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeNodeAdvMouseEventArgs.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreePath.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreePathEventArgs.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeViewAdv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeViewAdv.Designer.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeViewAdv.Draw.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeViewAdv.Input.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeViewAdv.Properties.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeViewAdvCancelEventArgs.cs" />
+    <Compile Include="Third Party\TreeViewAdv\Tree\TreeViewAdvEventArgs.cs" />
+    <Compile Include="Third Party\XPExplorerBar\Expando.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\XPExplorerBar\ExplorerBarInfo.cs" />
+    <Compile Include="Third Party\XPExplorerBar\NativeMethods.cs" />
+    <Compile Include="Third Party\XPExplorerBar\TaskItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\XPExplorerBar\TaskPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Third Party\XPExplorerBar\ThemeManager.cs" />
+    <Compile Include="Third Party\XPExplorerBar\XPControls.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vehicles.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Vehicles.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Wallpaper.cs" />
+    <Compile Include="Widgets\Equipment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\Equipment.Designer.cs">
+      <DependentUpon>Equipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\BrigadeStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\BrigadeStatus.Designer.cs">
+      <DependentUpon>BrigadeStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\ServerStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\ServerStatus.Designer.cs">
+      <DependentUpon>ServerStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Win32API.cs" />
+    <Compile Include="Widgets\CurrentAttacks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\CurrentAttacks.Designer.cs">
+      <DependentUpon>CurrentAttacks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\FactoryStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\FactoryStatus.Designer.cs">
+      <DependentUpon>FactoryStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\GameMap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\GameMap.Designer.cs">
+      <DependentUpon>GameMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\OrderOfBattle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\OrderOfBattle.Designer.cs">
+      <DependentUpon>OrderOfBattle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\RecentEvents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\RecentEvents.Designer.cs">
+      <DependentUpon>RecentEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\TownStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\TownStatus.Designer.cs">
+      <DependentUpon>TownStatus.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trayicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
+    <None Include="Resources\Vehicles\197_de_bf109f2.png" />
+    <None Include="Resources\Vehicles\195_de_bf109f1.png" />
+    <None Include="Resources\Vehicles\194_uk_spit2b.png" />
+    <None Include="Resources\Vehicles\193_de_bf109e1.png" />
+    <None Include="Resources\Vehicles\192_uk_spit1b.png" />
+    <None Include="Resources\Vehicles\196_de_bf110fb.png" />
+    <None Include="Resources\resize_corner.png" />
+    <None Include="Resources\exparrow_close.png" />
+    <None Include="Resources\spawnable.png" />
+    <None Include="Resources\Vehicles\077_fr_laffly.png" />
+    <None Include="Resources\Vehicles\006_uk_beddy.png" />
+    <None Include="Resources\Vehicles\007_uk_2pdr.png" />
+    <None Include="Resources\Vehicles\073_uk_matty.png" />
+    <None Include="Resources\Vehicles\079_uk_camle38.png" />
+    <None Include="Resources\Vehicles\078_fr_camle38.png" />
+    <None Include="Resources\Vehicles\083_uk_morris.png" />
+    <None Include="Resources\Vehicles\084_uk_vickers.png" />
+    <None Include="Resources\Vehicles\085_uk_bofors.png" />
+    <None Include="Resources\Vehicles\087_uk_crus2.png" />
+    <None Include="Resources\Vehicles\089_uk_daimler.png" />
+    <None Include="Resources\Vehicles\121_uk_crus3.png" />
+    <None Include="Resources\Vehicles\128_uk_6pdr.png" />
+    <None Include="Resources\Vehicles\146_uk_church7.png" />
+    <None Include="Resources\Vehicles\159_uk_church3.png" />
+    <None Include="Resources\Vehicles\167_uk_17pdr.png" />
+    <None Include="Resources\Vehicles\014_fr_charb1.png" />
+    <None Include="Resources\Vehicles\015_fr_somuas35.png" />
+    <None Include="Resources\Vehicles\017_fr_samle34.png" />
+    <None Include="Resources\Vehicles\018_fr_samle37.png" />
+    <None Include="Resources\Vehicles\067_fr_renaultr35.png" />
+    <None Include="Resources\Vehicles\081_fr_panhard.png" />
+    <None Include="Resources\Vehicles\096_fr_hotchkiss.png" />
+    <None Include="Resources\Vehicles\107_fr_stuart.png" />
+    <None Include="Resources\Vehicles\109_fr_bofors.png" />
+    <None Include="Resources\Vehicles\110_fr_lafflyw15.png" />
+    <None Include="Resources\Vehicles\129_fr_m1.png" />
+    <None Include="Resources\Vehicles\133_fr_sherman.png" />
+    <None Include="Resources\Vehicles\150_fr_m10.png" />
+    <None Include="Resources\Vehicles\164_fr_sherman76.png" />
+    <None Include="Resources\Vehicles\165_fr_m5a2.png" />
+    <None Include="Resources\Vehicles\026_de_pz2c.png" />
+    <None Include="Resources\Vehicles\027_de_opel.png" />
+    <None Include="Resources\Vehicles\028_de_halftrack.png" />
+    <None Include="Resources\Vehicles\029_de_pak36.png" />
+    <None Include="Resources\Vehicles\030_de_flak36.png" />
+    <None Include="Resources\Vehicles\071_de_flak30.png" />
+    <None Include="Resources\Vehicles\074_de_stug3b.png" />
+    <None Include="Resources\Vehicles\075_de_pz4d.png" />
+    <None Include="Resources\Vehicles\082_de_232.png" />
+    <None Include="Resources\Vehicles\088_de_pz3h.png" />
+    <None Include="Resources\Vehicles\103_de_251.png" />
+    <None Include="Resources\Vehicles\111_de_flak28.png" />
+    <None Include="Resources\Vehicles\130_de_pak38.png" />
+    <None Include="Resources\Vehicles\131_de_pz4g.png" />
+    <None Include="Resources\Vehicles\132_de_stug3g.png" />
+    <None Include="Resources\Vehicles\154_de_pz6e.png" />
+    <None Include="Resources\Vehicles\166_de_pak40.png" />
+    <None Include="Resources\Vehicles\025_de_pz38t.png" />
+    <None Include="Resources\Vehicles\024_de_pz3f.png" />
+    <None Include="Resources\Vehicles\004_uk_a13.png" />
+    <None Include="Resources\cross.png" />
+    <None Include="Resources\tick.png" />
+    <None Include="Resources\movepending.png" />
+    <None Include="Resources\Vehicles\191_de_paramortar.png" />
+    <None Include="Resources\Vehicles\190_de_parasniper.png" />
+    <None Include="Resources\Vehicles\189_de_paraatr.png" />
+    <None Include="Resources\Vehicles\188_de_paralmg.png" />
+    <None Include="Resources\Vehicles\187_de_parasmg.png" />
+    <None Include="Resources\Vehicles\186_de_pararifle.png" />
+    <None Include="Resources\Vehicles\185_fr_paramortar.png" />
+    <None Include="Resources\Vehicles\184_fr_parasniper.png" />
+    <None Include="Resources\Vehicles\183_fr_paraatr.png" />
+    <None Include="Resources\Vehicles\182_fr_paralmg.png" />
+    <None Include="Resources\Vehicles\181_fr_parasmg.png" />
+    <None Include="Resources\Vehicles\180_fr_pararifle.png" />
+    <None Include="Resources\Vehicles\179_uk_paramortar.png" />
+    <None Include="Resources\Vehicles\178_uk_parasniper.png" />
+    <None Include="Resources\Vehicles\177_uk_paraatr.png" />
+    <None Include="Resources\Vehicles\176_uk_paralmg.png" />
+    <None Include="Resources\Vehicles\175_uk_parasmg.png" />
+    <None Include="Resources\Vehicles\174_uk_pararifle.png" />
+    <None Include="Resources\Vehicles\173_uk_mortar.png" />
+    <None Include="Resources\Vehicles\172_de_bf109g.png" />
+    <None Include="Resources\Vehicles\171_fr_hawk87.png" />
+    <None Include="Resources\Vehicles\170_uk_hurri2b.png" />
+    <None Include="Resources\Vehicles\169_de_mortar.png" />
+    <None Include="Resources\Vehicles\168_fr_mortar.png" />
+    <None Include="Resources\Vehicles\162_de_sniper.png" />
+    <None Include="Resources\Vehicles\161_fr_sniper.png" />
+    <None Include="Resources\Vehicles\160_uk_sniper.png" />
+    <None Include="Resources\Vehicles\142_de_ju52.png" />
+    <None Include="Resources\Vehicles\141_fr_ju52.png" />
+    <None Include="Resources\Vehicles\140_uk_c47.png" />
+    <None Include="Resources\Vehicles\136_de_fw190a.png" />
+    <None Include="Resources\Vehicles\135_fr_p38.png" />
+    <None Include="Resources\Vehicles\134_uk_spit9c.png" />
+    <None Include="Resources\Vehicles\120_de_atr.png" />
+    <None Include="Resources\Vehicles\119_fr_atr.png" />
+    <None Include="Resources\Vehicles\118_uk_atr.png" />
+    <None Include="Resources\Vehicles\114_de_grenadier.png" />
+    <None Include="Resources\Vehicles\113_fr_grenadier.png" />
+    <None Include="Resources\Vehicles\112_uk_grenader.png" />
+    <None Include="Resources\Vehicles\108_fr_bell.png" />
+    <None Include="Resources\Vehicles\106_de_lmg.png" />
+    <None Include="Resources\Vehicles\105_fr_lmg.png" />
+    <None Include="Resources\Vehicles\104_uk_lmg.png" />
+    <None Include="Resources\Vehicles\102_de_freighter.png" />
+    <None Include="Resources\Vehicles\101_fr_freighter.png" />
+    <None Include="Resources\Vehicles\100_uk_freighter.png" />
+    <None Include="Resources\Vehicles\099_fr_destroyer.png" />
+    <None Include="Resources\Vehicles\098_uk_destroyer.png" />
+    <None Include="Resources\Vehicles\097_uk_havoc1.png" />
+    <None Include="Resources\Vehicles\095_fr_db7.png" />
+    <None Include="Resources\Vehicles\094_fr_hawk81.png" />
+    <None Include="Resources\Vehicles\093_de_bf110c4b.png" />
+    <None Include="Resources\Vehicles\092_de_bf109f.png" />
+    <None Include="Resources\Vehicles\091_uk_hurri2c.png" />
+    <None Include="Resources\Vehicles\090_uk_spit5b.png" />
+    <None Include="Resources\Vehicles\086_fr_dewoitine.png" />
+    <None Include="Resources\Vehicles\080_de_destroyer.png" />
+    <None Include="Resources\Vehicles\076_de_he111.png" />
+    <None Include="Resources\Vehicles\072_uk_blen1f.png" />
+    <None Include="Resources\Vehicles\070_fr_blen4.png" />
+    <None Include="Resources\Vehicles\066_de_bf110c4.png" />
+    <None Include="Resources\Vehicles\065_uk_blen4.png" />
+    <None Include="Resources\Vehicles\064_de_fairmile.png" />
+    <None Include="Resources\Vehicles\063_fr_fairmile.png" />
+    <None Include="Resources\Vehicles\062_uk_fairmile.png" />
+    <None Include="Resources\Vehicles\033_de_sapper.png" />
+    <None Include="Resources\Vehicles\032_de_smg.png" />
+    <None Include="Resources\Vehicles\031_de_rifle.png" />
+    <None Include="Resources\Vehicles\023_de_bf109e.png" />
+    <None Include="Resources\Vehicles\022_de_ju87.png" />
+    <None Include="Resources\Vehicles\021_fr_sapper.png" />
+    <None Include="Resources\Vehicles\020_fr_smg.png" />
+    <None Include="Resources\Vehicles\019_fr_rifle.png" />
+    <None Include="Resources\Vehicles\011_fr_hawk75.png" />
+    <None Include="Resources\Vehicles\010_uk_sapper.png" />
+    <None Include="Resources\Vehicles\009_uk_smg.png" />
+    <None Include="Resources\Vehicles\008_uk_rifle.png" />
+    <None Include="Resources\Vehicles\002_uk_hurri1.png" />
+    <None Include="Resources\Vehicles\001_uk_spit1a.png" />
+    <None Include="Resources\ledgraph3.png" />
+    <None Include="Resources\ledgraph2.png" />
+    <None Include="Resources\ledgraph1.png" />
+    <None Include="Resources\ledgraph0.png" />
+    <None Include="Resources\ledgraph4.png" />
+    <None Include="Resources\armybase.png" />
+    <None Include="Resources\credits.fr.html" />
+    <None Include="Resources\credits.html" />
+    <None Include="Resources\vechbg.png" />
+    <None Include="Resources\icon_left.png" />
+    <None Include="Resources\icon_right.png" />
+    <None Include="Resources\server_online.png" />
+    <None Include="Resources\server_offline.png" />
+    <None Include="Resources\server_locked.png" />
+    <None Include="Resources\server_other.png" />
+    <None Include="Resources\gauge_green.png" />
+    <None Include="Resources\gauge_redblue.png" />
+    <None Include="Resources\flag_language_spain.png" />
+    <None Include="Resources\flag_language_germany.png" />
+    <None Include="Resources\flag_language_unitedstates.png" />
+    <None Include="Resources\begm_watermark.png" />
+    <None Include="Resources\dropdown_arrow.png" />
+    <None Include="Resources\mapicon_firebase_axis.png" />
+    <None Include="Resources\mapicon_firebase_allied.png" />
+    <None Include="Resources\map.jpg" />
+    <None Include="Resources\trayicon_sleep.ico" />
+    <None Include="Resources\capbar_red_left.png" />
+    <None Include="Resources\capbar_red.png" />
+    <None Include="Resources\capbar_pointer.png" />
+    <None Include="Resources\capbar_blue_right.png" />
+    <None Include="Resources\capbar_blue_left.png" />
+    <None Include="Resources\capbar_blue.png" />
+    <None Include="Resources\capbar_red_right.png" />
+    <None Include="Resources\alertsound_new.wav" />
+    <None Include="Resources\alertsound_more.wav" />
+    <None Include="Resources\icon_down.png" />
+    <None Include="Resources\icon_up.png" />
+    <None Include="Resources\alert_corner_bottom.png" />
+    <None Include="Resources\alert_corner_top.png" />
+    <None Include="Resources\alert_line.png" />
+    <None Include="Resources\alertclose_hover.png" />
+    <None Include="Resources\alertclose_disabled.png" />
+    <None Include="Resources\alertclose_active.png" />
+    <None Include="Resources\alertclose_normal.png" />
+    <None Include="Resources\alertarrow_right_active.png" />
+    <None Include="Resources\alertarrow_left_hover.png" />
+    <None Include="Resources\alertarrow_left_active.png" />
+    <None Include="Resources\alertarrow_right_hover.png" />
+    <None Include="Resources\alertarrow_right_disabled.png" />
+    <None Include="Resources\alertarrow_left_normal.png" />
+    <None Include="Resources\alertarrow_left_disabled.png" />
+    <None Include="Resources\alertarrow_right_normal.png" />
+    <None Include="Resources\arrow_right.png" />
+    <None Include="Resources\flag_country_british.png" />
+    <None Include="Resources\flag_country_french.png" />
+    <None Include="Resources\flag_country_german.png" />
+    <None Include="Resources\begm_logo.png" />
+    <None Include="Resources\icon_reset.png" />
+    <None Include="Resources\icon_plus.png" />
+    <None Include="Resources\icon_minus.png" />
+    <None Include="Resources\flag_brigade_british.png" />
+    <None Include="Resources\flag_brigade_french.png" />
+    <None Include="Resources\flag_brigade_german.png" />
+    <None Include="Resources\facility_navalbase.png" />
+    <None Include="Resources\contested.png" />
+    <None Include="Resources\facility_airbase.png" />
+    <None Include="Resources\facility_armybase.png" />
+    <None Include="Resources\facility_city.png" />
+    <None Include="Resources\facility_depot.png" />
+    <None Include="Resources\facility_factory.png" />
+    <None Include="Resources\facility_firebase.png" />
+    <None Include="Resources\facility_firebase_closed.png" />
+    <None Include="Resources\facility_firebase_open.png" />
+    <None Include="Resources\xiperware_logo.png" />
+    <None Include="Resources\gears.gif" />
+    <None Include="Resources\attack_objective.png" />
+    <None Include="Resources\bridge.png" />
+    <None Include="Resources\uncontested.png" />
+    <None Include="Resources\no_attack_objective.png" />
+    <None Include="Resources\table_up.png" />
+    <None Include="Resources\table_down.png" />
+    <None Include="Resources\spawn_friendly.png" />
+    <None Include="Resources\spawn_closed.png" />
+    <None Include="Resources\spawn_enemy.png" />
+    <None Include="Resources\spawn_enemyspawnable.png" />
+    <None Include="Resources\spawn_nonspawnable.png" />
+    <None Include="Resources\navalbase.png" />
+    <None Include="Resources\airbase.png" />
+    <None Include="Resources\exparrow_up.png" />
+    <None Include="Resources\exparrow_down_hot.png" />
+    <None Include="Resources\exparrow_down.png" />
+    <None Include="Resources\exparrow_up_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xiperware.WiretapAPI\Xiperware.WiretapAPI.csproj">
+      <Project>{E397E79A-6856-4891-AD12-8FF8BC663920}</Project>
+      <Name>Xiperware.WiretapAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

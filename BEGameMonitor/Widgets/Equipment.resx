@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblColHeader5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 15</value>
+  </data>
+  <data name="lblColHeader5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblColHeader5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblColHeader5.Text" xml:space="preserve">
+    <value>4</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblColHeader5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader5.Name" xml:space="preserve">
+    <value>lblColHeader5</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader5.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblColHeader4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 15</value>
+  </data>
+  <data name="lblColHeader4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lblColHeader4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblColHeader4.Text" xml:space="preserve">
+    <value>3</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblColHeader4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader4.Name" xml:space="preserve">
+    <value>lblColHeader4</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblColHeader3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 15</value>
+  </data>
+  <data name="lblColHeader3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lblColHeader3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblColHeader3.Text" xml:space="preserve">
+    <value>2</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblColHeader3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader3.Name" xml:space="preserve">
+    <value>lblColHeader3</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblColHeader2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 15</value>
+  </data>
+  <data name="lblColHeader2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lblColHeader2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblColHeader2.Text" xml:space="preserve">
+    <value>1</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblColHeader2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader2.Name" xml:space="preserve">
+    <value>lblColHeader2</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblColHeader1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 15</value>
+  </data>
+  <data name="lblColHeader1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lblColHeader1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblColHeader1.Text" xml:space="preserve">
+    <value>0</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblColHeader1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader1.Name" xml:space="preserve">
+    <value>lblColHeader1</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblColHeader0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 15</value>
+  </data>
+  <data name="lblColHeader0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="lblColHeader0.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblColHeader0.Text" xml:space="preserve">
+    <value>RDP Cycle:</value>
+    <comment>RDP Cycle column heading</comment>
+  </data>
+  <data name="lblColHeader0.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader0.Name" xml:space="preserve">
+    <value>lblColHeader0</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColHeader0.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 3</value>
+  </data>
+  <data name="picReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 9</value>
+  </data>
+  <data name="picReset.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="picReset.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;picReset.Name" xml:space="preserve">
+    <value>picReset</value>
+  </data>
+  <data name="&gt;&gt;picReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picReset.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="picExpand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picExpand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 3</value>
+  </data>
+  <data name="picExpand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 9</value>
+  </data>
+  <data name="picExpand.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="picExpand.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;picExpand.Name" xml:space="preserve">
+    <value>picExpand</value>
+  </data>
+  <data name="&gt;&gt;picExpand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picExpand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picExpand.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="picCollapse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCollapse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 3</value>
+  </data>
+  <data name="picCollapse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 9</value>
+  </data>
+  <data name="picCollapse.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="picCollapse.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;picCollapse.Name" xml:space="preserve">
+    <value>picCollapse</value>
+  </data>
+  <data name="&gt;&gt;picCollapse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCollapse.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picCollapse.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="picCycleNext.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCycleNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="picCycleNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 9</value>
+  </data>
+  <data name="picCycleNext.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="picCycleNext.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;picCycleNext.Name" xml:space="preserve">
+    <value>picCycleNext</value>
+  </data>
+  <data name="&gt;&gt;picCycleNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCycleNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picCycleNext.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="picCyclePrev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCyclePrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 3</value>
+  </data>
+  <data name="picCyclePrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 9</value>
+  </data>
+  <data name="picCyclePrev.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="picCyclePrev.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;picCyclePrev.Name" xml:space="preserve">
+    <value>picCyclePrev</value>
+  </data>
+  <data name="&gt;&gt;picCyclePrev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCyclePrev.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picCyclePrev.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblVehicleName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="lblVehicleName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 363</value>
+  </data>
+  <data name="lblVehicleName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 18</value>
+  </data>
+  <data name="lblVehicleName.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblVehicleName.Name" xml:space="preserve">
+    <value>lblVehicleName</value>
+  </data>
+  <data name="&gt;&gt;lblVehicleName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVehicleName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblVehicleName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblVehicleClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 381</value>
+  </data>
+  <data name="lblVehicleClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 13</value>
+  </data>
+  <data name="lblVehicleClass.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lblVehicleClass.Name" xml:space="preserve">
+    <value>lblVehicleClass</value>
+  </data>
+  <data name="&gt;&gt;lblVehicleClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVehicleClass.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblVehicleClass.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="picVehicle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 397</value>
+  </data>
+  <data name="picVehicle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 200</value>
+  </data>
+  <data name="picVehicle.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="picVehicle.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;picVehicle.Name" xml:space="preserve">
+    <value>picVehicle</value>
+  </data>
+  <data name="&gt;&gt;picVehicle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picVehicle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picVehicle.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblSupply.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblSupply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 600</value>
+  </data>
+  <data name="lblSupply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="lblSupply.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblSupply.Text" xml:space="preserve">
+    <value>Supply for RDP Cycle</value>
+    <comment>Supply heading</comment>
+  </data>
+  <data name="lblSupply.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblSupply.Name" xml:space="preserve">
+    <value>lblSupply</value>
+  </data>
+  <data name="&gt;&gt;lblSupply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSupply.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="picVehicleCountry.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picVehicleCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 384</value>
+  </data>
+  <data name="picVehicleCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 8</value>
+  </data>
+  <data name="picVehicleCountry.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="picVehicleCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;picVehicleCountry.Name" xml:space="preserve">
+    <value>picVehicleCountry</value>
+  </data>
+  <data name="&gt;&gt;picVehicleCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picVehicleCountry.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picVehicleCountry.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlSupply.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picSupply.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picSupply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="picSupply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="picSupply.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picSupply.Name" xml:space="preserve">
+    <value>picSupply</value>
+  </data>
+  <data name="&gt;&gt;picSupply.Type" xml:space="preserve">
+    <value>ImageMap.ImageMap, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;picSupply.Parent" xml:space="preserve">
+    <value>pnlSupply</value>
+  </data>
+  <data name="&gt;&gt;picSupply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlSupply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 617</value>
+  </data>
+  <data name="pnlSupply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 86</value>
+  </data>
+  <data name="pnlSupply.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;pnlSupply.Name" xml:space="preserve">
+    <value>pnlSupply</value>
+  </data>
+  <data name="&gt;&gt;pnlSupply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSupply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlSupply.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSupplyTotalHead.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplyTotalHead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblSupplyTotalHead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 705</value>
+  </data>
+  <data name="lblSupplyTotalHead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblSupplyTotalHead.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblSupplyTotalHead.Text" xml:space="preserve">
+    <value>TOTAL:</value>
+    <comment>Supply total footer</comment>
+  </data>
+  <data name="&gt;&gt;lblSupplyTotalHead.Name" xml:space="preserve">
+    <value>lblSupplyTotalHead</value>
+  </data>
+  <data name="&gt;&gt;lblSupplyTotalHead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplyTotalHead.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSupplyTotalHead.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSupplyTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 705</value>
+  </data>
+  <data name="lblSupplyTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="lblSupplyTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lblSupplyTotal.Text" xml:space="preserve">
+    <value>0</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="lblSupplyTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblSupplyTotal.Name" xml:space="preserve">
+    <value>lblSupplyTotal</value>
+  </data>
+  <data name="&gt;&gt;lblSupplyTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplyTotal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSupplyTotal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="numSupplyCycle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="numSupplyCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 600</value>
+  </data>
+  <data name="numSupplyCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 16</value>
+  </data>
+  <data name="numSupplyCycle.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="numSupplyCycle.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numSupplyCycle.Name" xml:space="preserve">
+    <value>numSupplyCycle</value>
+  </data>
+  <data name="&gt;&gt;numSupplyCycle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numSupplyCycle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numSupplyCycle.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="tmrReveal.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 27</value>
+  </data>
+  <data name="tvwEquip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tvwEquipCol0.Header" xml:space="preserve">
+    <value>Cycle</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="tvwEquipCol0.Width" type="System.Int32, mscorlib">
+    <value>215</value>
+  </data>
+  <data name="tvwEquipCol1.Header" xml:space="preserve">
+    <value>0</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="tvwEquipCol1.Width" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tvwEquipCol2.Header" xml:space="preserve">
+    <value>1</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="tvwEquipCol2.Width" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tvwEquipCol3.Header" xml:space="preserve">
+    <value>2</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="tvwEquipCol3.Width" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tvwEquipCol4.Header" xml:space="preserve">
+    <value>3</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="tvwEquipCol4.Width" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tvwEquipCol5.Header" xml:space="preserve">
+    <value>4</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="tvwEquipCol5.Width" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tvwEquip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 31</value>
+  </data>
+  <data name="tvwEquip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 320</value>
+  </data>
+  <data name="tvwEquip.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tvwEquip.Text" xml:space="preserve">
+    <value>tvwEquip</value>
+    <comment>#locked</comment>
+  </data>
+  <data name="&gt;&gt;tvwEquip.Name" xml:space="preserve">
+    <value>tvwEquip</value>
+  </data>
+  <data name="&gt;&gt;tvwEquip.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.TreeViewAdv, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tvwEquip.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblStartTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 521</value>
+  </data>
+  <data name="lblStartTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 13</value>
+  </data>
+  <data name="lblStartTip.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="lblStartTip.Text" xml:space="preserve">
+    <value>Select an item from the list above</value>
+    <comment>Tip when program first loads</comment>
+  </data>
+  <data name="lblStartTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblStartTip.Name" xml:space="preserve">
+    <value>lblStartTip</value>
+  </data>
+  <data name="&gt;&gt;lblStartTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblStartTip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 720</value>
+  </data>
+  <data name="&gt;&gt;tmrReveal.Name" xml:space="preserve">
+    <value>tmrReveal</value>
+  </data>
+  <data name="&gt;&gt;tmrReveal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol0.Name" xml:space="preserve">
+    <value>tvwEquipCol0</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol0.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.TreeColumn, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol1.Name" xml:space="preserve">
+    <value>tvwEquipCol1</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol1.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.TreeColumn, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol2.Name" xml:space="preserve">
+    <value>tvwEquipCol2</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol2.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.TreeColumn, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol3.Name" xml:space="preserve">
+    <value>tvwEquipCol3</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol3.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.TreeColumn, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol4.Name" xml:space="preserve">
+    <value>tvwEquipCol4</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol4.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.TreeColumn, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol5.Name" xml:space="preserve">
+    <value>tvwEquipCol5</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipCol5.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.TreeColumn, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtName.Name" xml:space="preserve">
+    <value>tvwEquipTxtName</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtName.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.NodeControls.NodeTextBox, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum1.Name" xml:space="preserve">
+    <value>tvwEquipTxtNum1</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum1.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.NodeControls.NodeTextBox, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum2.Name" xml:space="preserve">
+    <value>tvwEquipTxtNum2</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum2.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.NodeControls.NodeTextBox, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum3.Name" xml:space="preserve">
+    <value>tvwEquipTxtNum3</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum3.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.NodeControls.NodeTextBox, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum4.Name" xml:space="preserve">
+    <value>tvwEquipTxtNum4</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum4.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.NodeControls.NodeTextBox, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum5.Name" xml:space="preserve">
+    <value>tvwEquipTxtNum5</value>
+  </data>
+  <data name="&gt;&gt;tvwEquipTxtNum5.Type" xml:space="preserve">
+    <value>Aga.Controls.Tree.NodeControls.NodeTextBox, BEGameMonitor, Version=1.2.0.5, Culture=neutral, PublicKeyToken=38d3338bdd889064</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
